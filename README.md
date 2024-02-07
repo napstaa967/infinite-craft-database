@@ -6,23 +6,23 @@ go play the game https://neal.fun/infinite-craft
   
 run this inside your browser with the console, make sure to not be too spammy with time as you'll get rate limited  
 
-### Loading data from previous runs
-
-if you've ran the code before, you can load saved data like this
-
-Paste the script in first without the looping() call
-
-DO NOT load `items.json`, this is just for the database thing
-
-load `currentRecipes.json` as `currentRecipes`
-load `uniqueRecipes.json` as `recipes`
-load `items.js` as `items`
-
-### Saving data
-
-just JSON.stringify everyting
-
-For items, to keep the relative depth thing with other files you can use this regex
+### Loading data from previous runs  
+  
+if you've ran the code before, you can load saved data like this  
+  
+Paste the script in first without the looping() call  
+  
+DO NOT load `items.json`, this is just for the database thing  
+  
+load `currentRecipes.json` as `currentRecipes`  
+load `uniqueRecipes.json` as `recipes`  
+load `items.js` as `items`  
+  
+### Saving data 
+  
+just JSON.stringify everyting  
+  
+For items, to keep the relative depth thing with other files you can use this regex  
 ```
 Look for
 
