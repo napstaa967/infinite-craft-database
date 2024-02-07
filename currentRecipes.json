@@ -1,0 +1,3263 @@
+{
+    "Water": {
+        "Water": "Lake",
+        "Fire": "Steam",
+        "Wind": "Wave",
+        "Earth": "Plant",
+        "Lake": "Ocean",
+        "Steam": "Cloud",
+        "Wave": "Tsunami",
+        "Plant": "Swamp",
+        "Ocean": "Fish",
+        "Cloud": "Rain",
+        "Tsunami": "Ocean",
+        "Swamp": "Marsh",
+        "Fish": "Fishbowl",
+        "Rain": "Rainbow",
+        "Marsh": "Swamp",
+        "Fishbowl": "Fish",
+        "Rainbow": "Rain",
+        "Volcano": "Lava",
+        "Smoke": "Fog",
+        "Lava": "Stone",
+        "Engine": "Steam",
+        "Lightning": "Electricity",
+        "Dragon": "Sea Serpent",
+        "Sushi": "Fish",
+        "Goldfish": "Fishbowl",
+        "Sun": "Rainbow",
+        "Wasabi": "Sushi",
+        "Boiled Fish": "Soup",
+        "Solar": "Ocean",
+        "Fire Breath": "Steam",
+        "Fog": "Ice",
+        "Stone": "Rock",
+        "Electricity": "Lightning",
+        "Sea Serpent": "Leviathan",
+        "Soup": "Soup",
+        "Ice": "Iceberg",
+        "Rock": "Stone",
+        "Leviathan": "Whale",
+        "Iceberg": "Iceberg",
+        "Whale": "Ocean",
+        "Chili": "Soup",
+        "Hot": "Tea",
+        "Tea": "Tea",
+        "Heat": "Steam",
+        "Chai": "Tea",
+        "Tornado": "Tsunami",
+        "Dust": "Mud",
+        "Storm": "Rain",
+        "Dandelion": "Wine",
+        "Hurricane": "Tsunami",
+        "Mist": "Fog",
+        "Flying Fish": "Fish",
+        "Eruption": "Lava",
+        "Windmill": "Energy",
+        "Kite": "Wind",
+        "Sunflower": "Sun",
+        "Fire Storm": "Steam",
+        "Sand": "Beach",
+        "Snow": "Ice",
+        "Sail": "Boat",
+        "Hot Air": "Steam",
+        "Sandstorm": "Oasis",
+        "Seed": "Plant",
+        "Airplane": "Boat",
+        "Flying": "Bird",
+        "Dune": "Oasis",
+        "Blizzard": "Ice",
+        "Sailboat": "Ship",
+        "Dust Storm": "Mud",
+        "Mud": "Swamp",
+        "Wine": "Holy Water",
+        "Energy": "Wave",
+        "Beach": "Ocean",
+        "Boat": "Ship",
+        "Oasis": "Mirage",
+        "Bird": "Penguin",
+        "Ship": "Boat",
+        "Holy Water": "Wine",
+        "Mirage": "Oasis",
+        "Penguin": "Ice",
+        "Ash": "Puddle",
+        "Fireworks": "Splash",
+        "Glass": "Wine",
+        "Pirate": "Ship",
+        "Balloon": "Fish",
+        "Crash": "Tsunami",
+        "Phoenix": "Ash",
+        "Brick": "Glass",
+        "Alcohol": "Wine",
+        "Explosion": "Fish",
+        "Desert": "Oasis",
+        "Cannon": "Tsunami",
+        "Vampire": "Blood",
+        "Lens": "Microscope",
+        "Pop": "Soda",
+        "Burn": "Steam",
+        "Kiln": "Glass",
+        "Cannonball": "Tsunami",
+        "Magnifying Glass": "Fish",
+        "Soda": "Nothing",
+        "Pottery": "Vase",
+        "Ceramic": "Pot",
+        "Puddle": "Pond",
+        "Splash": "Wave",
+        "Blood": "Vampire",
+        "Microscope": "Amoeba",
+        "Vase": "Flower",
+        "Pot": "Soup",
+        "Pond": "Lake",
+        "Amoeba": "Pond",
+        "Flower": "Lily",
+        "Lily": "Pond",
+        "Virus": "Sick",
+        "Cook": "Soup",
+        "Flu": "Fluoride",
+        "Chef": "Soup",
+        "Fever": "Tea",
+        "Hell": "Hot Spring",
+        "Sick": "Medicine",
+        "Fluoride": "Toothpaste",
+        "Hot Spring": "Steam",
+        "Medicine": "Potion",
+        "Toothpaste": "Mouthwash",
+        "Potion": "Elixir",
+        "Mouthwash": "Mouthwash",
+        "Elixir": "Wine",
+        "Devil": "Hell",
+        "Cure": "Medicine",
+        "Alchemy": "Ocean",
+        "Firefighter": "Fire",
+        "Angel": "Mermaid",
+        "Window": "Aquarium",
+        "House": "Ship",
+        "Hangover": "Cure",
+        "Bat": "Vampire",
+        "Telescope": "Fish",
+        "Bubble": "Fish",
+        "Fan": "Wind",
+        "Paramecium": "Amoeba",
+        "Sneeze": "Tsunami",
+        "Breeze": "Wave",
+        "Air": "Cloud",
+        "Curtain": "Rain",
+        "Hanglider": "Surfer",
+        "Parasail": "Parasail",
+        "Mermaid": "Fish",
+        "Aquarium": "Fish",
+        "Surfer": "Surf",
+        "Surf": "Wave",
+        "Fireplace": "Steam",
+        "Firewater": "Fire",
+        "Cough": "Lung",
+        "Flame": "Steam",
+        "Firework": "Splash",
+        "Siren": "Mermaid",
+        "Surfing": "Surfing",
+        "Warmth": "Hot Water",
+        "Lung": "Fish",
+        "Hot Water": "Tea",
+        "Ariel": "Mermaid",
+        "Mountain": "Lake",
+        "Tree": "River",
+        "Island": "Ship",
+        "Tractor": "Boat",
+        "Rice": "Sushi",
+        "Planet": "Ocean",
+        "Dirt": "Mud",
+        "Titan": "Iceberg",
+        "Pepper": "Soup",
+        "Teapot": "Tea",
+        "Snowman": "Puddle",
+        "Landing": "Lake",
+        "Clay": "Pottery",
+        "Vineyard": "Wine",
+        "Chicken": "Soup",
+        "Soil": "Mud",
+        "Bottle": "Wine",
+        "Treasure": "Pirate",
+        "Moon": "Tide",
+        "Meteor": "Meteorite",
+        "Dracula": "Blood",
+        "Fossil": "Oil",
+        "Bacteria": "Sick",
+        "Life": "Fish",
+        "Earthquake": "Tsunami",
+        "Fluorite": "Fluorine",
+        "Farm": "Rice",
+        "Cave": "Lake",
+        "Parachute": "Splash",
+        "Paratrooper": "Fish",
+        "Spring": "Fountain",
+        "Forest": "Swamp",
+        "Continent": "Ocean",
+        "Paddy": "Rice",
+        "Atlas": "Titanic",
+        "Spice": "Tea",
+        "Egg": "Fish",
+        "Gold": "Money",
+        "Eclipse": "Moon",
+        "Oil": "Emulsion",
+        "Human": "Fish",
+        "Field": "Swamp",
+        "Mine": "Well",
+        "Basket": "Fish",
+        "Farmer": "Fisherman",
+        "Land": "Island",
+        "Globe": "Ocean",
+        "Curry": "Soup",
+        "Money": "Vodka",
+        "Fuel": "Gasoline",
+        "Potato": "Vodka",
+        "World": "Ocean",
+        "India": "Ganges",
+        "Vodka": "Water",
+        "Taj Mahal": "Taj Mahal",
+        "River": "Lake",
+        "Tide": "Ocean",
+        "Meteorite": "Oil",
+        "Fluorine": "Hydrofluoric Acid",
+        "Fountain": "Fountain",
+        "Emulsion": "Milk",
+        "Well": "Pump",
+        "Fisherman": "Fish",
+        "Gasoline": "Oil",
+        "Ganges": "River",
+        "Hydrofluoric Acid": "Fluorine",
+        "Milk": "Milk",
+        "Pump": "Fountain",
+        "S’more": "S’more"
+    },
+    "Fire": {
+        "S’more": "Toast",
+        "Wood": "Campfire",
+        "Water": "Steam",
+        "Fire": "Volcano",
+        "Wind": "Smoke",
+        "Earth": "Lava",
+        "Lake": "Volcano",
+        "Steam": "Engine",
+        "Wave": "Steam",
+        "Plant": "Smoke",
+        "Ocean": "Steam",
+        "Cloud": "Lightning",
+        "Tsunami": "Volcano",
+        "Swamp": "Dragon",
+        "Fish": "Sushi",
+        "Rain": "Rainbow",
+        "Marsh": "Swamp",
+        "Fishbowl": "Goldfish",
+        "Rainbow": "Rain",
+        "Volcano": "Lava",
+        "Smoke": "Volcano",
+        "Lava": "Volcano",
+        "Engine": "Steam",
+        "Lightning": "Sun",
+        "Dragon": "Dragon",
+        "Sushi": "Wasabi",
+        "Goldfish": "Boiled Fish",
+        "Sun": "Solar",
+        "Wasabi": "Fire Breath",
+        "Boiled Fish": "Fish",
+        "Solar": "Sun",
+        "Fire Breath": "Dragon",
+        "Fog": "Smoke",
+        "Stone": "Lava",
+        "Electricity": "Lightning",
+        "Sea Serpent": "Dragon",
+        "Soup": "Chili",
+        "Ice": "Water",
+        "Rock": "Volcano",
+        "Leviathan": "Dragon",
+        "Iceberg": "Water",
+        "Whale": "Dragon",
+        "Chili": "Hot",
+        "Hot": "Heat",
+        "Tea": "Chai",
+        "Heat": "Sun",
+        "Chai": "Tea",
+        "Tornado": "Volcano",
+        "Dust": "Ash",
+        "Storm": "Volcano",
+        "Dandelion": "Ash",
+        "Hurricane": "Volcano",
+        "Mist": "Smoke",
+        "Flying Fish": "Dragon",
+        "Eruption": "Volcano",
+        "Windmill": "Energy",
+        "Kite": "Fireworks",
+        "Sunflower": "Sun",
+        "Fire Storm": "Fire",
+        "Sand": "Glass",
+        "Snow": "Water",
+        "Sail": "Pirate",
+        "Hot Air": "Balloon",
+        "Sandstorm": "Volcano",
+        "Seed": "Plant",
+        "Airplane": "Crash",
+        "Flying": "Phoenix",
+        "Dune": "Sand",
+        "Blizzard": "Snow",
+        "Sailboat": "Pirate",
+        "Dust Storm": "Sandstorm",
+        "Mud": "Brick",
+        "Wine": "Alcohol",
+        "Energy": "Explosion",
+        "Beach": "Sun",
+        "Boat": "Ship",
+        "Oasis": "Desert",
+        "Bird": "Phoenix",
+        "Ship": "Cannon",
+        "Holy Water": "Vampire",
+        "Mirage": "Desert",
+        "Penguin": "Ice",
+        "Ash": "Phoenix",
+        "Fireworks": "Explosion",
+        "Glass": "Lens",
+        "Pirate": "Cannon",
+        "Balloon": "Pop",
+        "Crash": "Burn",
+        "Phoenix": "Ash",
+        "Brick": "Kiln",
+        "Alcohol": "Burn",
+        "Explosion": "Fireworks",
+        "Desert": "Sand",
+        "Cannon": "Cannonball",
+        "Vampire": "Ash",
+        "Lens": "Magnifying Glass",
+        "Pop": "Soda",
+        "Burn": "Ash",
+        "Kiln": "Pottery",
+        "Cannonball": "Cannon",
+        "Magnifying Glass": "Sun",
+        "Soda": "Soda",
+        "Pottery": "Ceramic",
+        "Ceramic": "Pottery",
+        "Puddle": "Steam",
+        "Splash": "Fireworks",
+        "Blood": "Vampire",
+        "Microscope": "Virus",
+        "Vase": "Lava",
+        "Pot": "Cook",
+        "Pond": "Soup",
+        "Amoeba": "Phoenix",
+        "Flower": "Smoke",
+        "Lily": "Phoenix",
+        "Virus": "Flu",
+        "Cook": "Chef",
+        "Flu": "Fever",
+        "Chef": "Cook",
+        "Fever": "Hell",
+        "Hell": "Devil",
+        "Sick": "Fever",
+        "Fluoride": "Toothpaste",
+        "Hot Spring": "Volcano",
+        "Medicine": "Cure",
+        "Toothpaste": "Fire Breath",
+        "Potion": "Elixir",
+        "Mouthwash": "Fire Breath",
+        "Elixir": "Alchemy",
+        "Devil": "Hell",
+        "Cure": "Firefighter",
+        "Alchemy": "Explosion",
+        "Firefighter": "Fire",
+        "Angel": "Phoenix",
+        "Window": "Fireplace",
+        "House": "Fireplace",
+        "Hangover": "Firewater",
+        "Bat": "Vampire",
+        "Telescope": "Sun",
+        "Bubble": "Pop",
+        "Fan": "Wind",
+        "Paramecium": "Phoenix",
+        "Sneeze": "Cough",
+        "Breeze": "Smoke",
+        "Air": "Storm",
+        "Curtain": "Flame",
+        "Hanglider": "Firework",
+        "Parasail": "Firework",
+        "Mermaid": "Siren",
+        "Aquarium": "Fish",
+        "Surfer": "Surfing",
+        "Surf": "Volcano",
+        "Fireplace": "Warmth",
+        "Firewater": "Fire",
+        "Cough": "Smoke",
+        "Flame": "Fire",
+        "Firework": "Explosion",
+        "Siren": "Phoenix",
+        "Surfing": "Surfing",
+        "Warmth": "Sun",
+        "Lung": "Smoke",
+        "Hot Water": "Tea",
+        "Ariel": "Flame",
+        "Mountain": "Volcano",
+        "Tree": "Ash",
+        "Island": "Volcano",
+        "Tractor": "Tractor",
+        "Rice": "Sushi",
+        "Planet": "Sun",
+        "Dirt": "Brick",
+        "Titan": "Prometheus",
+        "Pepper": "Spicy",
+        "Teapot": "Tea",
+        "Snowman": "Water",
+        "Landing": "Fireworks",
+        "Clay": "Pottery",
+        "Vineyard": "Wine",
+        "Chicken": "Roast",
+        "Soil": "Volcano",
+        "Bottle": "Bomb",
+        "Treasure": "Gold",
+        "Moon": "Eclipse",
+        "Meteor": "Sun",
+        "Dracula": "Vampire",
+        "Fossil": "Dinosaur",
+        "Bacteria": "Virus",
+        "Life": "Phoenix",
+        "Earthquake": "Volcano",
+        "Fluorite": "Fluorine",
+        "Farm": "Barbecue",
+        "Cave": "Smoke",
+        "Parachute": "Fireworks",
+        "Paratrooper": "Firefighter",
+        "Spring": "Volcano",
+        "Forest": "Smoke",
+        "Continent": "Volcano",
+        "Paddy": "Rice",
+        "Atlas": "Volcano",
+        "Spice": "Curry",
+        "Egg": "Omelette",
+        "Gold": "Midas",
+        "Eclipse": "Sun",
+        "Oil": "Fuel",
+        "Human": "Phoenix"
+    },
+    "Wind": {
+        "Water": "Wave",
+        "Fire": "Smoke",
+        "Wind": "Tornado",
+        "Earth": "Dust",
+        "Lake": "Storm",
+        "Steam": "Cloud",
+        "Wave": "Storm",
+        "Plant": "Dandelion",
+        "Ocean": "Storm",
+        "Cloud": "Storm",
+        "Tsunami": "Hurricane",
+        "Swamp": "Mist",
+        "Fish": "Flying Fish",
+        "Rain": "Storm",
+        "Marsh": "Mist",
+        "Fishbowl": "Tornado",
+        "Rainbow": "Rain",
+        "Volcano": "Eruption",
+        "Smoke": "Cloud",
+        "Lava": "Volcano",
+        "Engine": "Windmill",
+        "Lightning": "Storm",
+        "Dragon": "Tornado",
+        "Sushi": "Flying Fish",
+        "Goldfish": "Kite",
+        "Sun": "Sunflower",
+        "Wasabi": "Tornado",
+        "Boiled Fish": "Kite",
+        "Solar": "Windmill",
+        "Fire Breath": "Fire Storm",
+        "Fog": "Cloud",
+        "Stone": "Sand",
+        "Electricity": "Storm",
+        "Sea Serpent": "Dragon",
+        "Soup": "Tornado",
+        "Ice": "Snow",
+        "Rock": "Dust",
+        "Leviathan": "Tornado",
+        "Iceberg": "Snow",
+        "Whale": "Sail",
+        "Chili": "Tornado",
+        "Hot": "Hot Air",
+        "Tea": "Kite",
+        "Heat": "Hot Air",
+        "Chai": "Tea",
+        "Tornado": "Tornado",
+        "Dust": "Sandstorm",
+        "Storm": "Tornado",
+        "Dandelion": "Seed",
+        "Hurricane": "Tornado",
+        "Mist": "Cloud",
+        "Flying Fish": "Airplane",
+        "Eruption": "Volcano",
+        "Windmill": "Electricity",
+        "Kite": "Flying",
+        "Sunflower": "Sun",
+        "Fire Storm": "Tornado",
+        "Sand": "Dune",
+        "Snow": "Blizzard",
+        "Sail": "Sailboat",
+        "Hot Air": "Hurricane",
+        "Sandstorm": "Dust Storm",
+        "Seed": "Dandelion",
+        "Airplane": "Kite",
+        "Flying": "Kite",
+        "Dune": "Sand",
+        "Blizzard": "Snow",
+        "Sailboat": "Sail",
+        "Dust Storm": "Tornado",
+        "Mud": "Dust",
+        "Wine": "Balloon",
+        "Energy": "Tornado",
+        "Beach": "Sand",
+        "Boat": "Sail",
+        "Oasis": "Sandstorm",
+        "Bird": "Kite",
+        "Ship": "Sail",
+        "Holy Water": "Angel",
+        "Mirage": "Sandstorm",
+        "Penguin": "Penguin",
+        "Ash": "Dust",
+        "Fireworks": "Fire",
+        "Glass": "Window",
+        "Pirate": "Sail",
+        "Balloon": "Kite",
+        "Crash": "Tornado",
+        "Phoenix": "Fire",
+        "Brick": "House",
+        "Alcohol": "Hangover",
+        "Explosion": "Tornado",
+        "Desert": "Sandstorm",
+        "Cannon": "Tornado",
+        "Vampire": "Bat",
+        "Lens": "Telescope",
+        "Pop": "Bubble",
+        "Burn": "Fire",
+        "Kiln": "Kite",
+        "Cannonball": "Tornado",
+        "Magnifying Glass": "Tornado",
+        "Soda": "Bubble",
+        "Pottery": "Vase",
+        "Ceramic": "Pottery",
+        "Puddle": "Puddle",
+        "Splash": "Rain",
+        "Blood": "Vampire",
+        "Microscope": "Tornado",
+        "Vase": "Fan",
+        "Pot": "Kite",
+        "Pond": "Dust",
+        "Amoeba": "Paramecium",
+        "Flower": "Dandelion",
+        "Lily": "Flower",
+        "Virus": "Flu",
+        "Cook": "Chef",
+        "Flu": "Sneeze",
+        "Chef": "Tornado",
+        "Fever": "Hurricane",
+        "Hell": "Devil",
+        "Sick": "Hurricane",
+        "Fluoride": "Fluoride",
+        "Hot Spring": "Cloud",
+        "Medicine": "Sneeze",
+        "Toothpaste": "Hurricane",
+        "Potion": "Tornado",
+        "Mouthwash": "Tornado",
+        "Elixir": "Tornado",
+        "Devil": "Tornado",
+        "Cure": "Breeze",
+        "Alchemy": "Air",
+        "Firefighter": "Smoke",
+        "Angel": "Flying",
+        "Window": "Curtain",
+        "House": "Tornado",
+        "Hangover": "Hanglider",
+        "Bat": "Vampire",
+        "Telescope": "Kite",
+        "Bubble": "Bubble",
+        "Fan": "Tornado",
+        "Paramecium": "Parasail",
+        "Sneeze": "Hurricane",
+        "Breeze": "Hurricane",
+        "Air": "Tornado",
+        "Curtain": "Tornado",
+        "Hanglider": "Kite",
+        "Parasail": "Kite",
+        "Mermaid": "Ariel",
+        "Aquarium": "Fish",
+        "Surfer": "Kite",
+        "Surf": "Surfing",
+        "Fireplace": "Smoke",
+        "Firewater": "Fire",
+        "Cough": "Hurricane",
+        "Flame": "Fire",
+        "Firework": "Fire",
+        "Siren": "Storm",
+        "Surfing": "Kite",
+        "Warmth": "Hot Air",
+        "Lung": "Sail",
+        "Hot Water": "Tea",
+        "Ariel": "Hurricane",
+        "S’more": "Smore"
+    },
+    "Earth": {
+        "Water": "Plant",
+        "Fire": "Lava",
+        "Wind": "Dust",
+        "Earth": "Mountain",
+        "Lake": "Swamp",
+        "Steam": "Mud",
+        "Wave": "Sand",
+        "Plant": "Tree",
+        "Ocean": "Island",
+        "Cloud": "Rain",
+        "Tsunami": "Island",
+        "Swamp": "Mud",
+        "Fish": "Whale",
+        "Rain": "Plant",
+        "Marsh": "Swamp",
+        "Fishbowl": "Aquarium",
+        "Rainbow": "Rain",
+        "Volcano": "Lava",
+        "Smoke": "Volcano",
+        "Lava": "Stone",
+        "Engine": "Tractor",
+        "Lightning": "Volcano",
+        "Dragon": "Mountain",
+        "Sushi": "Rice",
+        "Goldfish": "Pond",
+        "Sun": "Plant",
+        "Wasabi": "Sushi",
+        "Boiled Fish": "Plant",
+        "Solar": "Planet",
+        "Fire Breath": "Volcano",
+        "Fog": "Mist",
+        "Stone": "Rock",
+        "Electricity": "Lightning",
+        "Sea Serpent": "Leviathan",
+        "Soup": "Dirt",
+        "Ice": "Snow",
+        "Rock": "Mountain",
+        "Leviathan": "Titan",
+        "Iceberg": "Ice",
+        "Whale": "Island",
+        "Chili": "Pepper",
+        "Hot": "Lava",
+        "Tea": "Teapot",
+        "Heat": "Lava",
+        "Chai": "Tea",
+        "Tornado": "Dust",
+        "Dust": "Planet",
+        "Storm": "Tornado",
+        "Dandelion": "Flower",
+        "Hurricane": "Tornado",
+        "Mist": "Dust",
+        "Flying Fish": "Bird",
+        "Eruption": "Volcano",
+        "Windmill": "Electricity",
+        "Kite": "Dirt",
+        "Sunflower": "Sun",
+        "Fire Storm": "Volcano",
+        "Sand": "Desert",
+        "Snow": "Snowman",
+        "Sail": "Ship",
+        "Hot Air": "Balloon",
+        "Sandstorm": "Dune",
+        "Seed": "Plant",
+        "Airplane": "Landing",
+        "Flying": "Bird",
+        "Dune": "Sand",
+        "Blizzard": "Snow",
+        "Sailboat": "Island",
+        "Dust Storm": "Sand",
+        "Mud": "Clay",
+        "Wine": "Vineyard",
+        "Energy": "Volcano",
+        "Beach": "Sand",
+        "Boat": "Island",
+        "Oasis": "Desert",
+        "Bird": "Chicken",
+        "Ship": "Island",
+        "Holy Water": "Dirt",
+        "Mirage": "Desert",
+        "Penguin": "Ice",
+        "Ash": "Soil",
+        "Fireworks": "Volcano",
+        "Glass": "Bottle",
+        "Pirate": "Treasure",
+        "Balloon": "Moon",
+        "Crash": "Meteor",
+        "Phoenix": "Phoenix",
+        "Brick": "House",
+        "Alcohol": "Vineyard",
+        "Explosion": "Volcano",
+        "Desert": "Sand",
+        "Cannon": "Volcano",
+        "Vampire": "Dracula",
+        "Lens": "Telescope",
+        "Pop": "Planet",
+        "Burn": "Volcano",
+        "Kiln": "Pottery",
+        "Cannonball": "Meteor",
+        "Magnifying Glass": "Fossil",
+        "Soda": "Pop",
+        "Pottery": "Vase",
+        "Ceramic": "Pot",
+        "Puddle": "Mud",
+        "Splash": "Mud",
+        "Blood": "Vampire",
+        "Microscope": "Bacteria",
+        "Vase": "Pot",
+        "Pot": "Plant",
+        "Pond": "Swamp",
+        "Amoeba": "Life",
+        "Flower": "Plant",
+        "Lily": "Flower",
+        "Virus": "Life",
+        "Cook": "Chef",
+        "Flu": "Dirt",
+        "Chef": "Cook",
+        "Fever": "Earthquake",
+        "Hell": "Volcano",
+        "Sick": "Dirt",
+        "Fluoride": "Fluorite",
+        "Hot Spring": "Mud",
+        "Medicine": "Dirt",
+        "Toothpaste": "Dirt",
+        "Potion": "Plant",
+        "Mouthwash": "Dirt",
+        "Elixir": "Plant",
+        "Devil": "Hell",
+        "Cure": "Medicine",
+        "Alchemy": "Soil",
+        "Firefighter": "Fire",
+        "Angel": "Dust",
+        "Window": "House",
+        "House": "Farm",
+        "Hangover": "Hangover",
+        "Bat": "Cave",
+        "Telescope": "Moon",
+        "Bubble": "Volcano",
+        "Fan": "Dust",
+        "Paramecium": "Plant",
+        "Sneeze": "Dust",
+        "Breeze": "Dust",
+        "Air": "Dust",
+        "Curtain": "Dirt",
+        "Hanglider": "Parachute",
+        "Parasail": "Paratrooper",
+        "Mermaid": "Island",
+        "Aquarium": "Fish",
+        "Surfer": "Beach",
+        "Surf": "Beach",
+        "Fireplace": "Volcano",
+        "Firewater": "Lava",
+        "Cough": "Dust",
+        "Flame": "Volcano",
+        "Firework": "Volcano",
+        "Siren": "Mermaid",
+        "Surfing": "Beach",
+        "Warmth": "Spring",
+        "Lung": "Plant",
+        "Hot Water": "Mud",
+        "Ariel": "Dirt",
+        "Mountain": "Volcano",
+        "Tree": "Forest",
+        "Island": "Continent",
+        "Tractor": "Farm",
+        "Rice": "Paddy",
+        "Planet": "Moon",
+        "Dirt": "Soil",
+        "Titan": "Atlas",
+        "Pepper": "Spice",
+        "Teapot": "Tea",
+        "Snowman": "Snow",
+        "Landing": "Moon",
+        "Clay": "Pottery",
+        "Vineyard": "Wine",
+        "Chicken": "Egg",
+        "Soil": "Plant",
+        "Bottle": "Wine",
+        "Treasure": "Gold",
+        "Moon": "Eclipse",
+        "Meteor": "Moon",
+        "Dracula": "Vampire",
+        "Fossil": "Oil",
+        "Bacteria": "Dirt",
+        "Life": "Human",
+        "Earthquake": "Mountain",
+        "Fluorite": "Fluorite",
+        "Farm": "Field",
+        "Cave": "Mine",
+        "Parachute": "Basket",
+        "Paratrooper": "Farmer",
+        "Spring": "Flower",
+        "Forest": "Tree",
+        "Continent": "Land",
+        "Paddy": "Rice",
+        "Atlas": "Globe",
+        "Spice": "Curry",
+        "Egg": "Chicken",
+        "Gold": "Money",
+        "Eclipse": "Moon",
+        "Oil": "Fuel",
+        "Human": "Farmer",
+        "Field": "Farm",
+        "Mine": "Gold",
+        "Basket": "Potato",
+        "Farmer": "Plant",
+        "Land": "Continent",
+        "Globe": "World",
+        "Curry": "India",
+        "Money": "Gold",
+        "Fuel": "Oil",
+        "Potato": "Vodka",
+        "World": "Planet",
+        "India": "Taj Mahal",
+        "Vodka": "Mud",
+        "Taj Mahal": "India",
+        "S’more": "Campfire"
+    },
+    "Lake": {
+        "Water": "Ocean",
+        "Fire": "Volcano",
+        "Wind": "Storm",
+        "Earth": "Swamp",
+        "Bonfire": "S’more",
+        "S’more": "Campfire"
+    },
+    "Steam": {
+        "Water": "Cloud",
+        "Fire": "Engine",
+        "Wind": "Cloud",
+        "Earth": "Mud",
+        "S’more": "Marshmallow"
+    },
+    "Wave": {
+        "Water": "Tsunami",
+        "Fire": "Steam",
+        "Wind": "Storm",
+        "Earth": "Sand",
+        "S’more": "Surfer"
+    },
+    "Plant": {
+        "Water": "Swamp",
+        "Fire": "Smoke",
+        "Wind": "Dandelion",
+        "Earth": "Tree",
+        "S’more": "Campfire"
+    },
+    "Ocean": {
+        "Water": "Fish",
+        "Fire": "Steam",
+        "Wind": "Storm",
+        "Earth": "Island",
+        "S’more": "S’mores"
+    },
+    "Cloud": {
+        "Water": "Rain",
+        "Fire": "Lightning",
+        "Wind": "Storm",
+        "Earth": "Rain",
+        "S’more": "Marshmallow"
+    },
+    "Tsunami": {
+        "Water": "Ocean",
+        "Fire": "Volcano",
+        "Wind": "Hurricane",
+        "Earth": "Island",
+        "S’more": "Nothing"
+    },
+    "Swamp": {
+        "Water": "Marsh",
+        "Fire": "Dragon",
+        "Wind": "Mist",
+        "Earth": "Mud",
+        "S’more": "Marshmallow"
+    },
+    "Fish": {
+        "Water": "Fishbowl",
+        "Fire": "Sushi",
+        "Wind": "Flying Fish",
+        "Earth": "Whale",
+        "S’more": "S’mores"
+    },
+    "Rain": {
+        "Water": "Rainbow",
+        "Fire": "Rainbow",
+        "Wind": "Storm",
+        "Earth": "Plant",
+        "S’more": "Smore"
+    },
+    "Marsh": {
+        "Water": "Swamp",
+        "Fire": "Swamp",
+        "Wind": "Mist",
+        "Earth": "Swamp",
+        "S’more": "Smores"
+    },
+    "Fishbowl": {
+        "Water": "Fish",
+        "Fire": "Goldfish",
+        "Wind": "Tornado",
+        "Earth": "Aquarium",
+        "S’more": "Fish"
+    },
+    "Rainbow": {
+        "Water": "Rain",
+        "Fire": "Rain",
+        "Wind": "Rain",
+        "Earth": "Rain",
+        "S’more": "Unicorn"
+    },
+    "Volcano": {
+        "Fire": "Lava",
+        "Water": "Lava",
+        "Wind": "Eruption",
+        "Earth": "Lava",
+        "S’more": "Lava Cake"
+    },
+    "Smoke": {
+        "Fire": "Volcano",
+        "Water": "Fog",
+        "Wind": "Cloud",
+        "Earth": "Volcano",
+        "S’more": "Campfire"
+    },
+    "Lava": {
+        "Fire": "Volcano",
+        "Water": "Stone",
+        "Wind": "Volcano",
+        "Earth": "Stone",
+        "S’more": "Marshmallow"
+    },
+    "Engine": {
+        "Fire": "Steam",
+        "Water": "Steam",
+        "Wind": "Windmill",
+        "Earth": "Tractor",
+        "S’more": "Rocket"
+    },
+    "Lightning": {
+        "Fire": "Sun",
+        "Water": "Electricity",
+        "Wind": "Storm",
+        "Earth": "Volcano",
+        "S’more": "Smore"
+    },
+    "Dragon": {
+        "Fire": "Dragon",
+        "Water": "Sea Serpent",
+        "Wind": "Tornado",
+        "Earth": "Mountain",
+        "S’more": "Marshmallow"
+    },
+    "Sushi": {
+        "Fire": "Wasabi",
+        "Water": "Fish",
+        "Wind": "Flying Fish",
+        "Earth": "Rice",
+        "S’more": "S’mushi"
+    },
+    "Goldfish": {
+        "Fire": "Boiled Fish",
+        "Water": "Fishbowl",
+        "Wind": "Kite",
+        "Earth": "Pond",
+        "S’more": "S’mores"
+    },
+    "Sun": {
+        "Fire": "Solar",
+        "Water": "Rainbow",
+        "Wind": "Sunflower",
+        "Earth": "Plant",
+        "S’more": "Smore"
+    },
+    "Wasabi": {
+        "Fire": "Fire Breath",
+        "Water": "Sushi",
+        "Wind": "Tornado",
+        "Earth": "Sushi",
+        "S’more": "S’moresabi"
+    },
+    "Boiled Fish": {
+        "Fire": "Fish",
+        "Water": "Soup",
+        "Wind": "Kite",
+        "Earth": "Plant",
+        "S’more": "Sushi"
+    },
+    "Solar": {
+        "Fire": "Sun",
+        "Water": "Ocean",
+        "Wind": "Windmill",
+        "Earth": "Planet",
+        "S’more": "Sun"
+    },
+    "Fire Breath": {
+        "Fire": "Dragon",
+        "Water": "Steam",
+        "Wind": "Fire Storm",
+        "Earth": "Volcano",
+        "S’more": "Toast"
+    },
+    "Fog": {
+        "Water": "Ice",
+        "Fire": "Smoke",
+        "Wind": "Cloud",
+        "Earth": "Mist",
+        "S’more": "Smores"
+    },
+    "Stone": {
+        "Water": "Rock",
+        "Fire": "Lava",
+        "Wind": "Sand",
+        "Earth": "Rock",
+        "S’more": "S’more"
+    },
+    "Electricity": {
+        "Water": "Lightning",
+        "Fire": "Lightning",
+        "Wind": "Storm",
+        "Earth": "Lightning",
+        "S’more": "Smore"
+    },
+    "Sea Serpent": {
+        "Water": "Leviathan",
+        "Fire": "Dragon",
+        "Wind": "Dragon",
+        "Earth": "Leviathan",
+        "S’more": "S’moresaurus"
+    },
+    "Soup": {
+        "Water": "Soup",
+        "Fire": "Chili",
+        "Wind": "Tornado",
+        "Earth": "Dirt",
+        "S’more": "S’mores"
+    },
+    "Ice": {
+        "Water": "Iceberg",
+        "Fire": "Water",
+        "Wind": "Snow",
+        "Earth": "Snow",
+        "S’more": "Smore",
+        "Hot Chocolate": "Hot Ice"
+    },
+    "Rock": {
+        "Water": "Stone",
+        "Fire": "Volcano",
+        "Wind": "Dust",
+        "Earth": "Mountain",
+        "S’more": "Campfire"
+    },
+    "Leviathan": {
+        "Water": "Whale",
+        "Fire": "Dragon",
+        "Wind": "Tornado",
+        "Earth": "Titan",
+        "S’more": "S’morgoth"
+    },
+    "Iceberg": {
+        "Water": "Iceberg",
+        "Fire": "Water",
+        "Wind": "Snow",
+        "Earth": "Ice",
+        "S’more": "Ice Cream"
+    },
+    "Whale": {
+        "Water": "Ocean",
+        "Fire": "Dragon",
+        "Wind": "Sail",
+        "Earth": "Island",
+        "S’more": "S’mwhale"
+    },
+    "Chili": {
+        "Fire": "Hot",
+        "Water": "Soup",
+        "Wind": "Tornado",
+        "Earth": "Pepper",
+        "S’more": "S’mores"
+    },
+    "Hot": {
+        "Water": "Tea",
+        "Fire": "Heat",
+        "Wind": "Hot Air",
+        "Earth": "Lava",
+        "S’more": "S’mores"
+    },
+    "Tea": {
+        "Fire": "Chai",
+        "Water": "Tea",
+        "Wind": "Kite",
+        "Earth": "Teapot",
+        "S’more": "Smorea"
+    },
+    "Heat": {
+        "Fire": "Sun",
+        "Water": "Steam",
+        "Wind": "Hot Air",
+        "Earth": "Lava",
+        "S’more": "Toast"
+    },
+    "Chai": {
+        "Fire": "Tea",
+        "Water": "Tea",
+        "Wind": "Tea",
+        "Earth": "Tea",
+        "S’more": "Smore"
+    },
+    "Tornado": {
+        "Wind": "Tornado",
+        "Water": "Tsunami",
+        "Fire": "Volcano",
+        "Earth": "Dust",
+        "S’more": "Campfire"
+    },
+    "Dust": {
+        "Wind": "Sandstorm",
+        "Water": "Mud",
+        "Fire": "Ash",
+        "Earth": "Planet",
+        "S’more": "Campfire"
+    },
+    "Storm": {
+        "Wind": "Tornado",
+        "Water": "Rain",
+        "Fire": "Volcano",
+        "Earth": "Tornado",
+        "S’more": "Smore"
+    },
+    "Dandelion": {
+        "Wind": "Seed",
+        "Water": "Wine",
+        "Fire": "Ash",
+        "Earth": "Flower",
+        "S’more": "Marshmallow"
+    },
+    "Hurricane": {
+        "Wind": "Tornado",
+        "Water": "Tsunami",
+        "Fire": "Volcano",
+        "Earth": "Tornado",
+        "S’more": "Smoreicane"
+    },
+    "Mist": {
+        "Wind": "Cloud",
+        "Water": "Fog",
+        "Fire": "Smoke",
+        "Earth": "Dust",
+        "S’more": "Smore"
+    },
+    "Flying Fish": {
+        "Wind": "Airplane",
+        "Water": "Fish",
+        "Fire": "Dragon",
+        "Earth": "Bird",
+        "S’more": "S’mores"
+    },
+    "Eruption": {
+        "Wind": "Volcano",
+        "Water": "Lava",
+        "Fire": "Volcano",
+        "Earth": "Volcano",
+        "S’more": "Volcano"
+    },
+    "Windmill": {
+        "Wind": "Electricity",
+        "Water": "Energy",
+        "Fire": "Energy",
+        "Earth": "Electricity",
+        "S’more": "Wind"
+    },
+    "Kite": {
+        "Wind": "Flying",
+        "Water": "Wind",
+        "Fire": "Fireworks",
+        "Earth": "Dirt",
+        "S’more": "Smore"
+    },
+    "Sunflower": {
+        "Wind": "Sun",
+        "Water": "Sun",
+        "Fire": "Sun",
+        "Earth": "Sun",
+        "S’more": "Sun"
+    },
+    "Fire Storm": {
+        "Wind": "Tornado",
+        "Water": "Steam",
+        "Fire": "Fire",
+        "Earth": "Volcano",
+        "S’more": "Campfire"
+    },
+    "Sand": {
+        "Wind": "Dune",
+        "Water": "Beach",
+        "Fire": "Glass",
+        "Earth": "Desert",
+        "S’more": "Desert"
+    },
+    "Snow": {
+        "Wind": "Blizzard",
+        "Water": "Ice",
+        "Fire": "Water",
+        "Earth": "Snowman",
+        "S’more": "Smore"
+    },
+    "Sail": {
+        "Wind": "Sailboat",
+        "Water": "Boat",
+        "Fire": "Pirate",
+        "Earth": "Ship",
+        "S’more": "Boat"
+    },
+    "Hot Air": {
+        "Wind": "Hurricane",
+        "Water": "Steam",
+        "Fire": "Balloon",
+        "Earth": "Balloon",
+        "S’more": "Campfire"
+    },
+    "Sandstorm": {
+        "Wind": "Dust Storm",
+        "Water": "Oasis",
+        "Fire": "Volcano",
+        "Earth": "Dune",
+        "S’more": "Dune"
+    },
+    "Seed": {
+        "Wind": "Dandelion",
+        "Water": "Plant",
+        "Fire": "Plant",
+        "Earth": "Plant",
+        "S’more": "Plant"
+    },
+    "Airplane": {
+        "Wind": "Kite",
+        "Water": "Boat",
+        "Fire": "Crash",
+        "Earth": "Landing",
+        "S’more": "Campfire"
+    },
+    "Flying": {
+        "Wind": "Kite",
+        "Water": "Bird",
+        "Fire": "Phoenix",
+        "Earth": "Bird",
+        "S’more": "S’more"
+    },
+    "Dune": {
+        "Wind": "Sand",
+        "Water": "Oasis",
+        "Fire": "Sand",
+        "Earth": "Sand",
+        "S’more": "Sandwich"
+    },
+    "Blizzard": {
+        "Wind": "Snow",
+        "Water": "Ice",
+        "Fire": "Snow",
+        "Earth": "Snow",
+        "S’more": "Snowman"
+    },
+    "Sailboat": {
+        "Wind": "Sail",
+        "Water": "Ship",
+        "Fire": "Pirate",
+        "Earth": "Island",
+        "S’more": "Campfire"
+    },
+    "Dust Storm": {
+        "Wind": "Tornado",
+        "Water": "Mud",
+        "Fire": "Sandstorm",
+        "Earth": "Sand",
+        "S’more": "Sandstorm"
+    },
+    "Mud": {
+        "Water": "Swamp",
+        "Fire": "Brick",
+        "Wind": "Dust",
+        "Earth": "Clay",
+        "S’more": "Mud Pie"
+    },
+    "Wine": {
+        "Water": "Holy Water",
+        "Fire": "Alcohol",
+        "Wind": "Balloon",
+        "Earth": "Vineyard",
+        "S’more": "S’more"
+    },
+    "Energy": {
+        "Water": "Wave",
+        "Fire": "Explosion",
+        "Wind": "Tornado",
+        "Earth": "Volcano",
+        "S’more": "Marshmallow"
+    },
+    "Beach": {
+        "Water": "Ocean",
+        "Fire": "Sun",
+        "Wind": "Sand",
+        "Earth": "Sand",
+        "S’more": "Campfire"
+    },
+    "Boat": {
+        "Water": "Ship",
+        "Fire": "Ship",
+        "Wind": "Sail",
+        "Earth": "Island",
+        "S’more": "Campfire"
+    },
+    "Oasis": {
+        "Water": "Mirage",
+        "Fire": "Desert",
+        "Wind": "Sandstorm",
+        "Earth": "Desert",
+        "S’more": "Desert"
+    },
+    "Bird": {
+        "Water": "Penguin",
+        "Fire": "Phoenix",
+        "Wind": "Kite",
+        "Earth": "Chicken",
+        "S’more": "Smore"
+    },
+    "Ship": {
+        "Water": "Boat",
+        "Fire": "Cannon",
+        "Wind": "Sail",
+        "Earth": "Island",
+        "S’more": "Campfire"
+    },
+    "Holy Water": {
+        "Water": "Wine",
+        "Fire": "Vampire",
+        "Wind": "Angel",
+        "Earth": "Dirt",
+        "S’more": "Smores"
+    },
+    "Mirage": {
+        "Water": "Oasis",
+        "Fire": "Desert",
+        "Wind": "Sandstorm",
+        "Earth": "Desert",
+        "S’more": "Smores"
+    },
+    "Penguin": {
+        "Water": "Ice",
+        "Fire": "Ice",
+        "Wind": "Penguin",
+        "Earth": "Ice",
+        "S’more": "Smore"
+    },
+    "Ash": {
+        "Fire": "Phoenix",
+        "Water": "Puddle",
+        "Wind": "Dust",
+        "Earth": "Soil",
+        "S’more": "Campfire"
+    },
+    "Fireworks": {
+        "Fire": "Explosion",
+        "Water": "Splash",
+        "Wind": "Fire",
+        "Earth": "Volcano",
+        "S’more": "Campfire"
+    },
+    "Glass": {
+        "Fire": "Lens",
+        "Water": "Wine",
+        "Wind": "Window",
+        "Earth": "Bottle",
+        "S’more": "Fire"
+    },
+    "Pirate": {
+        "Fire": "Cannon",
+        "Water": "Ship",
+        "Wind": "Sail",
+        "Earth": "Treasure",
+        "S’more": "Smore"
+    },
+    "Balloon": {
+        "Fire": "Pop",
+        "Water": "Fish",
+        "Wind": "Kite",
+        "Earth": "Moon",
+        "S’more": "Marshmallow"
+    },
+    "Crash": {
+        "Fire": "Burn",
+        "Water": "Tsunami",
+        "Wind": "Tornado",
+        "Earth": "Meteor",
+        "S’more": "Fire"
+    },
+    "Phoenix": {
+        "Fire": "Ash",
+        "Water": "Ash",
+        "Wind": "Fire",
+        "Earth": "Phoenix",
+        "S’more": "Smore"
+    },
+    "Brick": {
+        "Fire": "Kiln",
+        "Water": "Glass",
+        "Wind": "House",
+        "Earth": "House",
+        "S’more": "Campfire"
+    },
+    "Alcohol": {
+        "Fire": "Burn",
+        "Water": "Wine",
+        "Wind": "Hangover",
+        "Earth": "Vineyard",
+        "S’more": "Smore"
+    },
+    "Explosion": {
+        "Fire": "Fireworks",
+        "Water": "Fish",
+        "Wind": "Tornado",
+        "Earth": "Volcano",
+        "S’more": "Marshmallow"
+    },
+    "Desert": {
+        "Fire": "Sand",
+        "Water": "Oasis",
+        "Wind": "Sandstorm",
+        "Earth": "Sand",
+        "S’more": "Campfire"
+    },
+    "Cannon": {
+        "Fire": "Cannonball",
+        "Water": "Tsunami",
+        "Wind": "Tornado",
+        "Earth": "Volcano",
+        "S’more": "Marshmallow"
+    },
+    "Vampire": {
+        "Fire": "Ash",
+        "Water": "Blood",
+        "Wind": "Bat",
+        "Earth": "Dracula",
+        "S’more": "S’more"
+    },
+    "Lens": {
+        "Fire": "Magnifying Glass",
+        "Water": "Microscope",
+        "Wind": "Telescope",
+        "Earth": "Telescope",
+        "S’more": "Camera"
+    },
+    "Pop": {
+        "Fire": "Soda",
+        "Water": "Soda",
+        "Wind": "Bubble",
+        "Earth": "Planet",
+        "S’more": "Pop’n’S’more"
+    },
+    "Burn": {
+        "Fire": "Ash",
+        "Water": "Steam",
+        "Wind": "Fire",
+        "Earth": "Volcano",
+        "S’more": "Toast"
+    },
+    "Kiln": {
+        "Fire": "Pottery",
+        "Water": "Glass",
+        "Wind": "Kite",
+        "Earth": "Pottery",
+        "S’more": "Campfire"
+    },
+    "Cannonball": {
+        "Fire": "Cannon",
+        "Water": "Tsunami",
+        "Wind": "Tornado",
+        "Earth": "Meteor",
+        "S’more": "S’more"
+    },
+    "Magnifying Glass": {
+        "Fire": "Sun",
+        "Water": "Fish",
+        "Wind": "Tornado",
+        "Earth": "Fossil",
+        "S’more": "Marshmallow"
+    },
+    "Soda": {
+        "Fire": "Soda",
+        "Water": "Nothing",
+        "Wind": "Bubble",
+        "Earth": "Pop",
+        "S’more": "Smore"
+    },
+    "Pottery": {
+        "Fire": "Ceramic",
+        "Water": "Vase",
+        "Wind": "Vase",
+        "Earth": "Vase",
+        "S’more": "Campfire"
+    },
+    "Ceramic": {
+        "Water": "Pot",
+        "Fire": "Pottery",
+        "Wind": "Pottery",
+        "Earth": "Pot",
+        "S’more": "Cup"
+    },
+    "Puddle": {
+        "Water": "Pond",
+        "Fire": "Steam",
+        "Wind": "Puddle",
+        "Earth": "Mud",
+        "S’more": "S’mud"
+    },
+    "Splash": {
+        "Water": "Wave",
+        "Fire": "Fireworks",
+        "Wind": "Rain",
+        "Earth": "Mud",
+        "S’more": "Marshmallow"
+    },
+    "Blood": {
+        "Water": "Vampire",
+        "Fire": "Vampire",
+        "Wind": "Vampire",
+        "Earth": "Vampire",
+        "S’more": "Vampire"
+    },
+    "Microscope": {
+        "Water": "Amoeba",
+        "Fire": "Virus",
+        "Wind": "Tornado",
+        "Earth": "Bacteria",
+        "S’more": "Ant"
+    },
+    "Vase": {
+        "Water": "Flower",
+        "Fire": "Lava",
+        "Wind": "Fan",
+        "Earth": "Pot",
+        "S’more": "Cup"
+    },
+    "Pot": {
+        "Water": "Soup",
+        "Fire": "Cook",
+        "Wind": "Kite",
+        "Earth": "Plant",
+        "S’more": "Smores"
+    },
+    "Pond": {
+        "Water": "Lake",
+        "Fire": "Soup",
+        "Wind": "Dust",
+        "Earth": "Swamp",
+        "S’more": "Smore"
+    },
+    "Amoeba": {
+        "Water": "Pond",
+        "Fire": "Phoenix",
+        "Wind": "Paramecium",
+        "Earth": "Life",
+        "S’more": "S’mamoeba"
+    },
+    "Flower": {
+        "Water": "Lily",
+        "Fire": "Smoke",
+        "Wind": "Dandelion",
+        "Earth": "Plant",
+        "S’more": "Marshmallow"
+    },
+    "Lily": {
+        "Fire": "Phoenix",
+        "Water": "Pond",
+        "Wind": "Flower",
+        "Earth": "Flower",
+        "S’more": "Marshmallow"
+    },
+    "Virus": {
+        "Fire": "Flu",
+        "Water": "Sick",
+        "Wind": "Flu",
+        "Earth": "Life",
+        "S’more": "S’more"
+    },
+    "Cook": {
+        "Fire": "Chef",
+        "Water": "Soup",
+        "Wind": "Chef",
+        "Earth": "Chef",
+        "S’more": "Smore"
+    },
+    "Flu": {
+        "Fire": "Fever",
+        "Water": "Fluoride",
+        "Wind": "Sneeze",
+        "Earth": "Dirt",
+        "S’more": "Sick"
+    },
+    "Chef": {
+        "Fire": "Cook",
+        "Water": "Soup",
+        "Wind": "Tornado",
+        "Earth": "Cook",
+        "S’more": "Smore"
+    },
+    "Fever": {
+        "Fire": "Hell",
+        "Water": "Tea",
+        "Wind": "Hurricane",
+        "Earth": "Earthquake",
+        "S’more": "Marshmallow"
+    },
+    "Hell": {
+        "Water": "Hot Spring",
+        "Fire": "Devil",
+        "Wind": "Devil",
+        "Earth": "Volcano",
+        "S’more": "S’mores"
+    },
+    "Sick": {
+        "Water": "Medicine",
+        "Fire": "Fever",
+        "Wind": "Hurricane",
+        "Earth": "Dirt",
+        "S’more": "S’mores"
+    },
+    "Fluoride": {
+        "Water": "Toothpaste",
+        "Fire": "Toothpaste",
+        "Wind": "Fluoride",
+        "Earth": "Fluorite",
+        "S’more": "Nothing"
+    },
+    "Hot Spring": {
+        "Water": "Steam",
+        "Fire": "Volcano",
+        "Wind": "Cloud",
+        "Earth": "Mud",
+        "S’more": "Hot Chocolate"
+    },
+    "Medicine": {
+        "Water": "Potion",
+        "Fire": "Cure",
+        "Wind": "Sneeze",
+        "Earth": "Dirt",
+        "S’more": "S’morepill"
+    },
+    "Toothpaste": {
+        "Water": "Mouthwash",
+        "Fire": "Fire Breath",
+        "Wind": "Hurricane",
+        "Earth": "Dirt",
+        "S’more": "S’mint"
+    },
+    "Potion": {
+        "Water": "Elixir",
+        "Fire": "Elixir",
+        "Wind": "Tornado",
+        "Earth": "Plant",
+        "S’more": "Love Potion"
+    },
+    "Mouthwash": {
+        "Water": "Mouthwash",
+        "Fire": "Fire Breath",
+        "Wind": "Tornado",
+        "Earth": "Dirt",
+        "S’more": "Smoresh"
+    },
+    "Elixir": {
+        "Water": "Wine",
+        "Fire": "Alchemy",
+        "Wind": "Tornado",
+        "Earth": "Plant",
+        "S’more": "Nothing"
+    },
+    "Devil": {
+        "Fire": "Hell",
+        "Water": "Hell",
+        "Wind": "Tornado",
+        "Earth": "Hell",
+        "S’more": "S’mores"
+    },
+    "Cure": {
+        "Fire": "Firefighter",
+        "Water": "Medicine",
+        "Wind": "Breeze",
+        "Earth": "Medicine",
+        "S’more": "Smore"
+    },
+    "Alchemy": {
+        "Fire": "Explosion",
+        "Water": "Ocean",
+        "Wind": "Air",
+        "Earth": "Soil",
+        "S’more": "Marshmallow"
+    },
+    "Firefighter": {
+        "Fire": "Fire",
+        "Water": "Fire",
+        "Wind": "Smoke",
+        "Earth": "Fire",
+        "S’more": "Marshmallow"
+    },
+    "Angel": {
+        "Wind": "Flying",
+        "Water": "Mermaid",
+        "Fire": "Phoenix",
+        "Earth": "Dust",
+        "S’more": "Smore’"
+    },
+    "Window": {
+        "Wind": "Curtain",
+        "Water": "Aquarium",
+        "Fire": "Fireplace",
+        "Earth": "House",
+        "S’more": "Smore"
+    },
+    "House": {
+        "Wind": "Tornado",
+        "Water": "Ship",
+        "Fire": "Fireplace",
+        "Earth": "Farm",
+        "S’more": "Campfire"
+    },
+    "Hangover": {
+        "Wind": "Hanglider",
+        "Water": "Cure",
+        "Fire": "Firewater",
+        "Earth": "Hangover",
+        "S’more": "Smoreover"
+    },
+    "Bat": {
+        "Wind": "Vampire",
+        "Water": "Vampire",
+        "Fire": "Vampire",
+        "Earth": "Cave",
+        "S’more": "Vampire"
+    },
+    "Telescope": {
+        "Wind": "Kite",
+        "Water": "Fish",
+        "Fire": "Sun",
+        "Earth": "Moon",
+        "S’more": "Astronomer"
+    },
+    "Bubble": {
+        "Wind": "Bubble",
+        "Water": "Fish",
+        "Fire": "Pop",
+        "Earth": "Volcano",
+        "S’more": "Marshmallow"
+    },
+    "Fan": {
+        "Wind": "Tornado",
+        "Water": "Wind",
+        "Fire": "Wind",
+        "Earth": "Dust",
+        "S’more": "Campfire"
+    },
+    "Paramecium": {
+        "Wind": "Parasail",
+        "Water": "Amoeba",
+        "Fire": "Phoenix",
+        "Earth": "Plant",
+        "S’more": "Paras’more"
+    },
+    "Sneeze": {
+        "Wind": "Hurricane",
+        "Water": "Tsunami",
+        "Fire": "Cough",
+        "Earth": "Dust",
+        "S’more": "S’neeze"
+    },
+    "Breeze": {
+        "Wind": "Hurricane",
+        "Water": "Wave",
+        "Fire": "Smoke",
+        "Earth": "Dust",
+        "S’more": "Campfire"
+    },
+    "Air": {
+        "Wind": "Tornado",
+        "Water": "Cloud",
+        "Fire": "Storm",
+        "Earth": "Dust",
+        "S’more": "Smore"
+    },
+    "Curtain": {
+        "Wind": "Tornado",
+        "Water": "Rain",
+        "Fire": "Flame",
+        "Earth": "Dirt",
+        "S’more": "Campfire"
+    },
+    "Hanglider": {
+        "Wind": "Kite",
+        "Water": "Surfer",
+        "Fire": "Firework",
+        "Earth": "Parachute",
+        "S’more": "Marshmallow"
+    },
+    "Parasail": {
+        "Wind": "Kite",
+        "Water": "Parasail",
+        "Fire": "Firework",
+        "Earth": "Paratrooper",
+        "S’more": "Marshmallow"
+    },
+    "Mermaid": {
+        "Water": "Fish",
+        "Fire": "Siren",
+        "Wind": "Ariel",
+        "Earth": "Island",
+        "S’more": "S’mermaid"
+    },
+    "Aquarium": {
+        "Water": "Fish",
+        "Fire": "Fish",
+        "Wind": "Fish",
+        "Earth": "Fish",
+        "S’more": "Fish"
+    },
+    "Surfer": {
+        "Water": "Surf",
+        "Fire": "Surfing",
+        "Wind": "Kite",
+        "Earth": "Beach",
+        "S’more": "Marshmallow"
+    },
+    "Surf": {
+        "Fire": "Volcano",
+        "Water": "Wave",
+        "Wind": "Surfing",
+        "Earth": "Beach",
+        "S’more": "Surfer"
+    },
+    "Fireplace": {
+        "Fire": "Warmth",
+        "Water": "Steam",
+        "Wind": "Smoke",
+        "Earth": "Volcano",
+        "S’more": "Campfire"
+    },
+    "Firewater": {
+        "Fire": "Fire",
+        "Water": "Fire",
+        "Wind": "Fire",
+        "Earth": "Lava",
+        "S’more": "Campfire"
+    },
+    "Cough": {
+        "Fire": "Smoke",
+        "Water": "Lung",
+        "Wind": "Hurricane",
+        "Earth": "Dust",
+        "S’more": "Campfire"
+    },
+    "Flame": {
+        "Fire": "Fire",
+        "Water": "Steam",
+        "Wind": "Fire",
+        "Earth": "Volcano",
+        "S’more": "Toast"
+    },
+    "Firework": {
+        "Fire": "Explosion",
+        "Water": "Splash",
+        "Wind": "Fire",
+        "Earth": "Volcano",
+        "S’more": "Campfire"
+    },
+    "Siren": {
+        "Fire": "Phoenix",
+        "Water": "Mermaid",
+        "Wind": "Storm",
+        "Earth": "Mermaid",
+        "S’more": "Smore’n"
+    },
+    "Surfing": {
+        "Fire": "Surfing",
+        "Water": "Surfing",
+        "Wind": "Kite",
+        "Earth": "Beach",
+        "S’more": "Surfmore"
+    },
+    "Warmth": {
+        "Fire": "Sun",
+        "Water": "Hot Water",
+        "Wind": "Hot Air",
+        "Earth": "Spring",
+        "S’more": "Toast"
+    },
+    "Lung": {
+        "Water": "Fish",
+        "Fire": "Smoke",
+        "Wind": "Sail",
+        "Earth": "Plant",
+        "S’more": "Smoker"
+    },
+    "Hot Water": {
+        "Water": "Tea",
+        "Fire": "Tea",
+        "Wind": "Tea",
+        "Earth": "Mud",
+        "S’more": "Hot Chocolate"
+    },
+    "Ariel": {
+        "Wind": "Hurricane",
+        "Water": "Mermaid",
+        "Fire": "Flame",
+        "Earth": "Dirt",
+        "S’more": "Smore"
+    },
+    "Mountain": {
+        "Earth": "Volcano",
+        "Water": "Lake",
+        "Fire": "Volcano",
+        "S’more": "Volcano"
+    },
+    "Tree": {
+        "Earth": "Forest",
+        "Water": "River",
+        "Fire": "Ash",
+        "Forest": "Wood",
+        "S’more": "Campfire"
+    },
+    "Island": {
+        "Earth": "Continent",
+        "Water": "Ship",
+        "Fire": "Volcano",
+        "S’more": "Campfire"
+    },
+    "Tractor": {
+        "Earth": "Farm",
+        "Water": "Boat",
+        "Fire": "Tractor",
+        "S’more": "Marshmallow"
+    },
+    "Rice": {
+        "Earth": "Paddy",
+        "Water": "Sushi",
+        "Fire": "Sushi",
+        "S’more": "Smores"
+    },
+    "Planet": {
+        "Earth": "Moon",
+        "Water": "Ocean",
+        "Fire": "Sun",
+        "S’more": "Mars"
+    },
+    "Dirt": {
+        "Earth": "Soil",
+        "Water": "Mud",
+        "Fire": "Brick",
+        "S’more": "Campfire"
+    },
+    "Titan": {
+        "Earth": "Atlas",
+        "Water": "Iceberg",
+        "Fire": "Prometheus",
+        "S’more": "Marshmallow"
+    },
+    "Pepper": {
+        "Earth": "Spice",
+        "Water": "Soup",
+        "Fire": "Spicy",
+        "S’more": "S’mores"
+    },
+    "Teapot": {
+        "Earth": "Tea",
+        "Water": "Tea",
+        "Fire": "Tea",
+        "S’more": "Tea"
+    },
+    "Snowman": {
+        "Earth": "Snow",
+        "Water": "Puddle",
+        "Fire": "Water",
+        "S’more": "Snowman"
+    },
+    "Landing": {
+        "Earth": "Moon",
+        "Water": "Lake",
+        "Fire": "Fireworks",
+        "S’more": "Campfire"
+    },
+    "Clay": {
+        "Earth": "Pottery",
+        "Water": "Pottery",
+        "Fire": "Pottery",
+        "S’more": "Golem"
+    },
+    "Vineyard": {
+        "Earth": "Wine",
+        "Water": "Wine",
+        "Fire": "Wine",
+        "S’more": "Wine"
+    },
+    "Chicken": {
+        "Earth": "Egg",
+        "Water": "Soup",
+        "Fire": "Roast",
+        "S’more": "Smore"
+    },
+    "Soil": {
+        "Earth": "Plant",
+        "Water": "Mud",
+        "Fire": "Volcano",
+        "S’more": "Dirt"
+    },
+    "Bottle": {
+        "Earth": "Wine",
+        "Water": "Wine",
+        "Fire": "Bomb",
+        "S’more": "Smore"
+    },
+    "Treasure": {
+        "Earth": "Gold",
+        "Water": "Pirate",
+        "Fire": "Gold",
+        "S’more": "Gold"
+    },
+    "Moon": {
+        "Earth": "Eclipse",
+        "Water": "Tide",
+        "Fire": "Eclipse",
+        "S’more": "Eclipse"
+    },
+    "Meteor": {
+        "Earth": "Moon",
+        "Water": "Meteorite",
+        "Fire": "Sun",
+        "S’more": "Smore"
+    },
+    "Dracula": {
+        "Earth": "Vampire",
+        "Water": "Blood",
+        "Fire": "Vampire",
+        "S’more": "Vampire"
+    },
+    "Fossil": {
+        "Earth": "Oil",
+        "Water": "Oil",
+        "Fire": "Dinosaur",
+        "S’more": "Dinosaur"
+    },
+    "Bacteria": {
+        "Earth": "Dirt",
+        "Water": "Sick",
+        "Fire": "Virus",
+        "S’more": "S’mores"
+    },
+    "Life": {
+        "Earth": "Human",
+        "Water": "Fish",
+        "Fire": "Phoenix",
+        "Jungle": "Monkey",
+        "S’more": "Campfire"
+    },
+    "Earthquake": {
+        "Earth": "Mountain",
+        "Water": "Tsunami",
+        "Fire": "Volcano",
+        "S’more": "Marshmallow"
+    },
+    "Fluorite": {
+        "Earth": "Fluorite",
+        "Water": "Fluorine",
+        "Fire": "Fluorine",
+        "S’more": "Fluoride"
+    },
+    "Farm": {
+        "Earth": "Field",
+        "Water": "Rice",
+        "Fire": "Barbecue",
+        "S’more": "Smores",
+        "Jungle": "Corn"
+    },
+    "Cave": {
+        "Earth": "Mine",
+        "Water": "Lake",
+        "Fire": "Smoke",
+        "S’more": "Bear"
+    },
+    "Parachute": {
+        "Earth": "Basket",
+        "Water": "Splash",
+        "Fire": "Fireworks",
+        "S’more": "Marshmallow"
+    },
+    "Paratrooper": {
+        "Earth": "Farmer",
+        "Water": "Fish",
+        "Fire": "Firefighter",
+        "S’more": "Smores"
+    },
+    "Spring": {
+        "Earth": "Flower",
+        "Water": "Fountain",
+        "Fire": "Volcano",
+        "S’more": "Marshmallow"
+    },
+    "Wood": {
+        "Fire": "Campfire",
+        "S’more": "Campfire"
+    },
+    "Forest": {
+        "Earth": "Tree",
+        "Water": "Swamp",
+        "Fire": "Smoke",
+        "Forest": "Jungle",
+        "Tree": "Wood",
+        "S’more": "Campfire"
+    },
+    "Jungle": {
+        "Life": "Monkey",
+        "S’more": "Snake",
+        "Farm": "Corn"
+    },
+    "Continent": {
+        "Earth": "Land",
+        "Water": "Ocean",
+        "Fire": "Volcano",
+        "S’more": "America"
+    },
+    "Paddy": {
+        "Earth": "Rice",
+        "Water": "Rice",
+        "Fire": "Rice",
+        "S’more": "Smore"
+    },
+    "Atlas": {
+        "Earth": "Globe",
+        "Water": "Titanic",
+        "Fire": "Volcano",
+        "S’more": "S’mores"
+    },
+    "Spice": {
+        "Earth": "Curry",
+        "Water": "Tea",
+        "Fire": "Curry",
+        "S’more": "S’mores"
+    },
+    "Egg": {
+        "Earth": "Chicken",
+        "Water": "Fish",
+        "Fire": "Omelette",
+        "S’more": "Omelette"
+    },
+    "Gold": {
+        "Earth": "Money",
+        "Water": "Money",
+        "Fire": "Midas",
+        "S’more": "Rich"
+    },
+    "Eclipse": {
+        "Earth": "Moon",
+        "Water": "Moon",
+        "Fire": "Sun",
+        "S’more": "Moon"
+    },
+    "Oil": {
+        "Earth": "Fuel",
+        "Water": "Emulsion",
+        "Fire": "Fuel",
+        "S’more": "S’mores"
+    },
+    "Human": {
+        "Earth": "Farmer",
+        "Water": "Fish",
+        "Fire": "Phoenix",
+        "S’more": "Marshmallow"
+    },
+    "Field": {
+        "Earth": "Farm",
+        "Water": "Swamp",
+        "S’more": "Campfire"
+    },
+    "Mine": {
+        "Earth": "Gold",
+        "Water": "Well",
+        "S’more": "Campfire"
+    },
+    "Basket": {
+        "Earth": "Potato",
+        "Water": "Fish",
+        "S’more": "Smores"
+    },
+    "Farmer": {
+        "Earth": "Plant",
+        "Water": "Fisherman",
+        "S’more": "Smore"
+    },
+    "Land": {
+        "Earth": "Continent",
+        "Water": "Island",
+        "S’more": "Campfire"
+    },
+    "Globe": {
+        "Earth": "World",
+        "Water": "Ocean",
+        "S’more": "Campfire"
+    },
+    "Curry": {
+        "Earth": "India",
+        "Water": "Soup",
+        "S’more": "Nothing"
+    },
+    "Money": {
+        "Earth": "Gold",
+        "Water": "Vodka",
+        "S’more": "Campfire"
+    },
+    "Fuel": {
+        "Earth": "Oil",
+        "Water": "Gasoline",
+        "S’more": "Campfire"
+    },
+    "Potato": {
+        "Earth": "Vodka",
+        "Water": "Vodka",
+        "S’more": "Baked Potato"
+    },
+    "World": {
+        "Earth": "Planet",
+        "Water": "Ocean",
+        "S’more": "S’mores"
+    },
+    "India": {
+        "Earth": "Taj Mahal",
+        "Water": "Ganges",
+        "S’more": "Samosa"
+    },
+    "Vodka": {
+        "Earth": "Mud",
+        "Water": "Water",
+        "S’more": "S’moretini"
+    },
+    "Taj Mahal": {
+        "Earth": "India",
+        "Water": "Taj Mahal",
+        "S’more": "Taj Mahal"
+    },
+    "River": {
+        "Water": "Lake",
+        "S’more": "Smore"
+    },
+    "Tide": {
+        "Water": "Ocean",
+        "S’more": "S’moreganic"
+    },
+    "Meteorite": {
+        "Water": "Oil",
+        "S’more": "Moon"
+    },
+    "Fluorine": {
+        "Water": "Hydrofluoric Acid",
+        "S’more": "Flamingo"
+    },
+    "Fountain": {
+        "Water": "Fountain",
+        "S’more": "Smore"
+    },
+    "Emulsion": {
+        "Water": "Milk",
+        "S’more": "Smore"
+    },
+    "Well": {
+        "Water": "Pump",
+        "S’more": "Marshmallow"
+    },
+    "Fisherman": {
+        "Water": "Fish",
+        "S’more": "Smores"
+    },
+    "Gasoline": {
+        "Water": "Oil",
+        "S’more": "Campfire"
+    },
+    "Ganges": {
+        "Water": "River",
+        "S’more": "Marshmallow"
+    },
+    "Hydrofluoric Acid": {
+        "Water": "Fluorine",
+        "S’more": "S’morgasbord"
+    },
+    "Milk": {
+        "Water": "Milk",
+        "S’more": "S’mores"
+    },
+    "Pump": {
+        "Water": "Fountain",
+        "S’more": "Pumpkin"
+    },
+    "Campfire": {
+        "Campfire": "Bonfire",
+        "S’more": "Smore"
+    },
+    "S’more": {
+        "Campfire": "Smore",
+        "Jungle": "Snake",
+        "Farm": "Smores",
+        "Milk": "S’mores",
+        "Fire": "Toast",
+        "Water": "S’more",
+        "Wind": "Smore",
+        "Earth": "Campfire",
+        "Lake": "Campfire",
+        "Steam": "Marshmallow",
+        "Wave": "Surfer",
+        "Plant": "Campfire",
+        "Ocean": "S’mores",
+        "Cloud": "Marshmallow",
+        "Tsunami": "Nothing",
+        "Swamp": "Marshmallow",
+        "Fish": "S’mores",
+        "Rain": "Smore",
+        "Marsh": "Smores",
+        "Fishbowl": "Fish",
+        "Rainbow": "Unicorn",
+        "Volcano": "Lava Cake",
+        "Smoke": "Campfire",
+        "Lava": "Marshmallow",
+        "Engine": "Rocket",
+        "Lightning": "Smore",
+        "Dragon": "Marshmallow",
+        "Sushi": "S’mushi",
+        "Goldfish": "S’mores",
+        "Sun": "Smore",
+        "Wasabi": "S’moresabi",
+        "Boiled Fish": "Sushi",
+        "Solar": "Sun",
+        "Fire Breath": "Toast",
+        "Fog": "Smores",
+        "Stone": "S’more",
+        "Electricity": "Smore",
+        "Sea Serpent": "S’moresaurus",
+        "Soup": "S’mores",
+        "Ice": "Smore",
+        "Rock": "Campfire",
+        "Leviathan": "S’morgoth",
+        "Iceberg": "Ice Cream",
+        "Whale": "S’mwhale",
+        "Chili": "S’mores",
+        "Hot": "S’mores",
+        "Tea": "Smorea",
+        "Heat": "Toast",
+        "Chai": "Smore",
+        "Tornado": "Campfire",
+        "Dust": "Campfire",
+        "Storm": "Smore",
+        "Dandelion": "Marshmallow",
+        "Hurricane": "Smoreicane",
+        "Mist": "Smore",
+        "Flying Fish": "S’mores",
+        "Eruption": "Volcano",
+        "Windmill": "Wind",
+        "Kite": "Smore",
+        "Sunflower": "Sun",
+        "Fire Storm": "Campfire",
+        "Sand": "Desert",
+        "Snow": "Smore",
+        "Sail": "Boat",
+        "Hot Air": "Campfire",
+        "Sandstorm": "Dune",
+        "Seed": "Plant",
+        "Airplane": "Campfire",
+        "Flying": "S’more",
+        "Dune": "Sandwich",
+        "Blizzard": "Snowman",
+        "Sailboat": "Campfire",
+        "Dust Storm": "Sandstorm",
+        "Mud": "Mud Pie",
+        "Wine": "S’more",
+        "Energy": "Marshmallow",
+        "Beach": "Campfire",
+        "Boat": "Campfire",
+        "Oasis": "Desert",
+        "Bird": "Smore",
+        "Ship": "Campfire",
+        "Holy Water": "Smores",
+        "Mirage": "Smores",
+        "Penguin": "Smore",
+        "Ash": "Campfire",
+        "Fireworks": "Campfire",
+        "Glass": "Fire",
+        "Pirate": "Smore",
+        "Balloon": "Marshmallow",
+        "Crash": "Fire",
+        "Phoenix": "Smore",
+        "Brick": "Campfire",
+        "Alcohol": "Smore",
+        "Explosion": "Marshmallow",
+        "Desert": "Campfire",
+        "Cannon": "Marshmallow",
+        "Vampire": "S’more",
+        "Lens": "Camera",
+        "Pop": "Pop’n’S’more",
+        "Burn": "Toast",
+        "Kiln": "Campfire",
+        "Cannonball": "S’more",
+        "Magnifying Glass": "Marshmallow",
+        "Soda": "Smore",
+        "Pottery": "Campfire",
+        "Ceramic": "Cup",
+        "Puddle": "S’mud",
+        "Splash": "Marshmallow",
+        "Blood": "Vampire",
+        "Microscope": "Ant",
+        "Vase": "Cup",
+        "Pot": "Smores",
+        "Pond": "Smore",
+        "Amoeba": "S’mamoeba",
+        "Flower": "Marshmallow",
+        "Lily": "Marshmallow",
+        "Virus": "S’more",
+        "Cook": "Smore",
+        "Flu": "Sick",
+        "Chef": "Smore",
+        "Fever": "Marshmallow",
+        "Hell": "S’mores",
+        "Sick": "S’mores",
+        "Fluoride": "Nothing",
+        "Hot Spring": "Hot Chocolate",
+        "Medicine": "S’morepill",
+        "Toothpaste": "S’mint",
+        "Potion": "Love Potion",
+        "Mouthwash": "Smoresh",
+        "Elixir": "Nothing",
+        "Devil": "S’mores",
+        "Cure": "Smore",
+        "Alchemy": "Marshmallow",
+        "Firefighter": "Marshmallow",
+        "Angel": "Smore’",
+        "Window": "Smore",
+        "House": "Campfire",
+        "Hangover": "Smoreover",
+        "Bat": "Vampire",
+        "Telescope": "Astronomer",
+        "Bubble": "Marshmallow",
+        "Fan": "Campfire",
+        "Paramecium": "Paras’more",
+        "Sneeze": "S’neeze",
+        "Breeze": "Campfire",
+        "Air": "Smore",
+        "Curtain": "Campfire",
+        "Hanglider": "Marshmallow",
+        "Parasail": "Marshmallow",
+        "Mermaid": "S’mermaid",
+        "Aquarium": "Fish",
+        "Surfer": "Marshmallow",
+        "Surf": "Surfer",
+        "Fireplace": "Campfire",
+        "Firewater": "Campfire",
+        "Cough": "Campfire",
+        "Flame": "Toast",
+        "Firework": "Campfire",
+        "Siren": "Smore’n",
+        "Surfing": "Surfmore",
+        "Warmth": "Toast",
+        "Lung": "Smoker",
+        "Hot Water": "Hot Chocolate",
+        "Ariel": "Smore",
+        "Mountain": "Volcano",
+        "Tree": "Campfire",
+        "Island": "Campfire",
+        "Tractor": "Marshmallow",
+        "Rice": "Smores",
+        "Planet": "Mars",
+        "Dirt": "Campfire",
+        "Titan": "Marshmallow",
+        "Pepper": "S’mores",
+        "Teapot": "Tea",
+        "Snowman": "Snowman",
+        "Landing": "Campfire",
+        "Clay": "Golem",
+        "Vineyard": "Wine",
+        "Chicken": "Smore",
+        "Soil": "Dirt",
+        "Bottle": "Smore",
+        "Treasure": "Gold",
+        "Moon": "Eclipse",
+        "Meteor": "Smore",
+        "Dracula": "Vampire",
+        "Fossil": "Dinosaur",
+        "Bacteria": "S’mores",
+        "Life": "Campfire",
+        "Earthquake": "Marshmallow",
+        "Fluorite": "Fluoride",
+        "Cave": "Bear",
+        "Parachute": "Marshmallow",
+        "Paratrooper": "Smores",
+        "Spring": "Marshmallow",
+        "Forest": "Campfire",
+        "Continent": "America",
+        "Paddy": "Smore",
+        "Atlas": "S’mores",
+        "Spice": "S’mores",
+        "Egg": "Omelette",
+        "Gold": "Rich",
+        "Eclipse": "Moon",
+        "Oil": "S’mores",
+        "Human": "Marshmallow",
+        "Field": "Campfire",
+        "Mine": "Campfire",
+        "Basket": "Smores",
+        "Farmer": "Smore",
+        "Land": "Campfire",
+        "Globe": "Campfire",
+        "Curry": "Nothing",
+        "Money": "Campfire",
+        "Fuel": "Campfire",
+        "Potato": "Baked Potato",
+        "World": "S’mores",
+        "India": "Samosa",
+        "Vodka": "S’moretini",
+        "Taj Mahal": "Taj Mahal",
+        "River": "Smore",
+        "Tide": "S’moreganic",
+        "Meteorite": "Moon",
+        "Fluorine": "Flamingo",
+        "Fountain": "Smore",
+        "Emulsion": "Smore",
+        "Well": "Marshmallow",
+        "Fisherman": "Smores",
+        "Gasoline": "Campfire",
+        "Ganges": "Marshmallow",
+        "Hydrofluoric Acid": "S’morgasbord",
+        "Pump": "Pumpkin",
+        "Prometheus": "Smore",
+        "Spicy": "S’mores",
+        "Roast": "Toast",
+        "Bomb": "Marshmallow",
+        "Dinosaur": "Dino-mite",
+        "Barbecue": "Campfire",
+        "Omelette": "S’momelette",
+        "Midas": "Gold",
+        "Monkey": "Smore",
+        "Wood": "Campfire",
+        "Bonfire": "Smore",
+        "S’more": "Campfire",
+        "Smore": "S’mores",
+        "Snake": "Marshmallow",
+        "Smores": "S’mores",
+        "Corn": "Popcorn",
+        "S’mores": "S’more",
+        "Toast": "Marshmallow",
+        "Marshmallow": "Campfire",
+        "Unicorn": "S’morcorn",
+        "Lava Cake": "Volcano",
+        "Rocket": "S’mores",
+        "S’mushi": "S’mushi",
+        "S’moresabi": "S’moresabis",
+        "S’moresaurus": "S’moresaurus Rex",
+        "S’morgoth": "S’morgoth",
+        "Ice Cream": "S’mores Ice Cream",
+        "S’mwhale": "S’mwhale",
+        "Smorea": "S’morea",
+        "Smoreicane": "S’moreicane",
+        "Sandwich": "S’moreswich",
+        "Mud Pie": "Dirt",
+        "Camera": "Smore",
+        "Pop’n’S’more": "Pop’n’s’more",
+        "Cup": "Smore",
+        "S’mud": "S’mud",
+        "Ant": "Nothing",
+        "S’mamoeba": "S’mores",
+        "Hot Chocolate": "Smore",
+        "S’morepill": "S’morepillow",
+        "S’mint": "Nothing",
+        "Love Potion": "Love",
+        "Smoresh": "Smoresh",
+        "Smore’": "S’mores",
+        "Smoreover": "S’moreover",
+        "Astronomer": "Moon",
+        "Paras’more": "Paras’more",
+        "S’neeze": "S’mores",
+        "S’mermaid": "S’mermore",
+        "Smore’n": "S’mores",
+        "Surfmore": "Surfmore",
+        "Smoker": "Campfire",
+        "Mars": "S’mars",
+        "Golem": "Nothing",
+        "Bear": "Smokey",
+        "America": "Campfire",
+        "Rich": "Smore",
+        "Baked Potato": "Campfire",
+        "Samosa": "S’mosa",
+        "S’moretini": "S’moretini",
+        "S’moreganic": "S’more",
+        "Flamingo": "Flamingo",
+        "S’morgasbord": "S’more-gasbord",
+        "Pumpkin": "Pie",
+        "Dino-mite": "S’more-saurus",
+        "S’momelette": "S’momelette",
+        "Popcorn": "Movie",
+        "S’morcorn": "S’morcorn",
+        "S’moresabis": "S’moresabis",
+        "S’moresaurus Rex": "S’moresaurus Rex",
+        "S’mores Ice Cream": "S’mores Ice Cream",
+        "S’morea": "S’morea",
+        "S’moreicane": "S’moreicane",
+        "S’moreswich": "S’morewich",
+        "Pop’n’s’more": "Pop’n’s’more",
+        "S’morepillow": "S’morepillow",
+        "Love": "Smore",
+        "S’moreover": "S’moreovermore",
+        "S’mermore": "S’mermore",
+        "S’mars": "S’mores",
+        "Smokey": "Campfire",
+        "S’mosa": "S’mosa",
+        "S’more-gasbord": "S’more-gasbord",
+        "Pie": "Smore",
+        "S’more-saurus": "S’more-saurus",
+        "Movie": "Popcorn",
+        "S’morewich": "S’morewich",
+        "S’moreovermore": "S’moreovermoreovermore",
+        "S’moreovermoreovermore": "S’moreovermoreovermoreovermore",
+        "Selfie": "Selfmore",
+        "Smoreshmore": "Smoreshmore",
+        "Smore’s": "S’mores",
+        "Star": "S’more",
+        "Teddy": "Bear",
+        "Richmore": "Richmores’more",
+        "S’moreorgasbord": "S’moreorgasbord",
+        "S’momore": "S’momore",
+        "S’moreovermoreovermoreovermore": "S’moreovermoreovermoreovermoreovermore",
+        "Selfmore": "Nothing",
+        "Richsmore": "Richsmore",
+        "S’moreovermoreovermoreovermoreovermore": "Nothing",
+        "Richmores’more": "Richmores’more"
+    },
+    "Bonfire": {
+        "Lake": "S’more",
+        "S’more": "Smore"
+    },
+    "Prometheus": {
+        "S’more": "Smore"
+    },
+    "Spicy": {
+        "S’more": "S’mores"
+    },
+    "Roast": {
+        "S’more": "Toast"
+    },
+    "Bomb": {
+        "S’more": "Marshmallow"
+    },
+    "Dinosaur": {
+        "S’more": "Dino-mite"
+    },
+    "Barbecue": {
+        "S’more": "Campfire"
+    },
+    "Omelette": {
+        "S’more": "S’momelette"
+    },
+    "Midas": {
+        "S’more": "Gold"
+    },
+    "Monkey": {
+        "S’more": "Smore",
+        "Hot Chocolate": "Chimpunk",
+        "Medusa": "Gorgon",
+        "Cocoa": "Chocolate",
+        "Gorgon": "Medusa",
+        "Chocolate": "Chimpanzee"
+    },
+    "Smore": {
+        "S’more": "S’mores",
+        "Smore": "Campfire",
+        "Snake": "S’more",
+        "Smores": "Smore",
+        "Corn": "S’more",
+        "S’mores": "Campfire",
+        "Toast": "Marshmallow",
+        "Marshmallow": "S’more",
+        "Unicorn": "Marshmallow",
+        "Lava Cake": "Volcano",
+        "Rocket": "S’more",
+        "S’mushi": "S’mushi",
+        "S’moresabi": "S’moresabis",
+        "S’moresaurus": "S’moresaurus Rex",
+        "S’morgoth": "S’morgoth",
+        "Ice Cream": "S’more",
+        "S’mwhale": "S’mwhale",
+        "Smorea": "Smore",
+        "Smoreicane": "Smoreicane",
+        "Sandwich": "S’more",
+        "Mud Pie": "Dirt",
+        "Camera": "Selfie",
+        "Pop’n’S’more": "Pop’n’s’more",
+        "Cup": "S’more",
+        "S’mud": "S’more",
+        "Ant": "Marshmallow",
+        "S’mamoeba": "S’mamoeba",
+        "Hot Chocolate": "S’more",
+        "S’morepill": "S’morepillow",
+        "S’mint": "S’more",
+        "Love Potion": "Love",
+        "Smoresh": "Smoreshmore",
+        "Smore’": "Smore’s",
+        "Smoreover": "Smoreover",
+        "Astronomer": "Star",
+        "Paras’more": "S’more",
+        "S’neeze": "S’more",
+        "S’mermaid": "S’more",
+        "Smore’n": "Nothing",
+        "Surfmore": "S’more",
+        "Smoker": "Campfire",
+        "Mars": "S’more",
+        "Golem": "S’more",
+        "Bear": "Teddy",
+        "America": "S’more",
+        "Rich": "Richmore",
+        "Baked Potato": "S’more",
+        "Samosa": "S’more",
+        "S’moretini": "S’moretini",
+        "S’moreganic": "S’more",
+        "Flamingo": "Marshmallow",
+        "S’morgasbord": "S’moreorgasbord",
+        "Pumpkin": "Pie",
+        "Dino-mite": "S’more",
+        "S’momelette": "S’momore",
+        "Popcorn": "S’more",
+        "S’morcorn": "S’mores",
+        "S’moresabis": "S’moresabis",
+        "S’moresaurus Rex": "S’moresaurus Rex",
+        "S’mores Ice Cream": "S’mores Ice Cream",
+        "S’morea": "S’more",
+        "S’moreicane": "S’moreicane",
+        "S’moreswich": "S’mores",
+        "Pop’n’s’more": "Pop’n’s’more",
+        "S’morepillow": "S’morepillow",
+        "Love": "S’more",
+        "S’moreover": "S’mores",
+        "S’mermore": "S’more",
+        "S’mars": "S’more",
+        "Smokey": "Campfire",
+        "S’mosa": "S’more",
+        "S’more-gasbord": "Campfire",
+        "Pie": "S’more",
+        "S’more-saurus": "S’more-saurus",
+        "Movie": "Popcorn",
+        "S’morewich": "S’morewich",
+        "S’moreovermore": "S’moreovermoreovermore",
+        "S’moreovermoreovermore": "S’moreovermoreovermoreovermore",
+        "Selfie": "Selfmore",
+        "Smoreshmore": "Smoreshmore",
+        "Smore’s": "Smore’s",
+        "Star": "S’more",
+        "Teddy": "Bear",
+        "Richmore": "Richsmore",
+        "S’moreorgasbord": "S’moreorgasbord",
+        "S’momore": "S’momore",
+        "S’moreovermoreovermoreovermore": "S’moreovermoreovermoreovermoreovermore",
+        "Selfmore": "Selfmore",
+        "Richsmore": "Richsmore",
+        "S’moreovermoreovermoreovermoreovermore": "Nothing",
+        "Richmores’more": "Richmores’mores’more"
+    },
+    "Snake": {
+        "S’more": "Marshmallow",
+        "Smore": "S’more",
+        "Snake": "Hydra",
+        "Smores": "Snake",
+        "Corn": "Cobra",
+        "S’mores": "Marshmallow",
+        "Toast": "Sandwich",
+        "Marshmallow": "S’more",
+        "Unicorn": "Dragon",
+        "Lava Cake": "Volcano",
+        "Rocket": "Dragon",
+        "S’mushi": "Nothing",
+        "S’moresabi": "Snake",
+        "S’moresaurus": "Snake",
+        "S’morgoth": "S’morgoth",
+        "Ice Cream": "Snake",
+        "S’mwhale": "Snake Whale",
+        "Smorea": "Medusa",
+        "Smoreicane": "Snake",
+        "Sandwich": "Anaconda",
+        "Mud Pie": "Mud Pie",
+        "Camera": "Photographer",
+        "Pop’n’S’more": "Pop’n’s’more",
+        "Cup": "Poison",
+        "S’mud": "Snake",
+        "Ant": "Centipede",
+        "S’mamoeba": "Snake",
+        "Hot Chocolate": "Cocoa",
+        "S’morepill": "S’morepill",
+        "S’mint": "Snake’s Mint",
+        "Love Potion": "Medusa",
+        "Smoresh": "Snake",
+        "Smore’": "S’more",
+        "Smoreover": "Snake",
+        "Astronomer": "Ophiuchus",
+        "Paras’more": "Medusa",
+        "S’neeze": "Sneeze",
+        "S’mermaid": "S’snake",
+        "Smore’n": "S’more",
+        "Surfmore": "Surfboard",
+        "Smoker": "Smoking Snake",
+        "Mars": "Ares",
+        "Golem": "Medusa",
+        "Bear": "Nothing",
+        "America": "Bald Eagle",
+        "Rich": "Riches",
+        "Baked Potato": "Potato Salad",
+        "Samosa": "Cobra",
+        "S’moretini": "Snakebite",
+        "S’moreganic": "S’mores",
+        "Flamingo": "Flamingo",
+        "S’morgasbord": "Snakebord",
+        "Pumpkin": "Jack-o-Lantern",
+        "Dino-mite": "T-Rex",
+        "S’momelette": "S’momelette",
+        "Popcorn": "Cobra",
+        "S’morcorn": "S’mores",
+        "S’moresabis": "Snake",
+        "S’moresaurus Rex": "Snake",
+        "S’mores Ice Cream": "Snake in the Grass",
+        "S’morea": "S’mores",
+        "S’moreicane": "S’more",
+        "S’moreswich": "Snakewich"
+    },
+    "Smores": {
+        "S’more": "S’mores",
+        "Smore": "Smore",
+        "Snake": "Snake"
+    },
+    "Corn": {
+        "S’more": "Popcorn",
+        "Smore": "S’more",
+        "Snake": "Cobra"
+    },
+    "S’mores": {
+        "S’more": "S’more",
+        "Smore": "Campfire",
+        "Snake": "Marshmallow"
+    },
+    "Toast": {
+        "S’more": "Marshmallow",
+        "Smore": "Marshmallow",
+        "Snake": "Sandwich"
+    },
+    "Marshmallow": {
+        "S’more": "Campfire",
+        "Smore": "S’more",
+        "Snake": "S’more"
+    },
+    "Unicorn": {
+        "S’more": "S’morcorn",
+        "Smore": "Marshmallow",
+        "Snake": "Dragon"
+    },
+    "Lava Cake": {
+        "S’more": "Volcano",
+        "Smore": "Volcano",
+        "Snake": "Volcano"
+    },
+    "Rocket": {
+        "S’more": "S’mores",
+        "Smore": "S’more",
+        "Snake": "Dragon"
+    },
+    "S’mushi": {
+        "S’more": "S’mushi",
+        "Smore": "S’mushi",
+        "Snake": "Nothing"
+    },
+    "S’moresabi": {
+        "S’more": "S’moresabis",
+        "Smore": "S’moresabis",
+        "Snake": "Snake"
+    },
+    "S’moresaurus": {
+        "S’more": "S’moresaurus Rex",
+        "Smore": "S’moresaurus Rex",
+        "Snake": "Snake"
+    },
+    "S’morgoth": {
+        "S’more": "S’morgoth",
+        "Smore": "S’morgoth",
+        "Snake": "S’morgoth"
+    },
+    "Ice Cream": {
+        "S’more": "S’mores Ice Cream",
+        "Smore": "S’more",
+        "Snake": "Snake"
+    },
+    "S’mwhale": {
+        "S’more": "S’mwhale",
+        "Smore": "S’mwhale",
+        "Snake": "Snake Whale"
+    },
+    "Smorea": {
+        "S’more": "S’morea",
+        "Smore": "Smore",
+        "Snake": "Medusa"
+    },
+    "Smoreicane": {
+        "S’more": "S’moreicane",
+        "Smore": "Smoreicane",
+        "Snake": "Snake"
+    },
+    "Sandwich": {
+        "S’more": "S’moreswich",
+        "Smore": "S’more",
+        "Snake": "Anaconda"
+    },
+    "Mud Pie": {
+        "S’more": "Dirt",
+        "Smore": "Dirt",
+        "Snake": "Mud Pie"
+    },
+    "Camera": {
+        "S’more": "Smore",
+        "Smore": "Selfie",
+        "Snake": "Photographer"
+    },
+    "Pop’n’S’more": {
+        "S’more": "Pop’n’s’more",
+        "Smore": "Pop’n’s’more",
+        "Snake": "Pop’n’s’more"
+    },
+    "Cup": {
+        "S’more": "Smore",
+        "Smore": "S’more",
+        "Snake": "Poison"
+    },
+    "S’mud": {
+        "S’more": "S’mud",
+        "Smore": "S’more",
+        "Snake": "Snake"
+    },
+    "Ant": {
+        "S’more": "Nothing",
+        "Smore": "Marshmallow",
+        "Snake": "Centipede"
+    },
+    "S’mamoeba": {
+        "S’more": "S’mores",
+        "Smore": "S’mamoeba",
+        "Snake": "Snake"
+    },
+    "Hot Chocolate": {
+        "S’more": "Smore",
+        "Smore": "S’more",
+        "Snake": "Cocoa",
+        "Ice": "Hot Ice",
+        "Monkey": "Chimpunk"
+    },
+    "S’morepill": {
+        "S’more": "S’morepillow",
+        "Smore": "S’morepillow",
+        "Snake": "S’morepill"
+    },
+    "S’mint": {
+        "S’more": "Nothing",
+        "Smore": "S’more",
+        "Snake": "Snake’s Mint"
+    },
+    "Love Potion": {
+        "S’more": "Love",
+        "Smore": "Love",
+        "Snake": "Medusa"
+    },
+    "Smoresh": {
+        "S’more": "Smoresh",
+        "Smore": "Smoreshmore",
+        "Snake": "Snake"
+    },
+    "Smore’": {
+        "S’more": "S’mores",
+        "Smore": "Smore’s",
+        "Snake": "S’more"
+    },
+    "Smoreover": {
+        "S’more": "S’moreover",
+        "Smore": "Smoreover",
+        "Snake": "Snake"
+    },
+    "Astronomer": {
+        "S’more": "Moon",
+        "Smore": "Star",
+        "Snake": "Ophiuchus"
+    },
+    "Paras’more": {
+        "S’more": "Paras’more",
+        "Smore": "S’more",
+        "Snake": "Medusa"
+    },
+    "S’neeze": {
+        "S’more": "S’mores",
+        "Smore": "S’more",
+        "Snake": "Sneeze"
+    },
+    "S’mermaid": {
+        "S’more": "S’mermore",
+        "Smore": "S’more",
+        "Snake": "S’snake"
+    },
+    "Smore’n": {
+        "S’more": "S’mores",
+        "Smore": "Nothing",
+        "Snake": "S’more"
+    },
+    "Surfmore": {
+        "S’more": "Surfmore",
+        "Smore": "S’more",
+        "Snake": "Surfboard"
+    },
+    "Smoker": {
+        "S’more": "Campfire",
+        "Smore": "Campfire",
+        "Snake": "Smoking Snake"
+    },
+    "Mars": {
+        "S’more": "S’mars",
+        "Smore": "S’more",
+        "Snake": "Ares"
+    },
+    "Golem": {
+        "S’more": "Nothing",
+        "Smore": "S’more",
+        "Snake": "Medusa"
+    },
+    "Bear": {
+        "S’more": "Smokey",
+        "Smore": "Teddy",
+        "Snake": "Nothing"
+    },
+    "America": {
+        "S’more": "Campfire",
+        "Smore": "S’more",
+        "Snake": "Bald Eagle"
+    },
+    "Rich": {
+        "S’more": "Smore",
+        "Smore": "Richmore",
+        "Snake": "Riches"
+    },
+    "Baked Potato": {
+        "S’more": "Campfire",
+        "Smore": "S’more",
+        "Snake": "Potato Salad"
+    },
+    "Samosa": {
+        "S’more": "S’mosa",
+        "Smore": "S’more",
+        "Snake": "Cobra"
+    },
+    "S’moretini": {
+        "S’more": "S’moretini",
+        "Smore": "S’moretini",
+        "Snake": "Snakebite"
+    },
+    "S’moreganic": {
+        "S’more": "S’more",
+        "Smore": "S’more",
+        "Snake": "S’mores"
+    },
+    "Flamingo": {
+        "S’more": "Flamingo",
+        "Smore": "Marshmallow",
+        "Snake": "Flamingo"
+    },
+    "S’morgasbord": {
+        "S’more": "S’more-gasbord",
+        "Smore": "S’moreorgasbord",
+        "Snake": "Snakebord"
+    },
+    "Pumpkin": {
+        "S’more": "Pie",
+        "Smore": "Pie",
+        "Snake": "Jack-o-Lantern"
+    },
+    "Dino-mite": {
+        "S’more": "S’more-saurus",
+        "Smore": "S’more",
+        "Snake": "T-Rex"
+    },
+    "S’momelette": {
+        "S’more": "S’momelette",
+        "Smore": "S’momore",
+        "Snake": "S’momelette"
+    },
+    "Popcorn": {
+        "S’more": "Movie",
+        "Smore": "S’more",
+        "Snake": "Cobra"
+    },
+    "S’morcorn": {
+        "S’more": "S’morcorn",
+        "Smore": "S’mores",
+        "Snake": "S’mores"
+    },
+    "S’moresabis": {
+        "S’more": "S’moresabis",
+        "Smore": "S’moresabis",
+        "Snake": "Snake"
+    },
+    "S’moresaurus Rex": {
+        "S’more": "S’moresaurus Rex",
+        "Smore": "S’moresaurus Rex",
+        "Snake": "Snake"
+    },
+    "S’mores Ice Cream": {
+        "S’more": "S’mores Ice Cream",
+        "Smore": "S’mores Ice Cream",
+        "Snake": "Snake in the Grass"
+    },
+    "S’morea": {
+        "S’more": "S’morea",
+        "Smore": "S’more",
+        "Snake": "S’mores"
+    },
+    "S’moreicane": {
+        "S’more": "S’moreicane",
+        "Smore": "S’moreicane",
+        "Snake": "S’more"
+    },
+    "S’moreswich": {
+        "S’more": "S’morewich",
+        "Smore": "S’mores",
+        "Snake": "Snakewich"
+    },
+    "Pop’n’s’more": {
+        "S’more": "Pop’n’s’more",
+        "Smore": "Pop’n’s’more"
+    },
+    "S’morepillow": {
+        "S’more": "S’morepillow",
+        "Smore": "S’morepillow"
+    },
+    "Love": {
+        "S’more": "Smore",
+        "Smore": "S’more"
+    },
+    "S’moreover": {
+        "S’more": "S’moreovermore",
+        "Smore": "S’mores"
+    },
+    "S’mermore": {
+        "S’more": "S’mermore",
+        "Smore": "S’more"
+    },
+    "S’mars": {
+        "S’more": "S’mores",
+        "Smore": "S’more"
+    },
+    "Smokey": {
+        "S’more": "Campfire",
+        "Smore": "Campfire"
+    },
+    "S’mosa": {
+        "S’more": "S’mosa",
+        "Smore": "S’more"
+    },
+    "S’more-gasbord": {
+        "S’more": "S’more-gasbord",
+        "Smore": "Campfire"
+    },
+    "Pie": {
+        "S’more": "Smore",
+        "Smore": "S’more"
+    },
+    "S’more-saurus": {
+        "S’more": "S’more-saurus",
+        "Smore": "S’more-saurus"
+    },
+    "Movie": {
+        "S’more": "Popcorn",
+        "Smore": "Popcorn"
+    },
+    "S’morewich": {
+        "S’more": "S’morewich",
+        "Smore": "S’morewich"
+    },
+    "S’moreovermore": {
+        "S’more": "S’moreovermoreovermore",
+        "Smore": "S’moreovermoreovermore"
+    },
+    "S’moreovermoreovermore": {
+        "Smore": "S’moreovermoreovermoreovermore",
+        "S’more": "S’moreovermoreovermoreovermore"
+    },
+    "Selfie": {
+        "Smore": "Selfmore",
+        "S’more": "Selfmore"
+    },
+    "Smoreshmore": {
+        "Smore": "Smoreshmore",
+        "S’more": "Smoreshmore"
+    },
+    "Smore’s": {
+        "Smore": "Smore’s",
+        "S’more": "S’mores"
+    },
+    "Star": {
+        "Smore": "S’more",
+        "S’more": "S’more"
+    },
+    "Teddy": {
+        "Smore": "Bear",
+        "S’more": "Bear"
+    },
+    "Richmore": {
+        "Smore": "Richsmore",
+        "S’more": "Richmores’more"
+    },
+    "S’moreorgasbord": {
+        "Smore": "S’moreorgasbord",
+        "S’more": "S’moreorgasbord"
+    },
+    "S’momore": {
+        "Smore": "S’momore",
+        "S’more": "S’momore"
+    },
+    "S’moreovermoreovermoreovermore": {
+        "Smore": "S’moreovermoreovermoreovermoreovermore",
+        "S’more": "S’moreovermoreovermoreovermoreovermore"
+    },
+    "Selfmore": {
+        "Smore": "Selfmore",
+        "S’more": "Nothing"
+    },
+    "Richsmore": {
+        "Smore": "Richsmore",
+        "S’more": "Richsmore"
+    },
+    "S’moreovermoreovermoreovermoreovermore": {
+        "Smore": "Nothing",
+        "S’more": "Nothing"
+    },
+    "Richmores’more": {
+        "S’more": "Richmores’more",
+        "Smore": "Richmores’mores’more"
+    },
+    "Medusa": {
+        "Monkey": "Gorgon"
+    },
+    "Cocoa": {
+        "Monkey": "Chocolate"
+    },
+    "Gorgon": {
+        "Monkey": "Medusa",
+        "Chocolate": "Medusa"
+    },
+    "Chocolate": {
+        "Monkey": "Chimpanzee",
+        "Chimpanzee": "Chimpanzee",
+        "Gorgon": "Medusa",
+        "Chimpunk": "Chimpunk"
+    },
+    "Chimpanzee": {
+        "Chocolate": "Chimpanzee"
+    },
+    "Chimpunk": {
+        "Chocolate": "Chimpunk"
+    }
+}
