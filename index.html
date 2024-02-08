@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<style>
+
+#decorated_recipe {
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: 1px solid #c8c8c8;
+  transition: background .15s linear;
+  background: #fff;
+  line-height: 1em;
+  box-sizing: border-box;
+}
+
+#decorated_recipe_text {
+	padding: 0px 10px 0px;
+	font-size: 16.4px;
+	font-weight: 400;
+	font-family: Roboto,sans-serif;
+}
+
+</style>
+
+<h1 style="font-family: roboto;">Infinite Craft Cheathseet</h1>
+
+<p style="font-family: roboto;">Welcome to this stupid project, you can look up any item and get all it's recipes alongside their most efficient recipe</p>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" font-family="Roboto">
+
+<h3 style="font-family: roboto;">Items</h3>
+<ul id="items_cont"></ul>
+
+<h3 style="font-family: roboto;">Recipes using this item</h3>
+<ul id="recipes_cont"></ul>
+
+<script>
+async function myFunction() {
+    var input, filter, pre, ul
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    pre = document.getElementById("items");
+	ul = document.getElementById("items_cont")
+	ul.innerHTML = ""
+	let file = await (await fetch("items.json")).json()
+	let filtered = Object.entries(file).filter(value => {return value[0].toUpperCase().includes(filter)})
+	function runloop() {
+		for (const f of filtered) {
+			let newsub = document.createElement("li")
+			let groupdiv = document.createElement("span")
+			newsub.appendChild(groupdiv)
+			let newdiv = document.createElement("div")
+			newdiv.id = "decorated_recipe"
+			groupdiv.appendChild(newdiv)
+			let newhead = document.createElement("p")
+			newdiv.appendChild(newhead)
+			newhead.textContent = file[f[0]].emoticon + f[0]
+			newhead.id = "decorated_recipe_text"
+			
+			let newhead2 = document.createElement("span")
+			groupdiv.appendChild(newhead2)
+			newhead2.textContent = "Depth " + file[f[0]].depth
+			newhead2.id = "decorated_recipe_text"
+			let newlist = document.createElement("ul")
+			groupdiv.appendChild(newlist)
+			console.log(f[1])
+			if (f[1].recipes) {
+				for (const f_ of Object.entries(f[1].recipes)) {
+					let fullcont = document.createElement("div")
+					let newcontainerspan_1 =  document.createElement("span")
+					newcontainerspan_1.id = "decorated_recipe"
+					fullcont.appendChild(newcontainerspan_1)
+					let newcontainerspan_2 =  document.createElement("span")
+					newcontainerspan_2.id = "decorated_recipe"
+					let newitem_1 = document.createElement("p")
+					newitem_1.textContent = file[f_[1].item_1].emoticon + f_[1].item_1
+					newitem_1.id = "decorated_recipe_text"
+					
+					let newitem_2 = document.createElement("span")
+					newitem_2.textContent = " + "
+					newitem_2.id = "decorated_recipe_text"
+					
+					fullcont.appendChild(newitem_2)
+					fullcont.appendChild(newcontainerspan_2)
+					
+					let newitem_3 = document.createElement("p")
+					newitem_3.textContent = file[f_[1].item_2].emoticon + f_[1].item_2
+					newitem_3.id = "decorated_recipe_text"
+					
+					let newitem_4 = document.createElement("span")
+					newitem_4.textContent = " Depth " + (Math.max(file[f_[1].item_2].depth, file[f_[1].item_1].depth) + 1)
+					newitem_4.id = "decorated_recipe_text"
+					
+					fullcont.appendChild(newitem_4)
+					newcontainerspan_1.appendChild(newitem_1)
+					newcontainerspan_2.appendChild(newitem_3)
+					
+					newlist.appendChild(fullcont)
+				}
+			}
+			ul.appendChild(newsub)
+		}
+	}
+	runloop()
+	
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    pre = document.getElementById("recipes");
+	ul = document.getElementById("recipes_cont")
+	ul.innerHTML = ""
+	filtered = Object.entries(file).filter(value => {
+		if (value[1].recipes == undefined) return false
+		return value[1].recipes.filter(value2 => {
+			return value2.item_1.toUpperCase().includes(filter) || value2.item_2.toUpperCase().includes(filter)
+		}).length >= 1
+	})
+	console.log(filtered)
+	runloop()
+	
+}
+</script>
+
+</body>
+</html>
