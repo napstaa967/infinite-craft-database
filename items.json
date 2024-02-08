@@ -632,10 +632,10 @@
     "Whale": {
         "emoticon": "🐳",
         "mostEfficientRecipe": {
-            "item_1": "Fire",
-            "item_2": "Fog"
+            "item_1": "Wind",
+            "item_2": "Wind"
         },
-        "depth": 3,
+        "depth": 1,
         "recipes": [
             {
                 "item_1": "Water",
@@ -664,17 +664,7 @@
             {
                 "item_1": "Fire",
                 "item_2": "Sea Serpent"
-            }
-        ]
-    },
-    "Chili": {
-        "emoticon": "🌶️",
-        "mostEfficientRecipe": {
-            "item_1": "Fire",
-            "item_2": "Soup"
-        },
-        "depth": 4,
-        "recipes": [
+            },
             {
                 "item_1": "Fire",
                 "item_2": "Soup"
@@ -700,31 +690,13 @@
                 "item_2": "Whale"
             },
             {
-                "item_1": "Fire",
-                "item_2": "Chili"
-            },
-            {
-                "item_1": "Water",
-                "item_2": "Chili"
-            }
-        ]
-    },
-    "Tornado": {
-        "emoticon": "🌪️",
-        "mostEfficientRecipe": {
-            "item_1": "Wind",
-            "item_2": "Wind"
-        },
-        "depth": 1,
-        "recipes": [
-            {
                 "item_1": "Wind",
                 "item_2": "Wind"
             }
         ]
     },
-    "Dust": {
-        "emoticon": "🌫️",
+    "Tornado": {
+        "emoticon": "🌪️",
         "mostEfficientRecipe": {
             "item_1": "Wind",
             "item_2": "Earth"
@@ -986,7 +958,17 @@
             {
                 "item_1": "Wind",
                 "item_2": "Rock"
-            },
+            }
+        ]
+    },
+    "Dust": {
+        "emoticon": "🌫️",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Leviathan"
+        },
+        "depth": 5,
+        "recipes": [
             {
                 "item_1": "Wind",
                 "item_2": "Leviathan"
@@ -1001,7 +983,7 @@
         "emoticon": "⛵️",
         "mostEfficientRecipe": {
             "item_1": "Wind",
-            "item_2": "Tornado"
+            "item_2": "Whale"
         },
         "depth": 2,
         "recipes": [
@@ -1011,40 +993,12 @@
             },
             {
                 "item_1": "Wind",
-                "item_2": "Chili"
-            },
-            {
-                "item_1": "Wind",
                 "item_2": "Tornado"
-            }
-        ]
-    },
-    "Sandstorm": {
-        "emoticon": "🌪️",
-        "mostEfficientRecipe": {
-            "item_1": "Wind",
-            "item_2": "Dust"
-        },
-        "depth": 2,
-        "recipes": [
-            {
-                "item_1": "Wind",
-                "item_2": "Dust"
             },
             {
                 "item_1": "Wind",
                 "item_2": "Storm"
-            }
-        ]
-    },
-    "Seed": {
-        "emoticon": "🌱",
-        "mostEfficientRecipe": {
-            "item_1": "Wind",
-            "item_2": "Dandelion"
-        },
-        "depth": 3,
-        "recipes": [
+            },
             {
                 "item_1": "Wind",
                 "item_2": "Dandelion"
@@ -1078,17 +1032,7 @@
             {
                 "item_1": "Wind",
                 "item_2": "Windmill"
-            }
-        ]
-    },
-    "Flying": {
-        "emoticon": "✈️",
-        "mostEfficientRecipe": {
-            "item_1": "Wind",
-            "item_2": "Kite"
-        },
-        "depth": 4,
-        "recipes": [
+            },
             {
                 "item_1": "Wind",
                 "item_2": "Kite"
@@ -1131,6 +1075,20 @@
             }
         ]
     },
+    "Sandstorm": {
+        "emoticon": "🌪️",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Dust"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Dust"
+            }
+        ]
+    },
     "Sailboat": {
         "emoticon": "⛵️",
         "mostEfficientRecipe": {
@@ -1142,6 +1100,18 @@
             {
                 "item_1": "Wind",
                 "item_2": "Sail"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Airplane"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Dune"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Blizzard"
             }
         ]
     },
@@ -1159,26 +1129,6 @@
             },
             {
                 "item_1": "Wind",
-                "item_2": "Seed"
-            },
-            {
-                "item_1": "Wind",
-                "item_2": "Airplane"
-            },
-            {
-                "item_1": "Wind",
-                "item_2": "Flying"
-            },
-            {
-                "item_1": "Wind",
-                "item_2": "Dune"
-            },
-            {
-                "item_1": "Wind",
-                "item_2": "Blizzard"
-            },
-            {
-                "item_1": "Wind",
                 "item_2": "Sailboat"
             },
             {
@@ -1188,24 +1138,14 @@
             {
                 "item_1": "Water",
                 "item_2": "Tornado"
-            }
-        ]
-    },
-    "Mud": {
-        "emoticon": "💩",
-        "mostEfficientRecipe": {
-            "item_1": "Water",
-            "item_2": "Dust"
-        },
-        "depth": 2,
-        "recipes": [
-            {
-                "item_1": "Water",
-                "item_2": "Dust"
             },
             {
                 "item_1": "Water",
                 "item_2": "Storm"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Dandelion"
             }
         ]
     },
@@ -1213,14 +1153,10 @@
         "emoticon": "🍷",
         "mostEfficientRecipe": {
             "item_1": "Water",
-            "item_2": "Dandelion"
+            "item_2": "Eruption"
         },
         "depth": 3,
         "recipes": [
-            {
-                "item_1": "Water",
-                "item_2": "Dandelion"
-            },
             {
                 "item_1": "Water",
                 "item_2": "Hurricane"
@@ -1236,7 +1172,17 @@
             {
                 "item_1": "Water",
                 "item_2": "Eruption"
-            },
+            }
+        ]
+    },
+    "Energy": {
+        "emoticon": "⚡️",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Windmill"
+        },
+        "depth": 4,
+        "recipes": [
             {
                 "item_1": "Water",
                 "item_2": "Windmill"
@@ -1273,6 +1219,20 @@
             }
         ]
     },
+    "Mud": {
+        "emoticon": "💩",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Dust"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Dust"
+            }
+        ]
+    },
     "Boat": {
         "emoticon": "🚤",
         "mostEfficientRecipe": {
@@ -1284,24 +1244,6 @@
             {
                 "item_1": "Water",
                 "item_2": "Sail"
-            }
-        ]
-    },
-    "Oasis": {
-        "emoticon": "🏜️",
-        "mostEfficientRecipe": {
-            "item_1": "Water",
-            "item_2": "Sandstorm"
-        },
-        "depth": 3,
-        "recipes": [
-            {
-                "item_1": "Water",
-                "item_2": "Sandstorm"
-            },
-            {
-                "item_1": "Water",
-                "item_2": "Seed"
             },
             {
                 "item_1": "Water",
@@ -1309,18 +1251,14 @@
             }
         ]
     },
-    "Bird": {
-        "emoticon": "🐦",
+    "Oasis": {
+        "emoticon": "🏜️",
         "mostEfficientRecipe": {
             "item_1": "Water",
-            "item_2": "Flying"
+            "item_2": "Dune"
         },
         "depth": 5,
         "recipes": [
-            {
-                "item_1": "Water",
-                "item_2": "Flying"
-            },
             {
                 "item_1": "Water",
                 "item_2": "Dune"
@@ -1328,6 +1266,10 @@
             {
                 "item_1": "Water",
                 "item_2": "Blizzard"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Sandstorm"
             }
         ]
     },
@@ -1346,10 +1288,6 @@
             {
                 "item_1": "Water",
                 "item_2": "Dust Storm"
-            },
-            {
-                "item_1": "Water",
-                "item_2": "Mud"
             }
         ]
     },
@@ -1367,7 +1305,15 @@
             },
             {
                 "item_1": "Water",
+                "item_2": "Energy"
+            },
+            {
+                "item_1": "Water",
                 "item_2": "Beach"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Mud"
             },
             {
                 "item_1": "Water",
@@ -1378,20 +1324,6 @@
     "Mirage": {
         "emoticon": "🌵",
         "mostEfficientRecipe": {
-            "item_1": "Water",
-            "item_2": "Oasis"
-        },
-        "depth": 4,
-        "recipes": [
-            {
-                "item_1": "Water",
-                "item_2": "Oasis"
-            }
-        ]
-    },
-    "Penguin": {
-        "emoticon": "🐧",
-        "mostEfficientRecipe": {
             "item_1": "Fire",
             "item_2": "Tornado"
         },
@@ -1399,7 +1331,7 @@
         "recipes": [
             {
                 "item_1": "Water",
-                "item_2": "Bird"
+                "item_2": "Oasis"
             },
             {
                 "item_1": "Water",
@@ -1414,12 +1346,12 @@
                 "item_2": "Mirage"
             },
             {
-                "item_1": "Water",
-                "item_2": "Penguin"
+                "item_1": "Fire",
+                "item_2": "Tornado"
             },
             {
                 "item_1": "Fire",
-                "item_2": "Tornado"
+                "item_2": "Storm"
             }
         ]
     },
@@ -1427,18 +1359,10 @@
         "emoticon": "🌋",
         "mostEfficientRecipe": {
             "item_1": "Fire",
-            "item_2": "Dust"
+            "item_2": "Dandelion"
         },
-        "depth": 2,
+        "depth": 3,
         "recipes": [
-            {
-                "item_1": "Fire",
-                "item_2": "Dust"
-            },
-            {
-                "item_1": "Fire",
-                "item_2": "Storm"
-            },
             {
                 "item_1": "Fire",
                 "item_2": "Dandelion"
@@ -1465,8 +1389,8 @@
             }
         ]
     },
-    "Energy": {
-        "emoticon": "⚡️",
+    "Fireworks": {
+        "emoticon": "🎆",
         "mostEfficientRecipe": {
             "item_1": "Fire",
             "item_2": "Kite"
@@ -1502,6 +1426,10 @@
             {
                 "item_1": "Fire",
                 "item_2": "Snow"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Dust"
             }
         ]
     },
@@ -1519,30 +1447,12 @@
             },
             {
                 "item_1": "Fire",
-                "item_2": "Sandstorm"
-            },
-            {
-                "item_1": "Fire",
-                "item_2": "Seed"
+                "item_2": "Airplane"
             }
         ]
     },
     "Crash": {
         "emoticon": "💥",
-        "mostEfficientRecipe": {
-            "item_1": "Fire",
-            "item_2": "Airplane"
-        },
-        "depth": 4,
-        "recipes": [
-            {
-                "item_1": "Fire",
-                "item_2": "Airplane"
-            }
-        ]
-    },
-    "Phoenix": {
-        "emoticon": "🔥",
         "mostEfficientRecipe": {
             "item_1": "Fire",
             "item_2": "Dust Storm"
@@ -1551,15 +1461,15 @@
         "recipes": [
             {
                 "item_1": "Fire",
-                "item_2": "Flying"
-            },
-            {
-                "item_1": "Fire",
                 "item_2": "Dune"
             },
             {
                 "item_1": "Fire",
                 "item_2": "Blizzard"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Sandstorm"
             },
             {
                 "item_1": "Fire",
@@ -1571,11 +1481,21 @@
             },
             {
                 "item_1": "Fire",
-                "item_2": "Mud"
-            },
+                "item_2": "Wine"
+            }
+        ]
+    },
+    "Alcohol": {
+        "emoticon": "🍷",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Energy"
+        },
+        "depth": 5,
+        "recipes": [
             {
                 "item_1": "Fire",
-                "item_2": "Wine"
+                "item_2": "Energy"
             },
             {
                 "item_1": "Fire",
@@ -1593,6 +1513,10 @@
         "recipes": [
             {
                 "item_1": "Fire",
+                "item_2": "Mud"
+            },
+            {
+                "item_1": "Fire",
                 "item_2": "Boat"
             }
         ]
@@ -1603,15 +1527,11 @@
             "item_1": "Fire",
             "item_2": "Oasis"
         },
-        "depth": 4,
+        "depth": 6,
         "recipes": [
             {
                 "item_1": "Fire",
                 "item_2": "Oasis"
-            },
-            {
-                "item_1": "Fire",
-                "item_2": "Bird"
             }
         ]
     },
@@ -1633,7 +1553,7 @@
         "emoticon": "🧛",
         "mostEfficientRecipe": {
             "item_1": "Fire",
-            "item_2": "Penguin"
+            "item_2": "Mirage"
         },
         "depth": 3,
         "recipes": [
@@ -1644,11 +1564,17 @@
             {
                 "item_1": "Fire",
                 "item_2": "Mirage"
-            },
-            {
-                "item_1": "Fire",
-                "item_2": "Penguin"
-            },
+            }
+        ]
+    },
+    "Phoenix": {
+        "emoticon": "🔥",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Ash"
+        },
+        "depth": 4,
+        "recipes": [
             {
                 "item_1": "Fire",
                 "item_2": "Ash"
@@ -1659,13 +1585,13 @@
         "emoticon": "💥",
         "mostEfficientRecipe": {
             "item_1": "Fire",
-            "item_2": "Energy"
+            "item_2": "Fireworks"
         },
         "depth": 5,
         "recipes": [
             {
                 "item_1": "Fire",
-                "item_2": "Energy"
+                "item_2": "Fireworks"
             }
         ]
     },
@@ -1691,7 +1617,7 @@
         "emoticon": "🔥",
         "mostEfficientRecipe": {
             "item_1": "Fire",
-            "item_2": "Phoenix"
+            "item_2": "Crash"
         },
         "depth": 4,
         "recipes": [
@@ -1701,7 +1627,7 @@
             },
             {
                 "item_1": "Fire",
-                "item_2": "Phoenix"
+                "item_2": "Alcohol"
             }
         ]
     },
@@ -1720,10 +1646,6 @@
             {
                 "item_1": "Fire",
                 "item_2": "Desert"
-            },
-            {
-                "item_1": "Fire",
-                "item_2": "Cannon"
             }
         ]
     },
@@ -1737,18 +1659,16 @@
         "recipes": [
             {
                 "item_1": "Fire",
+                "item_2": "Cannon"
+            },
+            {
+                "item_1": "Fire",
                 "item_2": "Vampire"
-            }
-        ]
-    },
-    "Fireworks": {
-        "emoticon": "🎆",
-        "mostEfficientRecipe": {
-            "item_1": "Fire",
-            "item_2": "Explosion"
-        },
-        "depth": 6,
-        "recipes": [
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Phoenix"
+            },
             {
                 "item_1": "Fire",
                 "item_2": "Explosion"
@@ -1770,7 +1690,17 @@
             {
                 "item_1": "Fire",
                 "item_2": "Burn"
-            },
+            }
+        ]
+    },
+    "Pottery": {
+        "emoticon": "🏺",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Cannonball"
+        },
+        "depth": 5,
+        "recipes": [
             {
                 "item_1": "Fire",
                 "item_2": "Kiln"
@@ -1781,11 +1711,25 @@
             },
             {
                 "item_1": "Fire",
-                "item_2": "Fireworks"
-            },
+                "item_2": "Magnifying Glass"
+            }
+        ]
+    },
+    "Ceramic": {
+        "emoticon": "🏺",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Ash"
+        },
+        "depth": 4,
+        "recipes": [
             {
                 "item_1": "Fire",
-                "item_2": "Magnifying Glass"
+                "item_2": "Pottery"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Ash"
             }
         ]
     },
@@ -1793,17 +1737,13 @@
         "emoticon": "💦",
         "mostEfficientRecipe": {
             "item_1": "Water",
-            "item_2": "Ash"
+            "item_2": "Pirate"
         },
-        "depth": 3,
+        "depth": 4,
         "recipes": [
             {
                 "item_1": "Water",
-                "item_2": "Ash"
-            },
-            {
-                "item_1": "Water",
-                "item_2": "Energy"
+                "item_2": "Fireworks"
             },
             {
                 "item_1": "Water",
@@ -1819,7 +1759,7 @@
             },
             {
                 "item_1": "Water",
-                "item_2": "Phoenix"
+                "item_2": "Alcohol"
             },
             {
                 "item_1": "Water",
@@ -1846,6 +1786,10 @@
             {
                 "item_1": "Water",
                 "item_2": "Vampire"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Phoenix"
             },
             {
                 "item_1": "Water",
@@ -1876,24 +1820,38 @@
             {
                 "item_1": "Water",
                 "item_2": "Cannonball"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Magnifying Glass"
             }
         ]
     },
-    "Splash": {
-        "emoticon": "💦",
+    "Vase": {
+        "emoticon": "🏺",
         "mostEfficientRecipe": {
             "item_1": "Water",
-            "item_2": "Magnifying Glass"
+            "item_2": "Pottery"
         },
         "depth": 6,
         "recipes": [
             {
                 "item_1": "Water",
-                "item_2": "Fireworks"
-            },
+                "item_2": "Pottery"
+            }
+        ]
+    },
+    "Pot": {
+        "emoticon": "🥘",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Ceramic"
+        },
+        "depth": 5,
+        "recipes": [
             {
                 "item_1": "Water",
-                "item_2": "Magnifying Glass"
+                "item_2": "Ceramic"
             }
         ]
     },
@@ -1903,7 +1861,7 @@
             "item_1": "Water",
             "item_2": "Puddle"
         },
-        "depth": 4,
+        "depth": 5,
         "recipes": [
             {
                 "item_1": "Water",
@@ -1912,32 +1870,50 @@
             {
                 "item_1": "Water",
                 "item_2": "Blood"
-            }
-        ]
-    },
-    "Amoeba": {
-        "emoticon": "🔬",
-        "mostEfficientRecipe": {
-            "item_1": "Fire",
-            "item_2": "Puddle"
-        },
-        "depth": 4,
-        "recipes": [
-            {
-                "item_1": "Water",
-                "item_2": "Microscope"
             },
             {
                 "item_1": "Water",
-                "item_2": "Splash"
+                "item_2": "Microscope"
+            }
+        ]
+    },
+    "Flower": {
+        "emoticon": "🌸",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Pot"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Vase"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Pot"
             },
             {
                 "item_1": "Water",
                 "item_2": "Pond"
-            },
+            }
+        ]
+    },
+    "Lily": {
+        "emoticon": "🌸",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Ceramic"
+        },
+        "depth": 5,
+        "recipes": [
             {
                 "item_1": "Water",
-                "item_2": "Amoeba"
+                "item_2": "Flower"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Ceramic"
             },
             {
                 "item_1": "Fire",
@@ -1953,9 +1929,9 @@
         "emoticon": "🦠",
         "mostEfficientRecipe": {
             "item_1": "Fire",
-            "item_2": "Pond"
+            "item_2": "Microscope"
         },
-        "depth": 5,
+        "depth": 6,
         "recipes": [
             {
                 "item_1": "Fire",
@@ -1963,7 +1939,21 @@
             },
             {
                 "item_1": "Fire",
-                "item_2": "Splash"
+                "item_2": "Vase"
+            }
+        ]
+    },
+    "Cook": {
+        "emoticon": "🍳",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Pot"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Pot"
             },
             {
                 "item_1": "Fire",
@@ -1971,7 +1961,11 @@
             },
             {
                 "item_1": "Fire",
-                "item_2": "Amoeba"
+                "item_2": "Flower"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Lily"
             }
         ]
     },
@@ -1981,10 +1975,50 @@
             "item_1": "Fire",
             "item_2": "Virus"
         },
+        "depth": 7,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Virus"
+            }
+        ]
+    },
+    "Chef": {
+        "emoticon": "👨‍🍳",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Cook"
+        },
+        "depth": 7,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Cook"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Flu"
+            }
+        ]
+    },
+    "Fever": {
+        "emoticon": "🤒",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Lily"
+        },
         "depth": 6,
         "recipes": [
             {
                 "item_1": "Fire",
+                "item_2": "Chef"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Lily"
+            },
+            {
+                "item_1": "Water",
                 "item_2": "Virus"
             }
         ]
@@ -1993,17 +2027,13 @@
         "emoticon": "🤒",
         "mostEfficientRecipe": {
             "item_1": "Water",
-            "item_2": "Virus"
+            "item_2": "Cook"
         },
-        "depth": 6,
+        "depth": 7,
         "recipes": [
             {
                 "item_1": "Water",
-                "item_2": "Virus"
-            },
-            {
-                "item_1": "Water",
-                "item_2": "Flu"
+                "item_2": "Cook"
             }
         ]
     },
@@ -2011,81 +2041,17 @@
         "emoticon": "💦",
         "mostEfficientRecipe": {
             "item_1": "Water",
-            "item_2": "Sick"
+            "item_2": "Flu"
         },
-        "depth": 7,
+        "depth": 8,
         "recipes": [
             {
                 "item_1": "Water",
-                "item_2": "Sick"
-            }
-        ]
-    },
-    "Fever": {
-        "emoticon": "🤒",
-        "mostEfficientRecipe": {
-            "item_1": "Fire",
-            "item_2": "Flu"
-        },
-        "depth": 7,
-        "recipes": [
-            {
-                "item_1": "Fire",
                 "item_2": "Flu"
             },
             {
-                "item_1": "Fire",
-                "item_2": "Sick"
-            }
-        ]
-    },
-    "Toothpaste": {
-        "emoticon": "🦷",
-        "mostEfficientRecipe": {
-            "item_1": "Fire",
-            "item_2": "Fluoride"
-        },
-        "depth": 8,
-        "recipes": [
-            {
-                "item_1": "Fire",
-                "item_2": "Fluoride"
-            }
-        ]
-    },
-    "Hell": {
-        "emoticon": "👿",
-        "mostEfficientRecipe": {
-            "item_1": "Fire",
-            "item_2": "Fever"
-        },
-        "depth": 8,
-        "recipes": [
-            {
-                "item_1": "Fire",
-                "item_2": "Fever"
-            },
-            {
-                "item_1": "Fire",
-                "item_2": "Toothpaste"
-            }
-        ]
-    },
-    "Devil": {
-        "emoticon": "😈",
-        "mostEfficientRecipe": {
-            "item_1": "Water",
-            "item_2": "Fluoride"
-        },
-        "depth": 8,
-        "recipes": [
-            {
-                "item_1": "Fire",
-                "item_2": "Hell"
-            },
-            {
                 "item_1": "Water",
-                "item_2": "Fluoride"
+                "item_2": "Chef"
             }
         ]
     },
@@ -2095,11 +2061,57 @@
             "item_1": "Water",
             "item_2": "Fever"
         },
-        "depth": 8,
+        "depth": 7,
         "recipes": [
             {
                 "item_1": "Water",
                 "item_2": "Fever"
+            }
+        ]
+    },
+    "Medicine": {
+        "emoticon": "💊",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Sick"
+        },
+        "depth": 8,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Sick"
+            }
+        ]
+    },
+    "Toothpaste": {
+        "emoticon": "🦷",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Tea"
+        },
+        "depth": 8,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Fluoride"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Tea"
+            }
+        ]
+    },
+    "Potion": {
+        "emoticon": "🧪",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Medicine"
+        },
+        "depth": 9,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Medicine"
             }
         ]
     },
@@ -2114,10 +2126,120 @@
             {
                 "item_1": "Water",
                 "item_2": "Toothpaste"
+            }
+        ]
+    },
+    "Elixir": {
+        "emoticon": "🍵",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Potion"
+        },
+        "depth": 10,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Potion"
             },
             {
                 "item_1": "Water",
+                "item_2": "Mouthwash"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Elixir"
+            }
+        ]
+    },
+    "Hell": {
+        "emoticon": "👿",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Fever"
+        },
+        "depth": 7,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Fever"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Sick"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Fluoride"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Tea"
+            }
+        ]
+    },
+    "Chai": {
+        "emoticon": "🍵",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Medicine"
+        },
+        "depth": 9,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Medicine"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Toothpaste"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Potion"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Mouthwash"
+            }
+        ]
+    },
+    "Alchemy": {
+        "emoticon": "🧪",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Elixir"
+        },
+        "depth": 11,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Elixir"
+            }
+        ]
+    },
+    "Devil": {
+        "emoticon": "😈",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Hell"
+        },
+        "depth": 8,
+        "recipes": [
+            {
+                "item_1": "Fire",
                 "item_2": "Hell"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Chai"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Alchemy"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Devil"
             }
         ]
     },
@@ -2125,21 +2247,25 @@
         "emoticon": "♨️",
         "mostEfficientRecipe": {
             "item_1": "Wind",
-            "item_2": "Mud"
+            "item_2": "Wine"
         },
-        "depth": 3,
+        "depth": 4,
         "recipes": [
             {
                 "item_1": "Water",
+                "item_2": "Hell"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Chai"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Alchemy"
+            },
+            {
+                "item_1": "Water",
                 "item_2": "Devil"
-            },
-            {
-                "item_1": "Water",
-                "item_2": "Tea"
-            },
-            {
-                "item_1": "Water",
-                "item_2": "Mouthwash"
             },
             {
                 "item_1": "Water",
@@ -2147,31 +2273,33 @@
             },
             {
                 "item_1": "Fire",
-                "item_2": "Devil"
-            },
-            {
-                "item_1": "Fire",
-                "item_2": "Tea"
-            },
-            {
-                "item_1": "Fire",
-                "item_2": "Mouthwash"
-            },
-            {
-                "item_1": "Fire",
                 "item_2": "Hot Spring"
-            },
-            {
-                "item_1": "Wind",
-                "item_2": "Mud"
             },
             {
                 "item_1": "Wind",
                 "item_2": "Wine"
+            }
+        ]
+    },
+    "Balloon": {
+        "emoticon": "🎈",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Boat"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Energy"
             },
             {
                 "item_1": "Wind",
                 "item_2": "Beach"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Mud"
             },
             {
                 "item_1": "Wind",
@@ -2183,19 +2311,7 @@
             },
             {
                 "item_1": "Wind",
-                "item_2": "Bird"
-            },
-            {
-                "item_1": "Wind",
                 "item_2": "Ship"
-            },
-            {
-                "item_1": "Wind",
-                "item_2": "Holy Water"
-            },
-            {
-                "item_1": "Wind",
-                "item_2": "Mirage"
             }
         ]
     },
@@ -2203,13 +2319,17 @@
         "emoticon": "👼",
         "mostEfficientRecipe": {
             "item_1": "Wind",
-            "item_2": "Penguin"
+            "item_2": "Mirage"
         },
         "depth": 3,
         "recipes": [
             {
                 "item_1": "Wind",
-                "item_2": "Penguin"
+                "item_2": "Holy Water"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Mirage"
             },
             {
                 "item_1": "Wind",
@@ -2217,7 +2337,7 @@
             },
             {
                 "item_1": "Wind",
-                "item_2": "Energy"
+                "item_2": "Fireworks"
             }
         ]
     },
@@ -2240,10 +2360,20 @@
             {
                 "item_1": "Wind",
                 "item_2": "Crash"
-            },
+            }
+        ]
+    },
+    "Hangover": {
+        "emoticon": "🍷",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Alcohol"
+        },
+        "depth": 6,
+        "recipes": [
             {
                 "item_1": "Wind",
-                "item_2": "Phoenix"
+                "item_2": "Alcohol"
             }
         ]
     },
@@ -2283,8 +2413,22 @@
             },
             {
                 "item_1": "Wind",
-                "item_2": "Explosion"
+                "item_2": "Phoenix"
             },
+            {
+                "item_1": "Wind",
+                "item_2": "Explosion"
+            }
+        ]
+    },
+    "Telescope": {
+        "emoticon": "🔭",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Lens"
+        },
+        "depth": 5,
+        "recipes": [
             {
                 "item_1": "Wind",
                 "item_2": "Lens"
@@ -2303,11 +2447,15 @@
             },
             {
                 "item_1": "Wind",
-                "item_2": "Fireworks"
+                "item_2": "Magnifying Glass"
             },
             {
                 "item_1": "Wind",
-                "item_2": "Magnifying Glass"
+                "item_2": "Pottery"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Ceramic"
             },
             {
                 "item_1": "Wind",
@@ -2320,32 +2468,44 @@
             {
                 "item_1": "Wind",
                 "item_2": "Microscope"
+            }
+        ]
+    },
+    "Fan": {
+        "emoticon": "🌬️",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Pot"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Vase"
             },
             {
                 "item_1": "Wind",
-                "item_2": "Splash"
+                "item_2": "Pot"
             },
             {
                 "item_1": "Wind",
                 "item_2": "Pond"
-            }
-        ]
-    },
-    "Paramecium": {
-        "emoticon": "🦠",
-        "mostEfficientRecipe": {
-            "item_1": "Wind",
-            "item_2": "Amoeba"
-        },
-        "depth": 5,
-        "recipes": [
+            },
             {
                 "item_1": "Wind",
-                "item_2": "Amoeba"
+                "item_2": "Flower"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Lily"
             },
             {
                 "item_1": "Wind",
                 "item_2": "Virus"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Cook"
             }
         ]
     },
@@ -2353,13 +2513,21 @@
         "emoticon": "🤧",
         "mostEfficientRecipe": {
             "item_1": "Wind",
-            "item_2": "Hot Spring"
+            "item_2": "Fever"
         },
-        "depth": 4,
+        "depth": 7,
         "recipes": [
             {
                 "item_1": "Wind",
                 "item_2": "Flu"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Chef"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Fever"
             },
             {
                 "item_1": "Wind",
@@ -2371,7 +2539,11 @@
             },
             {
                 "item_1": "Wind",
-                "item_2": "Fever"
+                "item_2": "Tea"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Medicine"
             },
             {
                 "item_1": "Wind",
@@ -2379,15 +2551,7 @@
             },
             {
                 "item_1": "Wind",
-                "item_2": "Hell"
-            },
-            {
-                "item_1": "Wind",
-                "item_2": "Devil"
-            },
-            {
-                "item_1": "Wind",
-                "item_2": "Tea"
+                "item_2": "Potion"
             },
             {
                 "item_1": "Wind",
@@ -2395,46 +2559,64 @@
             },
             {
                 "item_1": "Wind",
-                "item_2": "Hot Spring"
+                "item_2": "Elixir"
             },
             {
                 "item_1": "Wind",
-                "item_2": "Angel"
+                "item_2": "Hell"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Chai"
             }
         ]
     },
-    "Curtain": {
-        "emoticon": "🎀",
+    "Air": {
+        "emoticon": "💨",
         "mostEfficientRecipe": {
             "item_1": "Wind",
-            "item_2": "Window"
+            "item_2": "Hot Spring"
         },
         "depth": 5,
         "recipes": [
             {
                 "item_1": "Wind",
-                "item_2": "Window"
+                "item_2": "Alchemy"
             },
             {
                 "item_1": "Wind",
-                "item_2": "House"
+                "item_2": "Devil"
             },
             {
                 "item_1": "Wind",
-                "item_2": "Bat"
+                "item_2": "Hot Spring"
             },
             {
                 "item_1": "Wind",
-                "item_2": "Paramecium"
-            },
-            {
-                "item_1": "Wind",
-                "item_2": "Sneeze"
+                "item_2": "Balloon"
             }
         ]
     },
-    "Parasail": {
-        "emoticon": "🪂",
+    "Flying": {
+        "emoticon": "✈️",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Angel"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Angel"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Window"
+            }
+        ]
+    },
+    "Curtain": {
+        "emoticon": "🎀",
         "mostEfficientRecipe": {
             "item_1": "Water",
             "item_2": "Angel"
@@ -2443,25 +2625,65 @@
         "recipes": [
             {
                 "item_1": "Wind",
+                "item_2": "Hangover"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "House"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Bat"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Telescope"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Fan"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Sneeze"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Air"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Flying"
+            },
+            {
+                "item_1": "Wind",
                 "item_2": "Curtain"
             },
             {
                 "item_1": "Water",
+                "item_2": "Balloon"
+            },
+            {
+                "item_1": "Water",
                 "item_2": "Angel"
-            }
-        ]
-    },
-    "Mermaid": {
-        "emoticon": "🧜‍♀️",
-        "mostEfficientRecipe": {
-            "item_1": "Fire",
-            "item_2": "Angel"
-        },
-        "depth": 4,
-        "recipes": [
+            },
             {
                 "item_1": "Water",
                 "item_2": "Window"
+            }
+        ]
+    },
+    "Aquarium": {
+        "emoticon": "🐠",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Bat"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Hangover"
             },
             {
                 "item_1": "Water",
@@ -2473,7 +2695,11 @@
             },
             {
                 "item_1": "Water",
-                "item_2": "Paramecium"
+                "item_2": "Telescope"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Fan"
             },
             {
                 "item_1": "Water",
@@ -2481,28 +2707,80 @@
             },
             {
                 "item_1": "Water",
+                "item_2": "Air"
+            }
+        ]
+    },
+    "Bird": {
+        "emoticon": "🐦",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Flying"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Flying"
+            },
+            {
+                "item_1": "Water",
                 "item_2": "Curtain"
             },
             {
                 "item_1": "Water",
-                "item_2": "Parasail"
-            },
+                "item_2": "Aquarium"
+            }
+        ]
+    },
+    "Penguin": {
+        "emoticon": "🐧",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Bird"
+        },
+        "depth": 6,
+        "recipes": [
             {
                 "item_1": "Water",
-                "item_2": "Mermaid"
+                "item_2": "Bird"
+            }
+        ]
+    },
+    "Pop": {
+        "emoticon": "💥",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Angel"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Balloon"
             },
             {
                 "item_1": "Fire",
                 "item_2": "Angel"
-            },
+            }
+        ]
+    },
+    "Fireplace": {
+        "emoticon": "🔥",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Window"
+        },
+        "depth": 5,
+        "recipes": [
             {
                 "item_1": "Fire",
                 "item_2": "Window"
             }
         ]
     },
-    "Fireplace": {
-        "emoticon": "🔥",
+    "Firewater": {
+        "emoticon": "🔥💧",
         "mostEfficientRecipe": {
             "item_1": "Fire",
             "item_2": "Bat"
@@ -2511,6 +2789,10 @@
         "recipes": [
             {
                 "item_1": "Fire",
+                "item_2": "Hangover"
+            },
+            {
+                "item_1": "Fire",
                 "item_2": "House"
             },
             {
@@ -2519,7 +2801,11 @@
             },
             {
                 "item_1": "Fire",
-                "item_2": "Paramecium"
+                "item_2": "Telescope"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Fan"
             }
         ]
     },
@@ -2527,13 +2813,21 @@
         "emoticon": "🤧",
         "mostEfficientRecipe": {
             "item_1": "Fire",
-            "item_2": "Sneeze"
+            "item_2": "Flying"
         },
         "depth": 5,
         "recipes": [
             {
                 "item_1": "Fire",
                 "item_2": "Sneeze"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Air"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Flying"
             }
         ]
     },
@@ -2543,53 +2837,55 @@
             "item_1": "Fire",
             "item_2": "Curtain"
         },
-        "depth": 6,
+        "depth": 5,
         "recipes": [
             {
                 "item_1": "Fire",
                 "item_2": "Curtain"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Aquarium"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Bird"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Penguin"
             }
         ]
     },
-    "Firework": {
-        "emoticon": "🎆",
+    "Soda": {
+        "emoticon": "🥤",
         "mostEfficientRecipe": {
             "item_1": "Fire",
-            "item_2": "Parasail"
+            "item_2": "Pop"
         },
         "depth": 5,
         "recipes": [
             {
                 "item_1": "Fire",
-                "item_2": "Parasail"
-            }
-        ]
-    },
-    "Siren": {
-        "emoticon": "🚨",
-        "mostEfficientRecipe": {
-            "item_1": "Fire",
-            "item_2": "Mermaid"
-        },
-        "depth": 5,
-        "recipes": [
-            {
-                "item_1": "Fire",
-                "item_2": "Mermaid"
+                "item_2": "Pop"
             }
         ]
     },
     "Warmth": {
         "emoticon": "🌡️",
         "mostEfficientRecipe": {
-            "item_1": "Fire",
-            "item_2": "Fireplace"
+            "item_1": "Water",
+            "item_2": "Pop"
         },
-        "depth": 6,
+        "depth": 5,
         "recipes": [
             {
                 "item_1": "Fire",
                 "item_2": "Fireplace"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Firewater"
             },
             {
                 "item_1": "Fire",
@@ -2601,11 +2897,7 @@
             },
             {
                 "item_1": "Fire",
-                "item_2": "Firework"
-            },
-            {
-                "item_1": "Fire",
-                "item_2": "Siren"
+                "item_2": "Soda"
             },
             {
                 "item_1": "Fire",
@@ -2613,17 +2905,29 @@
             },
             {
                 "item_1": "Water",
+                "item_2": "Penguin"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Pop"
+            },
+            {
+                "item_1": "Water",
                 "item_2": "Fireplace"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Firewater"
             }
         ]
     },
     "Lung": {
         "emoticon": "🫁",
         "mostEfficientRecipe": {
-            "item_1": "Wind",
-            "item_2": "Parasail"
+            "item_1": "Water",
+            "item_2": "Cough"
         },
-        "depth": 5,
+        "depth": 6,
         "recipes": [
             {
                 "item_1": "Water",
@@ -2635,12 +2939,18 @@
             },
             {
                 "item_1": "Water",
-                "item_2": "Firework"
-            },
-            {
-                "item_1": "Water",
-                "item_2": "Siren"
-            },
+                "item_2": "Soda"
+            }
+        ]
+    },
+    "Hot Water": {
+        "emoticon": "🌡️",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Warmth"
+        },
+        "depth": 6,
+        "recipes": [
             {
                 "item_1": "Water",
                 "item_2": "Warmth"
@@ -2650,33 +2960,53 @@
                 "item_2": "Lung"
             },
             {
+                "item_1": "Water",
+                "item_2": "Hot Water"
+            },
+            {
                 "item_1": "Fire",
                 "item_2": "Lung"
             },
             {
-                "item_1": "Wind",
-                "item_2": "Parasail"
+                "item_1": "Fire",
+                "item_2": "Hot Water"
             },
             {
                 "item_1": "Wind",
-                "item_2": "Mermaid"
+                "item_2": "Aquarium"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Bird"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Penguin"
             }
         ]
     },
-    "Ariel": {
-        "emoticon": "🧜‍♀️",
+    "Bubble": {
+        "emoticon": "💬",
         "mostEfficientRecipe": {
             "item_1": "Wind",
-            "item_2": "Fireplace"
+            "item_2": "Pop"
         },
-        "depth": 6,
+        "depth": 5,
         "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Pop"
+            },
             {
                 "item_1": "Wind",
                 "item_2": "Fireplace"
             },
             {
                 "item_1": "Wind",
+                "item_2": "Firewater"
+            },
+            {
+                "item_1": "Wind",
                 "item_2": "Cough"
             },
             {
@@ -2685,12 +3015,18 @@
             },
             {
                 "item_1": "Wind",
-                "item_2": "Firework"
-            },
-            {
-                "item_1": "Wind",
-                "item_2": "Siren"
-            },
+                "item_2": "Soda"
+            }
+        ]
+    },
+    "Hot Air": {
+        "emoticon": "🎈",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Warmth"
+        },
+        "depth": 6,
+        "recipes": [
             {
                 "item_1": "Wind",
                 "item_2": "Warmth"
@@ -2701,36 +3037,30 @@
             },
             {
                 "item_1": "Wind",
-                "item_2": "Ariel"
-            }
-        ]
-    },
-    "Hot Air": {
-        "emoticon": "🎈",
-        "mostEfficientRecipe": {
-            "item_1": "Water",
-            "item_2": "Ariel"
-        },
-        "depth": 7,
-        "recipes": [
-            {
-                "item_1": "Water",
-                "item_2": "Ariel"
-            },
-            {
-                "item_1": "Fire",
-                "item_2": "Ariel"
-            },
-            {
-                "item_1": "Fire",
-                "item_2": "Hot Air"
-            },
-            {
-                "item_1": "Water",
-                "item_2": "Hot Air"
+                "item_2": "Hot Water"
             },
             {
                 "item_1": "Wind",
+                "item_2": "Bubble"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Hot Air"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Bubble"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Hot Air"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Bubble"
+            },
+            {
+                "item_1": "Fire",
                 "item_2": "Hot Air"
             }
         ]
@@ -2772,6 +3102,10 @@
             {
                 "item_1": "Earth",
                 "item_2": "Plant"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Ocean"
             }
         ]
     },
@@ -2779,14 +3113,10 @@
         "emoticon": "🏝️",
         "mostEfficientRecipe": {
             "item_1": "Earth",
-            "item_2": "Ocean"
+            "item_2": "Volcano"
         },
-        "depth": 3,
+        "depth": 2,
         "recipes": [
-            {
-                "item_1": "Earth",
-                "item_2": "Ocean"
-            },
             {
                 "item_1": "Earth",
                 "item_2": "Cloud"
@@ -2810,17 +3140,7 @@
             {
                 "item_1": "Earth",
                 "item_2": "Marsh"
-            }
-        ]
-    },
-    "Aquarium": {
-        "emoticon": "🐠",
-        "mostEfficientRecipe": {
-            "item_1": "Earth",
-            "item_2": "Volcano"
-        },
-        "depth": 2,
-        "recipes": [
+            },
             {
                 "item_1": "Earth",
                 "item_2": "Fishbowl"
@@ -2862,10 +3182,6 @@
             {
                 "item_1": "Earth",
                 "item_2": "Dragon"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Sushi"
             }
         ]
     },
@@ -2877,6 +3193,10 @@
         },
         "depth": 3,
         "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Sushi"
+            },
             {
                 "item_1": "Earth",
                 "item_2": "Goldfish"
@@ -2955,7 +3275,7 @@
         "emoticon": "🌎",
         "mostEfficientRecipe": {
             "item_1": "Earth",
-            "item_2": "Tornado"
+            "item_2": "Whale"
         },
         "depth": 2,
         "recipes": [
@@ -2973,15 +3293,7 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Chili"
-            },
-            {
-                "item_1": "Earth",
                 "item_2": "Tornado"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Dust"
             },
             {
                 "item_1": "Earth",
@@ -2990,17 +3302,7 @@
             {
                 "item_1": "Earth",
                 "item_2": "Dandelion"
-            }
-        ]
-    },
-    "Flower": {
-        "emoticon": "🌸",
-        "mostEfficientRecipe": {
-            "item_1": "Earth",
-            "item_2": "Eruption"
-        },
-        "depth": 3,
-        "recipes": [
+            },
             {
                 "item_1": "Earth",
                 "item_2": "Hurricane"
@@ -3053,15 +3355,11 @@
             },
             {
                 "item_1": "Earth",
+                "item_2": "Dust"
+            },
+            {
+                "item_1": "Earth",
                 "item_2": "Sail"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Sandstorm"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Seed"
             }
         ]
     },
@@ -3079,10 +3377,6 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Flying"
-            },
-            {
-                "item_1": "Earth",
                 "item_2": "Dune"
             },
             {
@@ -3091,25 +3385,15 @@
             },
             {
                 "item_1": "Earth",
+                "item_2": "Sandstorm"
+            },
+            {
+                "item_1": "Earth",
                 "item_2": "Sailboat"
             },
             {
                 "item_1": "Earth",
                 "item_2": "Dust Storm"
-            }
-        ]
-    },
-    "Clay": {
-        "emoticon": "🏺",
-        "mostEfficientRecipe": {
-            "item_1": "Earth",
-            "item_2": "Mud"
-        },
-        "depth": 3,
-        "recipes": [
-            {
-                "item_1": "Earth",
-                "item_2": "Mud"
             }
         ]
     },
@@ -3127,7 +3411,25 @@
             },
             {
                 "item_1": "Earth",
+                "item_2": "Energy"
+            },
+            {
+                "item_1": "Earth",
                 "item_2": "Beach"
+            }
+        ]
+    },
+    "Clay": {
+        "emoticon": "🏺",
+        "mostEfficientRecipe": {
+            "item_1": "Earth",
+            "item_2": "Mirage"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Mud"
             },
             {
                 "item_1": "Earth",
@@ -3136,20 +3438,6 @@
             {
                 "item_1": "Earth",
                 "item_2": "Oasis"
-            }
-        ]
-    },
-    "Chicken": {
-        "emoticon": "🐔",
-        "mostEfficientRecipe": {
-            "item_1": "Earth",
-            "item_2": "Penguin"
-        },
-        "depth": 3,
-        "recipes": [
-            {
-                "item_1": "Earth",
-                "item_2": "Bird"
             },
             {
                 "item_1": "Earth",
@@ -3162,10 +3450,6 @@
             {
                 "item_1": "Earth",
                 "item_2": "Mirage"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Penguin"
             }
         ]
     },
@@ -3175,7 +3459,7 @@
             "item_1": "Earth",
             "item_2": "Ash"
         },
-        "depth": 3,
+        "depth": 4,
         "recipes": [
             {
                 "item_1": "Earth",
@@ -3183,7 +3467,7 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Energy"
+                "item_2": "Fireworks"
             }
         ]
     },
@@ -3219,7 +3503,7 @@
         "emoticon": "💫",
         "mostEfficientRecipe": {
             "item_1": "Earth",
-            "item_2": "Phoenix"
+            "item_2": "Crash"
         },
         "depth": 4,
         "recipes": [
@@ -3229,7 +3513,7 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Phoenix"
+                "item_2": "Alcohol"
             },
             {
                 "item_1": "Earth",
@@ -3259,18 +3543,12 @@
             },
             {
                 "item_1": "Earth",
+                "item_2": "Phoenix"
+            },
+            {
+                "item_1": "Earth",
                 "item_2": "Explosion"
-            }
-        ]
-    },
-    "Telescope": {
-        "emoticon": "🔭",
-        "mostEfficientRecipe": {
-            "item_1": "Earth",
-            "item_2": "Lens"
-        },
-        "depth": 5,
-        "recipes": [
+            },
             {
                 "item_1": "Earth",
                 "item_2": "Lens"
@@ -3278,17 +3556,7 @@
             {
                 "item_1": "Earth",
                 "item_2": "Burn"
-            }
-        ]
-    },
-    "Pottery": {
-        "emoticon": "🏺",
-        "mostEfficientRecipe": {
-            "item_1": "Earth",
-            "item_2": "Cannonball"
-        },
-        "depth": 5,
-        "recipes": [
+            },
             {
                 "item_1": "Earth",
                 "item_2": "Kiln"
@@ -3296,10 +3564,6 @@
             {
                 "item_1": "Earth",
                 "item_2": "Cannonball"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Fireworks"
             }
         ]
     },
@@ -3307,13 +3571,21 @@
         "emoticon": "🦴",
         "mostEfficientRecipe": {
             "item_1": "Earth",
-            "item_2": "Puddle"
+            "item_2": "Ceramic"
         },
-        "depth": 4,
+        "depth": 5,
         "recipes": [
             {
                 "item_1": "Earth",
                 "item_2": "Magnifying Glass"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Pottery"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Ceramic"
             },
             {
                 "item_1": "Earth",
@@ -3329,9 +3601,9 @@
         "emoticon": "🦠",
         "mostEfficientRecipe": {
             "item_1": "Earth",
-            "item_2": "Pond"
+            "item_2": "Microscope"
         },
-        "depth": 5,
+        "depth": 6,
         "recipes": [
             {
                 "item_1": "Earth",
@@ -3339,7 +3611,11 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Splash"
+                "item_2": "Vase"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Pot"
             },
             {
                 "item_1": "Earth",
@@ -3347,11 +3623,11 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Amoeba"
+                "item_2": "Flower"
             },
             {
                 "item_1": "Earth",
-                "item_2": "Virus"
+                "item_2": "Lily"
             }
         ]
     },
@@ -3359,25 +3635,75 @@
         "emoticon": "🌱",
         "mostEfficientRecipe": {
             "item_1": "Earth",
-            "item_2": "Hot Spring"
+            "item_2": "Virus"
         },
-        "depth": 4,
+        "depth": 7,
         "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Virus"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Cook"
+            },
             {
                 "item_1": "Earth",
                 "item_2": "Flu"
             },
             {
                 "item_1": "Earth",
-                "item_2": "Sick"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Fluoride"
-            },
+                "item_2": "Chef"
+            }
+        ]
+    },
+    "Earthquake": {
+        "emoticon": "🌋",
+        "mostEfficientRecipe": {
+            "item_1": "Earth",
+            "item_2": "Fever"
+        },
+        "depth": 7,
+        "recipes": [
             {
                 "item_1": "Earth",
                 "item_2": "Fever"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Sick"
+            }
+        ]
+    },
+    "Fluorite": {
+        "emoticon": "🔲",
+        "mostEfficientRecipe": {
+            "item_1": "Earth",
+            "item_2": "Fluoride"
+        },
+        "depth": 9,
+        "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Fluoride"
+            }
+        ]
+    },
+    "Teapot": {
+        "emoticon": "🍵",
+        "mostEfficientRecipe": {
+            "item_1": "Earth",
+            "item_2": "Hot Spring"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Tea"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Medicine"
             },
             {
                 "item_1": "Earth",
@@ -3385,15 +3711,7 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Hell"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Devil"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Tea"
+                "item_2": "Potion"
             },
             {
                 "item_1": "Earth",
@@ -3401,7 +3719,41 @@
             },
             {
                 "item_1": "Earth",
+                "item_2": "Elixir"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Hell"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Chai"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Alchemy"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Devil"
+            },
+            {
+                "item_1": "Earth",
                 "item_2": "Hot Spring"
+            }
+        ]
+    },
+    "Moon": {
+        "emoticon": "🌙",
+        "mostEfficientRecipe": {
+            "item_1": "Earth",
+            "item_2": "Angel"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Balloon"
             },
             {
                 "item_1": "Earth",
@@ -3410,6 +3762,10 @@
             {
                 "item_1": "Earth",
                 "item_2": "Window"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Hangover"
             },
             {
                 "item_1": "Earth",
@@ -3431,7 +3787,11 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Paramecium"
+                "item_2": "Telescope"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Fan"
             },
             {
                 "item_1": "Earth",
@@ -3439,29 +3799,39 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Curtain"
-            }
-        ]
-    },
-    "Paratrooper": {
-        "emoticon": "🪂",
-        "mostEfficientRecipe": {
-            "item_1": "Earth",
-            "item_2": "Parasail"
-        },
-        "depth": 5,
-        "recipes": [
-            {
-                "item_1": "Earth",
-                "item_2": "Parasail"
+                "item_2": "Air"
             },
             {
                 "item_1": "Earth",
-                "item_2": "Mermaid"
+                "item_2": "Flying"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Curtain"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Aquarium"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Bird"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Penguin"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Pop"
             },
             {
                 "item_1": "Earth",
                 "item_2": "Fireplace"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Firewater"
             },
             {
                 "item_1": "Earth",
@@ -3473,11 +3843,7 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Firework"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Siren"
+                "item_2": "Soda"
             }
         ]
     },
@@ -3485,9 +3851,9 @@
         "emoticon": "🌸",
         "mostEfficientRecipe": {
             "item_1": "Earth",
-            "item_2": "Lung"
+            "item_2": "Mountain"
         },
-        "depth": 6,
+        "depth": 2,
         "recipes": [
             {
                 "item_1": "Earth",
@@ -3499,18 +3865,12 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Ariel"
-            }
-        ]
-    },
-    "Balloon": {
-        "emoticon": "🎈",
-        "mostEfficientRecipe": {
-            "item_1": "Earth",
-            "item_2": "Mountain"
-        },
-        "depth": 2,
-        "recipes": [
+                "item_2": "Hot Water"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Bubble"
+            },
             {
                 "item_1": "Earth",
                 "item_2": "Hot Air"
@@ -3532,6 +3892,10 @@
             {
                 "item_1": "Earth",
                 "item_2": "Tree"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Island"
             }
         ]
     },
@@ -3539,40 +3903,22 @@
         "emoticon": "🌎",
         "mostEfficientRecipe": {
             "item_1": "Earth",
-            "item_2": "Aquarium"
-        },
-        "depth": 3,
-        "recipes": [
-            {
-                "item_1": "Earth",
-                "item_2": "Island"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Aquarium"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Tractor"
-            }
-        ]
-    },
-    "Farm": {
-        "emoticon": "🐄",
-        "mostEfficientRecipe": {
-            "item_1": "Earth",
-            "item_2": "Rice"
+            "item_2": "Tractor"
         },
         "depth": 4,
         "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Tractor"
+            },
             {
                 "item_1": "Earth",
                 "item_2": "Rice"
             }
         ]
     },
-    "Moon": {
-        "emoticon": "🌙",
+    "Paddy": {
+        "emoticon": "🍀",
         "mostEfficientRecipe": {
             "item_1": "Earth",
             "item_2": "Planet"
@@ -3603,10 +3949,6 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Flower"
-            },
-            {
-                "item_1": "Earth",
                 "item_2": "Snowman"
             },
             {
@@ -3615,25 +3957,11 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Clay"
+                "item_2": "Vineyard"
             },
             {
                 "item_1": "Earth",
-                "item_2": "Vineyard"
-            }
-        ]
-    },
-    "Egg": {
-        "emoticon": "🥚",
-        "mostEfficientRecipe": {
-            "item_1": "Earth",
-            "item_2": "Chicken"
-        },
-        "depth": 4,
-        "recipes": [
-            {
-                "item_1": "Earth",
-                "item_2": "Chicken"
+                "item_2": "Clay"
             },
             {
                 "item_1": "Earth",
@@ -3642,17 +3970,7 @@
             {
                 "item_1": "Earth",
                 "item_2": "Bottle"
-            }
-        ]
-    },
-    "Gold": {
-        "emoticon": "💛",
-        "mostEfficientRecipe": {
-            "item_1": "Earth",
-            "item_2": "Treasure"
-        },
-        "depth": 5,
-        "recipes": [
+            },
             {
                 "item_1": "Earth",
                 "item_2": "Treasure"
@@ -3664,24 +3982,6 @@
             {
                 "item_1": "Earth",
                 "item_2": "Dracula"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Telescope"
-            }
-        ]
-    },
-    "Vase": {
-        "emoticon": "🏺",
-        "mostEfficientRecipe": {
-            "item_1": "Earth",
-            "item_2": "Pottery"
-        },
-        "depth": 6,
-        "recipes": [
-            {
-                "item_1": "Earth",
-                "item_2": "Pottery"
             }
         ]
     },
@@ -3691,7 +3991,7 @@
             "item_1": "Earth",
             "item_2": "Fossil"
         },
-        "depth": 5,
+        "depth": 6,
         "recipes": [
             {
                 "item_1": "Earth",
@@ -3700,10 +4000,6 @@
             {
                 "item_1": "Earth",
                 "item_2": "Bacteria"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Life"
             }
         ]
     },
@@ -3711,7 +4007,47 @@
         "emoticon": "👨",
         "mostEfficientRecipe": {
             "item_1": "Earth",
-            "item_2": "Balloon"
+            "item_2": "Teapot"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Life"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Earthquake"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Fluorite"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Teapot"
+            }
+        ]
+    },
+    "Eclipse": {
+        "emoticon": "🌑",
+        "mostEfficientRecipe": {
+            "item_1": "Earth",
+            "item_2": "Moon"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Moon"
+            }
+        ]
+    },
+    "Mine": {
+        "emoticon": "⛏️",
+        "mostEfficientRecipe": {
+            "item_1": "Earth",
+            "item_2": "Spring"
         },
         "depth": 3,
         "recipes": [
@@ -3721,15 +4057,7 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Paratrooper"
-            },
-            {
-                "item_1": "Earth",
                 "item_2": "Spring"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Balloon"
             },
             {
                 "item_1": "Earth",
@@ -3737,13 +4065,13 @@
             }
         ]
     },
-    "Farmer": {
-        "emoticon": "🚜",
+    "Land": {
+        "emoticon": "🌄",
         "mostEfficientRecipe": {
             "item_1": "Earth",
             "item_2": "Continent"
         },
-        "depth": 4,
+        "depth": 5,
         "recipes": [
             {
                 "item_1": "Earth",
@@ -3751,40 +4079,98 @@
             },
             {
                 "item_1": "Earth",
-                "item_2": "Farm"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Moon"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Atlas"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Egg"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Gold"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Vase"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Oil"
-            },
-            {
-                "item_1": "Earth",
-                "item_2": "Human"
+                "item_2": "Paddy"
             }
         ]
     },
-    "Field": {
-        "emoticon": "🌾",
+    "Globe": {
+        "emoticon": "🌎",
+        "mostEfficientRecipe": {
+            "item_1": "Earth",
+            "item_2": "Atlas"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Atlas"
+            }
+        ]
+    },
+    "Fuel": {
+        "emoticon": "⛽",
+        "mostEfficientRecipe": {
+            "item_1": "Earth",
+            "item_2": "Oil"
+        },
+        "depth": 7,
+        "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Oil"
+            }
+        ]
+    },
+    "Farmer": {
+        "emoticon": "🚜",
+        "mostEfficientRecipe": {
+            "item_1": "Earth",
+            "item_2": "Eclipse"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Human"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Eclipse"
+            }
+        ]
+    },
+    "Gold": {
+        "emoticon": "💛",
+        "mostEfficientRecipe": {
+            "item_1": "Earth",
+            "item_2": "Mine"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Mine"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Land"
+            }
+        ]
+    },
+    "World": {
+        "emoticon": "🌎",
+        "mostEfficientRecipe": {
+            "item_1": "Earth",
+            "item_2": "Globe"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Earth",
+                "item_2": "Globe"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Fuel"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Farmer"
+            }
+        ]
+    },
+    "Money": {
+        "emoticon": "💵",
         "mostEfficientRecipe": {
             "item_1": "Water",
             "item_2": "Mountain"
@@ -3793,22 +4179,20 @@
         "recipes": [
             {
                 "item_1": "Earth",
-                "item_2": "Farmer"
+                "item_2": "Gold"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "World"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Money"
             },
             {
                 "item_1": "Water",
                 "item_2": "Mountain"
-            }
-        ]
-    },
-    "River": {
-        "emoticon": "🌊",
-        "mostEfficientRecipe": {
-            "item_1": "Water",
-            "item_2": "Tree"
-        },
-        "depth": 3,
-        "recipes": [
+            },
             {
                 "item_1": "Water",
                 "item_2": "Tree"
@@ -3816,10 +4200,6 @@
             {
                 "item_1": "Water",
                 "item_2": "Island"
-            },
-            {
-                "item_1": "Water",
-                "item_2": "Aquarium"
             },
             {
                 "item_1": "Water",
@@ -3840,20 +4220,6 @@
             {
                 "item_1": "Water",
                 "item_2": "Titan"
-            }
-        ]
-    },
-    "Lily": {
-        "emoticon": "🌸",
-        "mostEfficientRecipe": {
-            "item_1": "Water",
-            "item_2": "Flower"
-        },
-        "depth": 4,
-        "recipes": [
-            {
-                "item_1": "Water",
-                "item_2": "Flower"
             },
             {
                 "item_1": "Water",
@@ -3865,15 +4231,11 @@
             },
             {
                 "item_1": "Water",
-                "item_2": "Clay"
-            },
-            {
-                "item_1": "Water",
                 "item_2": "Vineyard"
             },
             {
                 "item_1": "Water",
-                "item_2": "Chicken"
+                "item_2": "Clay"
             },
             {
                 "item_1": "Water",
@@ -3886,7 +4248,17 @@
             {
                 "item_1": "Water",
                 "item_2": "Treasure"
-            },
+            }
+        ]
+    },
+    "Meteorite": {
+        "emoticon": "💫",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Meteor"
+        },
+        "depth": 5,
+        "recipes": [
             {
                 "item_1": "Water",
                 "item_2": "Meteor"
@@ -3894,14 +4266,6 @@
             {
                 "item_1": "Water",
                 "item_2": "Dracula"
-            },
-            {
-                "item_1": "Water",
-                "item_2": "Telescope"
-            },
-            {
-                "item_1": "Water",
-                "item_2": "Pottery"
             },
             {
                 "item_1": "Water",
@@ -3917,11 +4281,287 @@
             },
             {
                 "item_1": "Water",
-                "item_2": "Cave"
+                "item_2": "Earthquake"
             },
             {
                 "item_1": "Water",
-                "item_2": "Paratrooper"
+                "item_2": "Fluorite"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Teapot"
+            }
+        ]
+    },
+    "Tide": {
+        "emoticon": "🌊",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Moon"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Moon"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Cave"
+            }
+        ]
+    },
+    "Fountain": {
+        "emoticon": "⛲",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Spring"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Spring"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Forest"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Continent"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Paddy"
+            }
+        ]
+    },
+    "Titanic": {
+        "emoticon": "🚢",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Atlas"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Atlas"
+            }
+        ]
+    },
+    "Emulsion": {
+        "emoticon": "💧",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Mine"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Oil"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Human"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Eclipse"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Mine"
+            }
+        ]
+    },
+    "Well": {
+        "emoticon": "🚰",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Globe"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Land"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Globe"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Fuel"
+            }
+        ]
+    },
+    "Gasoline": {
+        "emoticon": "⛽️",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Gold"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Farmer"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Gold"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "World"
+            }
+        ]
+    },
+    "Vodka": {
+        "emoticon": "🍸",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Money"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Money"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Meteorite"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Tide"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Fountain"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Titanic"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Emulsion"
+            }
+        ]
+    },
+    "Pump": {
+        "emoticon": "🎃",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Mountain"
+        },
+        "depth": 2,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Well"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Gasoline"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Vodka"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Pump"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Mountain"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Tree"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Island"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Tractor"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Rice"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Planet"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Dirt"
+            }
+        ]
+    },
+    "Prometheus": {
+        "emoticon": "👽",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Titan"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Titan"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Snowman"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Landing"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Vineyard"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Clay"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Soil"
+            }
+        ]
+    },
+    "Bomb": {
+        "emoticon": "💣",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Treasure"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Bottle"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Treasure"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Meteor"
             }
         ]
     }
