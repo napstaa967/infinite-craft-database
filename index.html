@@ -35,7 +35,7 @@
 
 </style>
 
-<h1 style="font-family: roboto;">Infinite Craft Cheatsheet</h1>
+<h1 style="font-family: roboto;">Infinite Craft Cheathseet</h1>
 
 <p style="font-family: roboto;">Welcome to this stupid project, you can look up any item and get all it's recipes alongside their most efficient recipe</p>
 
@@ -79,6 +79,7 @@ async function myFunction() {
 			console.log(f[1])
 			if (f[1].recipes) {
 				for (const f_ of Object.entries(f[1].recipes)) {
+					console.log(f_)
 					let fullcont = document.createElement("div")
 					let newcontainerspan_1 =  document.createElement("span")
 					newcontainerspan_1.id = "decorated_recipe"
