@@ -5,7 +5,6 @@ var secondElement = 0;
 var loops = 0
 
 var currentRecipes = {};
-var uniqueRecipes = {}
 var colour_flag = false
 
 var highlights = []
@@ -100,7 +99,7 @@ async function looping(ceiling, methods, waittime) {
 
 					let depth = Math.max(items[firstName].depth, items[secondName].depth) + 1
 					if (depth < preset_values.depth) {
-						preset_values.mostEfficientRecipe = [firstName, secondName]
+						preset_values.mostEfficientRecipe = {item_1:firstName, item_2:secondName}
 						console.log(`More efficient recipe found for ${currentRecipes[secondName][firstName]}
 Depth: ${depth}
 Item1: firstName
@@ -146,26 +145,23 @@ Item2: secondName`)
 			
 			if (result.result in items) {
 				if (items[result.result].depth > Math.max(items[firstName].depth, items[secondName].depth) + 1) {
-					items[result.result].mostEfficientRecipe = [firstName, secondName]
+					items[result.result].mostEfficientRecipe = {item_1: firstName, item_2: secondName}
 				}
+				items[result.result].recipes.push({item_1: firstName, item_2: secondName})
 			}
 			currentRecipes[firstName][secondName] = result.result
 			currentRecipes[secondName][firstName] = result.result
 			if (!(result.result in items)) {
 				console.info("new")
 				colour_flag = true
-				if (uniqueRecipes[firstName] == undefined) uniqueRecipes[firstName] = {}
-				if (uniqueRecipes[secondName] == undefined) uniqueRecipes[secondName] = {}
-				uniqueRecipes[firstName][secondName] = result.result
-				uniqueRecipes[secondName][firstName] = result.result
 				
 				var preset_values = {
 					emoticon: result.emoji || "⬜",
-					mostEfficientRecipe: null
+					mostEfficientRecipe: null,
+					recipes: null
 				}
 				const depthCalc = function () {
-					console.log("Depthcalc-ing for", this.mostEfficientRecipe[0], this.mostEfficientRecipe[1])
-					return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1;
+					return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1;
 				};
 
 				// Use Object.defineProperty to define the 'sum' property with the getter
@@ -173,10 +169,9 @@ Item2: secondName`)
 					get: depthCalc,
 				});
 				
-				preset_values.mostEfficientRecipe = [firstName, secondName]
-				console.info("me when im alive")
+				preset_values.mostEfficientRecipe = {item_1: firstName, item_2:secondName}
+				preset_values.recipes = [preset_values.mostEfficientRecipe]
 				items[result.result] = preset_values
-				console.info(items[result.result])
 			}
 			document.title = firstName + '+' + secondName + '|' + result.result + result.emoji;
 			if (colour_flag) {
