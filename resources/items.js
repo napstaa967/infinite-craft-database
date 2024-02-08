@@ -1,4 +1,14 @@
 {
+    "420": {
+        "emoticon": "🌿",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Lotus"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
     "Water": {
         "emoticon": "💧",
         "depth": 0
@@ -16,26 +26,6 @@
         "depth": 0
     },
     "Lake": {
-        "emoticon": "🌊",
-        "mostEfficientRecipe": [
-            "Water",
-            "Water"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Steam": {
-        "emoticon": "💨",
-        "mostEfficientRecipe": [
-            "Water",
-            "Fire"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Wave": {
         "emoticon": "🌊",
         "mostEfficientRecipe": [
             "Water",
@@ -65,26 +55,6 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Cloud": {
-        "emoticon": "☁️",
-        "mostEfficientRecipe": [
-            "Water",
-            "Steam"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Tsunami": {
-        "emoticon": "🌊",
-        "mostEfficientRecipe": [
-            "Water",
-            "Wave"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
     "Swamp": {
         "emoticon": "🐊",
         "mostEfficientRecipe": [
@@ -100,16 +70,6 @@
         "mostEfficientRecipe": [
             "Water",
             "Ocean"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Rain": {
-        "emoticon": "🌧️",
-        "mostEfficientRecipe": [
-            "Water",
-            "Cloud"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -135,16 +95,6 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Rainbow": {
-        "emoticon": "🌈",
-        "mostEfficientRecipe": [
-            "Water",
-            "Rain"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
     "Volcano": {
         "emoticon": "🌋",
         "mostEfficientRecipe": [
@@ -165,31 +115,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Lava": {
-        "emoticon": "🌋",
+    "Steam": {
+        "emoticon": "💨",
         "mostEfficientRecipe": [
             "Fire",
-            "Earth"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Engine": {
-        "emoticon": "🚗",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Steam"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Lightning": {
-        "emoticon": "⚡️",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Cloud"
+            "Ocean"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -225,11 +155,21 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Sun": {
-        "emoticon": "☀️",
+    "Lava": {
+        "emoticon": "🌋",
         "mostEfficientRecipe": [
             "Fire",
-            "Planet"
+            "Volcano"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Engine": {
+        "emoticon": "🚗",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Steam"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -249,17 +189,7 @@
         "emoticon": "🐟",
         "mostEfficientRecipe": [
             "Fire",
-            "Goldfish"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Solar": {
-        "emoticon": "☀️",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Sun"
+            "Lava"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -268,28 +198,8 @@
     "Fire Breath": {
         "emoticon": "🔥",
         "mostEfficientRecipe": [
-            "Fire",
-            "Wasabi"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Campfire": {
-        "emoticon": "🔥",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Wood"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Bonfire": {
-        "emoticon": "🔥",
-        "mostEfficientRecipe": [
-            "Campfire",
-            "Campfire"
+            "Water",
+            "Volcano"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -305,21 +215,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Stone": {
-        "emoticon": "🪨",
+    "Cloud": {
+        "emoticon": "☁️",
         "mostEfficientRecipe": [
             "Water",
-            "Lava"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Electricity": {
-        "emoticon": "⚡️",
-        "mostEfficientRecipe": [
-            "Water",
-            "Lightning"
+            "Steam"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -329,7 +229,7 @@
         "emoticon": "🐍",
         "mostEfficientRecipe": [
             "Water",
-            "Dragon"
+            "Lava"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -338,8 +238,8 @@
     "Soup": {
         "emoticon": "🍲",
         "mostEfficientRecipe": [
-            "Fire",
-            "Pond"
+            "Water",
+            "Fire Breath"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -355,11 +255,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Rock": {
-        "emoticon": "🪨",
+    "Rain": {
+        "emoticon": "🌧️",
         "mostEfficientRecipe": [
             "Water",
-            "Stone"
+            "Cloud"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -385,11 +285,31 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
+    "Rainbow": {
+        "emoticon": "🌈",
+        "mostEfficientRecipe": [
+            "Water",
+            "Rain"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
     "Whale": {
         "emoticon": "🐳",
         "mostEfficientRecipe": [
-            "Earth",
-            "Fish"
+            "Fire",
+            "Fog"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Lightning": {
+        "emoticon": "⚡️",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Sea Serpent"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -405,6 +325,16 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
+    "Sun": {
+        "emoticon": "☀️",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Lightning"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
     "Hot": {
         "emoticon": "🔥",
         "mostEfficientRecipe": [
@@ -415,11 +345,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Tea": {
-        "emoticon": "🍵",
+    "Solar": {
+        "emoticon": "☀️",
         "mostEfficientRecipe": [
-            "Water",
-            "Hot"
+            "Fire",
+            "Sun"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -429,6 +359,26 @@
         "emoticon": "🔥",
         "mostEfficientRecipe": [
             "Fire",
+            "Hot"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Electricity": {
+        "emoticon": "⚡️",
+        "mostEfficientRecipe": [
+            "Water",
+            "Lightning"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Tea": {
+        "emoticon": "🍵",
+        "mostEfficientRecipe": [
+            "Water",
             "Hot"
         ],
 		get depth() {
@@ -485,16 +435,6 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Hurricane": {
-        "emoticon": "🌀",
-        "mostEfficientRecipe": [
-            "Wind",
-            "Tsunami"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
     "Mist": {
         "emoticon": "🌫️",
         "mostEfficientRecipe": [
@@ -509,27 +449,7 @@
         "emoticon": "🐟",
         "mostEfficientRecipe": [
             "Wind",
-            "Fish"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Eruption": {
-        "emoticon": "🌋",
-        "mostEfficientRecipe": [
-            "Wind",
             "Volcano"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Windmill": {
-        "emoticon": "🌬️",
-        "mostEfficientRecipe": [
-            "Wind",
-            "Engine"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -539,17 +459,17 @@
         "emoticon": "🪁",
         "mostEfficientRecipe": [
             "Wind",
-            "Balloon"
+            "Lava"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Sunflower": {
-        "emoticon": "🌻",
+    "Windmill": {
+        "emoticon": "🌬️",
         "mostEfficientRecipe": [
             "Wind",
-            "Sun"
+            "Boiled Fish"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -565,21 +485,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Sand": {
-        "emoticon": "🏖️",
-        "mostEfficientRecipe": [
-            "Earth",
-            "Wave"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
     "Snow": {
         "emoticon": "❄️",
         "mostEfficientRecipe": [
             "Wind",
-            "Ice"
+            "Leviathan"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -589,7 +499,17 @@
         "emoticon": "⛵️",
         "mostEfficientRecipe": [
             "Wind",
-            "Ship"
+            "Whale"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Sunflower": {
+        "emoticon": "🌻",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Sun"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -599,7 +519,7 @@
         "emoticon": "🎈",
         "mostEfficientRecipe": [
             "Wind",
-            "Warmth"
+            "Tornado"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -629,27 +549,7 @@
         "emoticon": "✈️",
         "mostEfficientRecipe": [
             "Wind",
-            "Flying Fish"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Flying": {
-        "emoticon": "✈️",
-        "mostEfficientRecipe": [
-            "Wind",
             "Kite"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Dune": {
-        "emoticon": "🌵",
-        "mostEfficientRecipe": [
-            "Wind",
-            "Sand"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -659,34 +559,24 @@
         "emoticon": "❄️",
         "mostEfficientRecipe": [
             "Wind",
-            "Snow"
+            "Hot Air"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Sailboat": {
-        "emoticon": "⛵️",
+    "Hurricane": {
+        "emoticon": "🌀",
         "mostEfficientRecipe": [
-            "Wind",
-            "Sail"
+            "Water",
+            "Tornado"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Dust Storm": {
-        "emoticon": "🌪️",
-        "mostEfficientRecipe": [
-            "Wind",
-            "Sandstorm"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Mud": {
-        "emoticon": "💩",
+    "Tsunami": {
+        "emoticon": "🌊",
         "mostEfficientRecipe": [
             "Water",
             "Dust"
@@ -709,27 +599,7 @@
         "emoticon": "⚡️",
         "mostEfficientRecipe": [
             "Water",
-            "Windmill"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Beach": {
-        "emoticon": "🏖️",
-        "mostEfficientRecipe": [
-            "Water",
-            "Sand"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Boat": {
-        "emoticon": "🚤",
-        "mostEfficientRecipe": [
-            "Water",
-            "Tractor"
+            "Hot Air"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -745,21 +615,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Bird": {
-        "emoticon": "🐦",
-        "mostEfficientRecipe": [
-            "Earth",
-            "Flying Fish"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Ship": {
-        "emoticon": "🚢",
+    "Boat": {
+        "emoticon": "🚤",
         "mostEfficientRecipe": [
             "Water",
-            "Island"
+            "Hurricane"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -775,6 +635,16 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
+    "Wave": {
+        "emoticon": "🌊",
+        "mostEfficientRecipe": [
+            "Water",
+            "Energy"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
     "Mirage": {
         "emoticon": "🌵",
         "mostEfficientRecipe": [
@@ -785,11 +655,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Penguin": {
-        "emoticon": "🐧",
+    "Ship": {
+        "emoticon": "🚢",
         "mostEfficientRecipe": [
-            "Water",
-            "Bird"
+            "Fire",
+            "Tornado"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -809,17 +679,7 @@
         "emoticon": "🎆",
         "mostEfficientRecipe": [
             "Fire",
-            "Explosion"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Glass": {
-        "emoticon": "🥃",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Sand"
+            "Kite"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -838,8 +698,8 @@
     "Balloon": {
         "emoticon": "🎈",
         "mostEfficientRecipe": [
-            "Wind",
-            "Wine"
+            "Fire",
+            "Hot Air"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -849,27 +709,7 @@
         "emoticon": "💥",
         "mostEfficientRecipe": [
             "Fire",
-            "Airplane"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Phoenix": {
-        "emoticon": "🔥",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Ash"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Brick": {
-        "emoticon": "🧱",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Mud"
+            "Hurricane"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -898,18 +738,8 @@
     "Desert": {
         "emoticon": "🏜️",
         "mostEfficientRecipe": [
-            "Earth",
-            "Sand"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Cannon": {
-        "emoticon": "🔫",
-        "mostEfficientRecipe": [
             "Fire",
-            "Ship"
+            "Oasis"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -925,11 +755,21 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Lens": {
-        "emoticon": "🔍",
+    "Cannon": {
+        "emoticon": "🔫",
         "mostEfficientRecipe": [
             "Fire",
-            "Glass"
+            "Ship"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Phoenix": {
+        "emoticon": "🔥",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Ash"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -949,17 +789,17 @@
         "emoticon": "🔥",
         "mostEfficientRecipe": [
             "Fire",
-            "Alcohol"
+            "Crash"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Kiln": {
-        "emoticon": "🧱",
+    "Sand": {
+        "emoticon": "🏖️",
         "mostEfficientRecipe": [
             "Fire",
-            "Brick"
+            "Desert"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -975,16 +815,6 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Magnifying Glass": {
-        "emoticon": "🔍",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Lens"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
     "Soda": {
         "emoticon": "🥤",
         "mostEfficientRecipe": [
@@ -995,21 +825,21 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Pottery": {
-        "emoticon": "🏺",
+    "Glass": {
+        "emoticon": "🥃",
         "mostEfficientRecipe": [
-            "Earth",
-            "Clay"
+            "Fire",
+            "Cannonball"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Ceramic": {
-        "emoticon": "🏺",
+    "Lens": {
+        "emoticon": "🔍",
         "mostEfficientRecipe": [
             "Fire",
-            "Pottery"
+            "Glass"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1029,7 +859,7 @@
         "emoticon": "💦",
         "mostEfficientRecipe": [
             "Water",
-            "Fireworks"
+            "Balloon"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1039,7 +869,17 @@
         "emoticon": "🩸",
         "mostEfficientRecipe": [
             "Water",
-            "Vampire"
+            "Cannon"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Beach": {
+        "emoticon": "🏖️",
+        "mostEfficientRecipe": [
+            "Water",
+            "Cannonball"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1049,77 +889,17 @@
         "emoticon": "🔬",
         "mostEfficientRecipe": [
             "Water",
-            "Lens"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Nothing": {
-        "emoticon": "⬜",
-        "mostEfficientRecipe": [
-            "Water",
-            "Soda"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Vase": {
-        "emoticon": "🏺",
-        "mostEfficientRecipe": [
-            "Water",
-            "Pottery"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Pot": {
-        "emoticon": "🥘",
-        "mostEfficientRecipe": [
-            "Water",
-            "Ceramic"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Pond": {
-        "emoticon": "🐸",
-        "mostEfficientRecipe": [
-            "Water",
             "Puddle"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Amoeba": {
-        "emoticon": "🔬",
+    "Magnifying Glass": {
+        "emoticon": "🔍",
         "mostEfficientRecipe": [
-            "Water",
-            "Microscope"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Flower": {
-        "emoticon": "🌸",
-        "mostEfficientRecipe": [
-            "Earth",
-            "Dandelion"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Lily": {
-        "emoticon": "🌸",
-        "mostEfficientRecipe": [
-            "Water",
-            "Flower"
+            "Fire",
+            "Puddle"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1135,51 +915,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Cook": {
-        "emoticon": "🍳",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Pot"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
     "Flu": {
         "emoticon": "🤒",
         "mostEfficientRecipe": [
-            "Fire",
-            "Virus"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Chef": {
-        "emoticon": "👨‍🍳",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Cook"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Fever": {
-        "emoticon": "🤒",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Flu"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Hell": {
-        "emoticon": "👿",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Fever"
+            "Water",
+            "Magnifying Glass"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1205,28 +945,8 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Hot Spring": {
-        "emoticon": "♨️",
-        "mostEfficientRecipe": [
-            "Water",
-            "Hell"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
     "Medicine": {
         "emoticon": "💊",
-        "mostEfficientRecipe": [
-            "Earth",
-            "Cure"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Toothpaste": {
-        "emoticon": "🦷",
         "mostEfficientRecipe": [
             "Water",
             "Fluoride"
@@ -1235,41 +955,21 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Potion": {
-        "emoticon": "🧪",
-        "mostEfficientRecipe": [
-            "Water",
-            "Medicine"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Mouthwash": {
-        "emoticon": "🦷",
-        "mostEfficientRecipe": [
-            "Water",
-            "Toothpaste"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Elixir": {
-        "emoticon": "🍵",
-        "mostEfficientRecipe": [
-            "Water",
-            "Potion"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Devil": {
-        "emoticon": "😈",
+    "Fever": {
+        "emoticon": "🤒",
         "mostEfficientRecipe": [
             "Fire",
-            "Hell"
+            "Flu"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Toothpaste": {
+        "emoticon": "🦷",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Fluoride"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1278,18 +978,18 @@
     "Cure": {
         "emoticon": "💊",
         "mostEfficientRecipe": [
-            "Water",
-            "Hangover"
+            "Fire",
+            "Medicine"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Alchemy": {
-        "emoticon": "🧪",
+    "Hell": {
+        "emoticon": "👿",
         "mostEfficientRecipe": [
             "Fire",
-            "Elixir"
+            "Fever"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1305,11 +1005,101 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
+    "Devil": {
+        "emoticon": "😈",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Hell"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Potion": {
+        "emoticon": "🧪",
+        "mostEfficientRecipe": [
+            "Water",
+            "Fever"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Mouthwash": {
+        "emoticon": "🦷",
+        "mostEfficientRecipe": [
+            "Water",
+            "Toothpaste"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Hot Spring": {
+        "emoticon": "♨️",
+        "mostEfficientRecipe": [
+            "Water",
+            "Hell"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Elixir": {
+        "emoticon": "🍵",
+        "mostEfficientRecipe": [
+            "Water",
+            "Potion"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Alchemy": {
+        "emoticon": "🧪",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Tsunami"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
     "Angel": {
         "emoticon": "👼",
         "mostEfficientRecipe": [
             "Wind",
-            "Holy Water"
+            "Ship"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Hangover": {
+        "emoticon": "🍷",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Desert"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Bat": {
+        "emoticon": "🦇",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Cannon"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Bubble": {
+        "emoticon": "💬",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Cannonball"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1325,71 +1115,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "House": {
-        "emoticon": "🏠",
-        "mostEfficientRecipe": [
-            "Wind",
-            "Brick"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Hangover": {
-        "emoticon": "🍷",
-        "mostEfficientRecipe": [
-            "Wind",
-            "Alcohol"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Bat": {
-        "emoticon": "🦇",
-        "mostEfficientRecipe": [
-            "Wind",
-            "Vampire"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
     "Telescope": {
         "emoticon": "🔭",
         "mostEfficientRecipe": [
             "Wind",
-            "Lens"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Bubble": {
-        "emoticon": "💬",
-        "mostEfficientRecipe": [
-            "Wind",
-            "Pop"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Fan": {
-        "emoticon": "🌬️",
-        "mostEfficientRecipe": [
-            "Wind",
-            "Vase"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Paramecium": {
-        "emoticon": "🦠",
-        "mostEfficientRecipe": [
-            "Wind",
-            "Amoeba"
+            "Puddle"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1409,7 +1139,7 @@
         "emoticon": "💨",
         "mostEfficientRecipe": [
             "Wind",
-            "Cure"
+            "Hell"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1425,11 +1155,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Curtain": {
-        "emoticon": "🎀",
+    "Flying": {
+        "emoticon": "✈️",
         "mostEfficientRecipe": [
             "Wind",
-            "Window"
+            "Angel"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1439,27 +1169,17 @@
         "emoticon": "🪂",
         "mostEfficientRecipe": [
             "Wind",
-            "Hangover"
+            "Bat"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Parasail": {
-        "emoticon": "🪂",
-        "mostEfficientRecipe": [
-            "Wind",
-            "Paramecium"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Mermaid": {
-        "emoticon": "🧜‍♀️",
+    "Curtain": {
+        "emoticon": "🎀",
         "mostEfficientRecipe": [
             "Water",
-            "Angel"
+            "Alchemy"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1469,37 +1189,17 @@
         "emoticon": "🐠",
         "mostEfficientRecipe": [
             "Water",
-            "Window"
+            "Telescope"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Surfer": {
-        "emoticon": "🏄",
-        "mostEfficientRecipe": [
-            "Water",
-            "Hanglider"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Surf": {
-        "emoticon": "🏄",
-        "mostEfficientRecipe": [
-            "Water",
-            "Surfer"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Fireplace": {
-        "emoticon": "🔥",
+    "Bird": {
+        "emoticon": "🐦",
         "mostEfficientRecipe": [
             "Fire",
-            "House"
+            "Alchemy"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1509,27 +1209,17 @@
         "emoticon": "🔥💧",
         "mostEfficientRecipe": [
             "Fire",
-            "Hangover"
+            "Bat"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Cough": {
-        "emoticon": "🤧",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Sneeze"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Flame": {
+    "Fireplace": {
         "emoticon": "🔥",
         "mostEfficientRecipe": [
             "Fire",
-            "Curtain"
+            "Telescope"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1545,21 +1235,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Siren": {
-        "emoticon": "🚨",
+    "Flame": {
+        "emoticon": "🔥",
         "mostEfficientRecipe": [
             "Fire",
-            "Mermaid"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Surfing": {
-        "emoticon": "🏄",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Surfer"
+            "Curtain"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1575,31 +1255,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Lung": {
-        "emoticon": "🫁",
-        "mostEfficientRecipe": [
-            "Water",
-            "Cough"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
     "Hot Water": {
         "emoticon": "🌡️",
         "mostEfficientRecipe": [
-            "Water",
-            "Warmth"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Ariel": {
-        "emoticon": "🧜‍♀️",
-        "mostEfficientRecipe": [
             "Wind",
-            "Mermaid"
+            "Bird"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1635,11 +1295,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Tractor": {
-        "emoticon": "🚜",
+    "Mud": {
+        "emoticon": "💩",
         "mostEfficientRecipe": [
             "Earth",
-            "Engine"
+            "Volcano"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1655,11 +1315,31 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Planet": {
-        "emoticon": "🪐",
+    "Pond": {
+        "emoticon": "🐸",
         "mostEfficientRecipe": [
             "Earth",
-            "Dust"
+            "Goldfish"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Stone": {
+        "emoticon": "🪨",
+        "mostEfficientRecipe": [
+            "Earth",
+            "Lava"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Tractor": {
+        "emoticon": "🚜",
+        "mostEfficientRecipe": [
+            "Earth",
+            "Fire Breath"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1669,7 +1349,7 @@
         "emoticon": "💩",
         "mostEfficientRecipe": [
             "Earth",
-            "Holy Water"
+            "Soup"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1679,7 +1359,7 @@
         "emoticon": "🌎",
         "mostEfficientRecipe": [
             "Earth",
-            "Leviathan"
+            "Whale"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1689,17 +1369,27 @@
         "emoticon": "🌶️",
         "mostEfficientRecipe": [
             "Earth",
-            "Chili"
+            "Tornado"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Teapot": {
-        "emoticon": "🍵",
+    "Planet": {
+        "emoticon": "🪐",
         "mostEfficientRecipe": [
             "Earth",
-            "Tea"
+            "Storm"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Flower": {
+        "emoticon": "🌸",
+        "mostEfficientRecipe": [
+            "Earth",
+            "Flying Fish"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1709,7 +1399,17 @@
         "emoticon": "☃️",
         "mostEfficientRecipe": [
             "Earth",
-            "Snow"
+            "Hot Air"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Dune": {
+        "emoticon": "🌵",
+        "mostEfficientRecipe": [
+            "Earth",
+            "Sandstorm"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1719,17 +1419,7 @@
         "emoticon": "🛬",
         "mostEfficientRecipe": [
             "Earth",
-            "Airplane"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Clay": {
-        "emoticon": "🏺",
-        "mostEfficientRecipe": [
-            "Earth",
-            "Mud"
+            "Hurricane"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1739,17 +1429,7 @@
         "emoticon": "🍇",
         "mostEfficientRecipe": [
             "Earth",
-            "Wine"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Chicken": {
-        "emoticon": "🐔",
-        "mostEfficientRecipe": [
-            "Earth",
-            "Bird"
+            "Ship"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1760,16 +1440,6 @@
         "mostEfficientRecipe": [
             "Earth",
             "Ash"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Bottle": {
-        "emoticon": "🍾",
-        "mostEfficientRecipe": [
-            "Earth",
-            "Glass"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1789,7 +1459,7 @@
         "emoticon": "🌙",
         "mostEfficientRecipe": [
             "Earth",
-            "Planet"
+            "Balloon"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1799,7 +1469,7 @@
         "emoticon": "💫",
         "mostEfficientRecipe": [
             "Earth",
-            "Crash"
+            "Alcohol"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1809,17 +1479,17 @@
         "emoticon": "🧛",
         "mostEfficientRecipe": [
             "Earth",
-            "Vampire"
+            "Cannon"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Fossil": {
-        "emoticon": "🦴",
+    "Bottle": {
+        "emoticon": "🍾",
         "mostEfficientRecipe": [
             "Earth",
-            "Magnifying Glass"
+            "Puddle"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1835,21 +1505,21 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Life": {
-        "emoticon": "🌱",
+    "Fossil": {
+        "emoticon": "🦴",
         "mostEfficientRecipe": [
             "Earth",
-            "Amoeba"
+            "Magnifying Glass"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Earthquake": {
-        "emoticon": "🌋",
+    "Life": {
+        "emoticon": "🌱",
         "mostEfficientRecipe": [
             "Earth",
-            "Fever"
+            "Flu"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1865,11 +1535,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Farm": {
-        "emoticon": "🐄",
+    "Earthquake": {
+        "emoticon": "🌋",
         "mostEfficientRecipe": [
             "Earth",
-            "Tractor"
+            "Alchemy"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1885,21 +1555,31 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Parachute": {
-        "emoticon": "🪂",
+    "House": {
+        "emoticon": "🏠",
         "mostEfficientRecipe": [
             "Earth",
-            "Hanglider"
+            "Telescope"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Paratrooper": {
+    "Parachute": {
         "emoticon": "🪂",
         "mostEfficientRecipe": [
             "Earth",
-            "Parasail"
+            "Curtain"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Chicken": {
+        "emoticon": "🐔",
+        "mostEfficientRecipe": [
+            "Earth",
+            "Bird"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1909,7 +1589,7 @@
         "emoticon": "🌸",
         "mostEfficientRecipe": [
             "Earth",
-            "Warmth"
+            "Mountain"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1925,36 +1605,6 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Wood": {
-        "emoticon": "🌲",
-        "mostEfficientRecipe": [
-            "Forest",
-            "Tree"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Jungle": {
-        "emoticon": "🌴",
-        "mostEfficientRecipe": [
-            "Forest",
-            "Forest"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Monkey": {
-        "emoticon": "🐒",
-        "mostEfficientRecipe": [
-            "Jungle",
-            "Life"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
     "Continent": {
         "emoticon": "🌎",
         "mostEfficientRecipe": [
@@ -1965,11 +1615,41 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
+    "Clay": {
+        "emoticon": "🏺",
+        "mostEfficientRecipe": [
+            "Earth",
+            "Mud"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
     "Paddy": {
         "emoticon": "🍀",
         "mostEfficientRecipe": [
             "Earth",
-            "Rice"
+            "Pond"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Rock": {
+        "emoticon": "🪨",
+        "mostEfficientRecipe": [
+            "Earth",
+            "Stone"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Farm": {
+        "emoticon": "🐄",
+        "mostEfficientRecipe": [
+            "Earth",
+            "Tractor"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -1990,16 +1670,6 @@
         "mostEfficientRecipe": [
             "Earth",
             "Pepper"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Egg": {
-        "emoticon": "🥚",
-        "mostEfficientRecipe": [
-            "Earth",
-            "Chicken"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2029,27 +1699,7 @@
         "emoticon": "🛢️",
         "mostEfficientRecipe": [
             "Earth",
-            "Fossil"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Human": {
-        "emoticon": "👨",
-        "mostEfficientRecipe": [
-            "Earth",
-            "Life"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Field": {
-        "emoticon": "🌾",
-        "mostEfficientRecipe": [
-            "Earth",
-            "Farm"
+            "Earthquake"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2075,11 +1725,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Farmer": {
-        "emoticon": "🚜",
+    "Egg": {
+        "emoticon": "🥚",
         "mostEfficientRecipe": [
             "Earth",
-            "Human"
+            "Spring"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2090,6 +1740,26 @@
         "mostEfficientRecipe": [
             "Earth",
             "Continent"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pottery": {
+        "emoticon": "🏺",
+        "mostEfficientRecipe": [
+            "Earth",
+            "Clay"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Field": {
+        "emoticon": "🌾",
+        "mostEfficientRecipe": [
+            "Earth",
+            "Farm"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2119,7 +1789,7 @@
         "emoticon": "💵",
         "mostEfficientRecipe": [
             "Earth",
-            "Gold"
+            "Eclipse"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2139,7 +1809,17 @@
         "emoticon": "🥔",
         "mostEfficientRecipe": [
             "Earth",
-            "Basket"
+            "Egg"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Vase": {
+        "emoticon": "🏺",
+        "mostEfficientRecipe": [
+            "Earth",
+            "Pottery"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2165,11 +1845,11 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Vodka": {
-        "emoticon": "🍸",
+    "Pot": {
+        "emoticon": "🥘",
         "mostEfficientRecipe": [
             "Earth",
-            "Potato"
+            "Vase"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2178,28 +1858,18 @@
     "Taj Mahal": {
         "emoticon": "🏛️",
         "mostEfficientRecipe": [
-            "Earth",
-            "India"
+            "Water",
+            "Mountain"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "River": {
-        "emoticon": "🌊",
+    "Lily": {
+        "emoticon": "🌸",
         "mostEfficientRecipe": [
             "Water",
-            "Tree"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Tide": {
-        "emoticon": "🌊",
-        "mostEfficientRecipe": [
-            "Water",
-            "Moon"
+            "Snowman"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2209,7 +1879,7 @@
         "emoticon": "💫",
         "mostEfficientRecipe": [
             "Water",
-            "Meteor"
+            "Dracula"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2219,7 +1889,7 @@
         "emoticon": "⚛️",
         "mostEfficientRecipe": [
             "Water",
-            "Fluorite"
+            "Earthquake"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2239,7 +1909,7 @@
         "emoticon": "🚢",
         "mostEfficientRecipe": [
             "Water",
-            "Atlas"
+            "Spice"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2259,27 +1929,17 @@
         "emoticon": "🚰",
         "mostEfficientRecipe": [
             "Water",
-            "Mine"
+            "Egg"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Fisherman": {
-        "emoticon": "🎣",
+    "Vodka": {
+        "emoticon": "🍸",
         "mostEfficientRecipe": [
             "Water",
-            "Farmer"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Gasoline": {
-        "emoticon": "⛽️",
-        "mostEfficientRecipe": [
-            "Water",
-            "Fuel"
+            "Potato"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2289,7 +1949,7 @@
         "emoticon": "🛶",
         "mostEfficientRecipe": [
             "Water",
-            "India"
+            "Taj Mahal"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2299,7 +1959,7 @@
         "emoticon": "💧",
         "mostEfficientRecipe": [
             "Water",
-            "Fluorine"
+            "Fountain"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2325,6 +1985,26 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
+    "River": {
+        "emoticon": "🌊",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Mountain"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Brick": {
+        "emoticon": "🧱",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Mud"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
     "Prometheus": {
         "emoticon": "👽",
         "mostEfficientRecipe": [
@@ -2345,16 +2025,6 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Roast": {
-        "emoticon": "🔥",
-        "mostEfficientRecipe": [
-            "Fire",
-            "Chicken"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
     "Bomb": {
         "emoticon": "💣",
         "mostEfficientRecipe": [
@@ -2369,7 +2039,7 @@
         "emoticon": "🦖",
         "mostEfficientRecipe": [
             "Fire",
-            "Fossil"
+            "Spring"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2379,7 +2049,27 @@
         "emoticon": "🍖",
         "mostEfficientRecipe": [
             "Fire",
-            "Farm"
+            "Spice"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Midas": {
+        "emoticon": "👑",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Eclipse"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Popcorn": {
+        "emoticon": "🍿",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Basket"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2395,71 +2085,91 @@
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Midas": {
-        "emoticon": "👑",
+    "Ceramic": {
+        "emoticon": "🏺",
         "mostEfficientRecipe": [
             "Fire",
-            "Gold"
+            "Pottery"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "S’more": {
-        "emoticon": "🍫",
+    "Crop": {
+        "emoticon": "🌾",
         "mostEfficientRecipe": [
-            "Bonfire",
-            "Lake"
+            "Fire",
+            "Curry"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "S’mores": {
-        "emoticon": "🍫",
+    "Cook": {
+        "emoticon": "🍳",
         "mostEfficientRecipe": [
-            "S’more",
-            "Ocean"
+            "Fire",
+            "Taj Mahal"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Smore": {
-        "emoticon": "🍫",
+    "Fireball": {
+        "emoticon": "🔥",
         "mostEfficientRecipe": [
-            "Campfire",
-            "S’more"
+            "Fire",
+            "Vodka"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Smores": {
-        "emoticon": "🍫",
+    "Agni": {
+        "emoticon": "🔥",
         "mostEfficientRecipe": [
-            "Farm",
-            "S’more"
+            "Fire",
+            "Ganges"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Snake": {
-        "emoticon": "🐍",
+    "Cheese": {
+        "emoticon": "🧀",
         "mostEfficientRecipe": [
-            "S’more",
-            "Jungle"
+            "Fire",
+            "River"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Corn": {
-        "emoticon": "🌽",
+    "Kiln": {
+        "emoticon": "🧱",
         "mostEfficientRecipe": [
-            "Farm",
-            "Jungle"
+            "Fire",
+            "Brick"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Human": {
+        "emoticon": "👨",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Spicy"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Grill": {
+        "emoticon": "🍖",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Omelette"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2468,358 +2178,508 @@
     "Toast": {
         "emoticon": "🍞",
         "mostEfficientRecipe": [
-            "S’more",
+            "Fire",
+            "Crop"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Chef": {
+        "emoticon": "👨‍🍳",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Cook"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Burnt Toast": {
+        "emoticon": "🍞",
+        "mostEfficientRecipe": [
+            "Water",
+            "Brick"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pandora": {
+        "emoticon": "🌌",
+        "mostEfficientRecipe": [
+            "Water",
+            "Prometheus"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Hot Sauce": {
+        "emoticon": "🌶️",
+        "mostEfficientRecipe": [
+            "Water",
+            "Spicy"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Plesiosaur": {
+        "emoticon": "🦕",
+        "mostEfficientRecipe": [
+            "Water",
+            "Dinosaur"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Coffee": {
+        "emoticon": "☕️",
+        "mostEfficientRecipe": [
+            "Water",
+            "Hot Sauce"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Loch Ness Monster": {
+        "emoticon": "🐊",
+        "mostEfficientRecipe": [
+            "Water",
+            "Plesiosaur"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Nessie": {
+        "emoticon": "🐙",
+        "mostEfficientRecipe": [
+            "Water",
+            "Loch Ness Monster"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Box": {
+        "emoticon": "📦",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Hot Sauce"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Sea Monster": {
+        "emoticon": "🐙",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Loch Ness Monster"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Oven": {
+        "emoticon": "🍳",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Box"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Kraken": {
+        "emoticon": "🐙",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Sea Monster"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pizza": {
+        "emoticon": "🍕",
+        "mostEfficientRecipe": [
+            "Water",
+            "Box"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Poseidon": {
+        "emoticon": "🌊",
+        "mostEfficientRecipe": [
+            "Water",
+            "Sea Monster"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Squid": {
+        "emoticon": "🦑",
+        "mostEfficientRecipe": [
+            "Water",
+            "Pizza"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Ink": {
+        "emoticon": "🖋️",
+        "mostEfficientRecipe": [
+            "Water",
+            "Squid"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Calamari": {
+        "emoticon": "🦑",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Squid"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Tattoo": {
+        "emoticon": "💉",
+        "mostEfficientRecipe": [
+            "Fire",
+            "Ink"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Octopus": {
+        "emoticon": "🐙",
+        "mostEfficientRecipe": [
+            "Water",
+            "Tattoo"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Avalanche": {
+        "emoticon": "🌨️",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Mountain"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Leaf": {
+        "emoticon": "🍃",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Tree"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Fan": {
+        "emoticon": "🌬️",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Stone"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Zeus": {
+        "emoticon": "⚡️",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Pepper"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Werewolf": {
+        "emoticon": "🐺",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Dracula"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Paraglider": {
+        "emoticon": "🪂",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Spring"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Chip": {
+        "emoticon": "🍟",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Taj Mahal"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Butter": {
+        "emoticon": "🧈",
+        "mostEfficientRecipe": [
+            "Wind",
+            "River"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pterodactyl": {
+        "emoticon": "🦖",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Dinosaur"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Fart": {
+        "emoticon": "💨",
+        "mostEfficientRecipe": [
+            "Wind",
+            "Cheese"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Ghost": {
+        "emoticon": "👻",
+        "mostEfficientRecipe": [
+            "Water",
             "Fire"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Marshmallow": {
-        "emoticon": "🍡",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Splash"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Unicorn": {
-        "emoticon": "🦄",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Rainbow"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Lava Cake": {
-        "emoticon": "🍮",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Volcano"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Rocket": {
-        "emoticon": "🚀",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Engine"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’mushi": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Sushi"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’moresabi": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Wasabi"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’moresaurus": {
-        "emoticon": "🦖",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Sea Serpent"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’morgoth": {
-        "emoticon": "😈",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Leviathan"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Ice Cream": {
-        "emoticon": "🍦",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Iceberg"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’mwhale": {
-        "emoticon": "🐳",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Whale"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Smorea": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Tea"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Smoreicane": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Hurricane"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Sandwich": {
-        "emoticon": "🥪",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Dune"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Mud Pie": {
-        "emoticon": "🍰",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Mud"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Camera": {
-        "emoticon": "📷",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Lens"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Pop’n’S’more": {
-        "emoticon": "🍿",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Pop"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Cup": {
-        "emoticon": "🍶",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Ceramic"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’mud": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Puddle"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Ant": {
-        "emoticon": "🐜",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Microscope"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’mamoeba": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Amoeba"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Hot Chocolate": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Hot Spring"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’morepill": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Medicine"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’mint": {
-        "emoticon": "🍫🍪🌱",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Toothpaste"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Love Potion": {
-        "emoticon": "🧪",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Potion"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Smoresh": {
-        "emoticon": "🔥🍫🍪",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Mouthwash"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Smore’": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Angel"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Smoreover": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Hangover"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Astronomer": {
-        "emoticon": "🔭",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Telescope"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Paras’more": {
-        "emoticon": "🍫🔥🏕️",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Paramecium"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’neeze": {
-        "emoticon": "🤧",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Sneeze"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’mermaid": {
+    "Mermaid": {
         "emoticon": "🧜‍♀️",
         "mostEfficientRecipe": [
-            "S’more",
-            "Mermaid"
+            "Butter",
+            "Lava"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Smore’n": {
-        "emoticon": "🍫",
+    "Pizza Hut": {
+        "emoticon": "🍕",
         "mostEfficientRecipe": [
-            "S’more",
-            "Siren"
+            "Pterodactyl",
+            "Fire Breath"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Surfmore": {
-        "emoticon": "🏄",
+    "Monster": {
+        "emoticon": "👾",
         "mostEfficientRecipe": [
-            "S’more",
-            "Surfing"
+            "Lake",
+            "Nessie"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Smoker": {
-        "emoticon": "🚬",
+    "Flatulence": {
+        "emoticon": "💨",
         "mostEfficientRecipe": [
-            "S’more",
-            "Lung"
+            "Lake",
+            "Coffee"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Mars": {
-        "emoticon": "🪐",
+    "Poltergeist": {
+        "emoticon": "👻",
         "mostEfficientRecipe": [
-            "S’more",
-            "Planet"
+            "Lake",
+            "Hot Sauce"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Ariel": {
+        "emoticon": "🧜‍♀️",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Pandora"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Chili Pizza": {
+        "emoticon": "🍕",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Cook"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Yeti": {
+        "emoticon": "🧊",
+        "mostEfficientRecipe": [
+            "Lake",
+            "River"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Martini": {
+        "emoticon": "🍸",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Titanic"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Ghost Ship": {
+        "emoticon": "👻",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Taj Mahal"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Urn": {
+        "emoticon": "⚱️",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Potato"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Potato Chip": {
+        "emoticon": "🍟",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Egg"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Fishing": {
+        "emoticon": "🎣",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Mine"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Diamond": {
+        "emoticon": "💎",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Clay"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Ghostbuster": {
+        "emoticon": "👻",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Spring"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Philosopher’s Stone": {
+        "emoticon": "🧙‍♂️",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Earthquake"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pringle": {
+        "emoticon": "🍟",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Life"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Astronomy": {
+        "emoticon": "🌌",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Dracula"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Jewel": {
+        "emoticon": "💎",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Vineyard"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Fireman": {
+        "emoticon": "🚒",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Snowman"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2828,98 +2688,508 @@
     "Golem": {
         "emoticon": "🏛️",
         "mostEfficientRecipe": [
-            "S’more",
-            "Clay"
+            "Lake",
+            "Planet"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Bear": {
-        "emoticon": "🐻",
+    "Salt": {
+        "emoticon": "🧂",
         "mostEfficientRecipe": [
-            "S’more",
-            "Cave"
+            "Lake",
+            "Pepper"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "America": {
-        "emoticon": "🇺🇸",
+    "Plow": {
+        "emoticon": "🚜",
         "mostEfficientRecipe": [
-            "S’more",
-            "Continent"
+            "Lake",
+            "Tractor"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Rich": {
-        "emoticon": "💰",
+    "Lighthouse": {
+        "emoticon": "🌅",
         "mostEfficientRecipe": [
-            "S’more",
-            "Gold"
+            "Lake",
+            "Tree"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Baked Potato": {
-        "emoticon": "🥔",
+    "Hot Springs": {
+        "emoticon": "♨️",
         "mostEfficientRecipe": [
-            "S’more",
-            "Potato"
+            "Lake",
+            "Angel"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Samosa": {
-        "emoticon": "🥙",
+    "Allergy": {
+        "emoticon": "🤧",
         "mostEfficientRecipe": [
-            "S’more",
-            "India"
+            "Golem",
+            "Atlas"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "S’moretini": {
-        "emoticon": "🍸",
+    "Sodium Auoride": {
+        "emoticon": "🧂",
         "mostEfficientRecipe": [
-            "S’more",
-            "Vodka"
+            "Lake",
+            "Splash"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "S’moreganic": {
-        "emoticon": "🍫",
+    "Mirror": {
+        "emoticon": "🪞",
         "mostEfficientRecipe": [
-            "S’more",
-            "Tide"
+            "Lake",
+            "Phoenix"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Flamingo": {
-        "emoticon": "🦩",
+    "Firebird": {
+        "emoticon": "🐦",
         "mostEfficientRecipe": [
-            "S’more",
-            "Fluorine"
+            "Lake",
+            "Balloon"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "S’morgasbord": {
-        "emoticon": "🍫🔥🍪",
+    "Cup": {
+        "emoticon": "🍶",
         "mostEfficientRecipe": [
-            "S’more",
-            "Hydrofluoric Acid"
+            "Lake",
+            "Sandstorm"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Hay": {
+        "emoticon": "🌾",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Plant"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Loch Ness": {
+        "emoticon": "🐊",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Monster"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Penguin": {
+        "emoticon": "🐧",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Fart"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Butterfly": {
+        "emoticon": "🦋",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Paraglider"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Dustbin": {
+        "emoticon": "🗑️",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Leaf"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Sea": {
+        "emoticon": "🌊",
+        "mostEfficientRecipe": [
+            "Hay",
+            "Fire Storm"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Boxer": {
+        "emoticon": "🥊",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Plesiosaur"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Bread": {
+        "emoticon": "🍞",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Human"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Limburger": {
+        "emoticon": "🧀",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Dinosaur"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Salsa": {
+        "emoticon": "🌶️",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Ganges"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Seasick": {
+        "emoticon": "🤢",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Fountain"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Lotus": {
+        "emoticon": "🌺",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Spice"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Lunar": {
+        "emoticon": "🌕",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Soil"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Dock": {
+        "emoticon": "🪜",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Mountain"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Salsa Verde": {
+        "emoticon": "🌶️",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Tsunami"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Hot Mess": {
+        "emoticon": "💩",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Hot Air"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Buddha": {
+        "emoticon": "🧘‍♂️",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Dust"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Astronaut": {
+        "emoticon": "🚀",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Smoke"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pier": {
+        "emoticon": "🏝️",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Lake"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Taco": {
+        "emoticon": "🌮",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Salsa Verde"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Cactus": {
+        "emoticon": "🌵",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Hot Mess"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Nirvana": {
+        "emoticon": "🌊",
+        "mostEfficientRecipe": [
+            "Astronaut",
+            "Lava"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Dragonfly": {
+        "emoticon": "🐛",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Butterfly"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Tux": {
+        "emoticon": "🐧",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Cup"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Hay Fever": {
+        "emoticon": "🌾",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Lighthouse"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Saguaro": {
+        "emoticon": "🌵",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Salt"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Hot Dog": {
+        "emoticon": "🌭",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Astronomy"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Teapot": {
+        "emoticon": "🍵",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Philosopher’s Stone"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Groom": {
+        "emoticon": "🤵",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Yeti"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Dust Bowl": {
+        "emoticon": "🌪️",
+        "mostEfficientRecipe": [
+            "Lake",
+            "Ghost"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Stage": {
+        "emoticon": "🎤",
+        "mostEfficientRecipe": [
+            "Hot Dog",
+            "Bird"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pigeon": {
+        "emoticon": "🐦",
+        "mostEfficientRecipe": [
+            "Teapot",
+            "Rice"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Sake": {
+        "emoticon": "🍶",
+        "mostEfficientRecipe": [
+            "Teapot",
+            "Pond"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Statue": {
+        "emoticon": "🗽",
+        "mostEfficientRecipe": [
+            "Groom",
+            "Stone"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Tank": {
+        "emoticon": "🛢️",
+        "mostEfficientRecipe": [
+            "Dust Bowl",
+            "Tractor"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Drama": {
+        "emoticon": "🎭",
+        "mostEfficientRecipe": [
+            "Pigeon",
+            "Fossil"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pepperoni": {
+        "emoticon": "🍕",
+        "mostEfficientRecipe": [
+            "Sake",
+            "Spice"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Japan": {
+        "emoticon": "🗾",
+        "mostEfficientRecipe": [
+            "Statue",
+            "Eclipse"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Venus": {
+        "emoticon": "♀️",
+        "mostEfficientRecipe": [
+            "Statue",
+            "Oil"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Minecraft": {
+        "emoticon": "🏰",
+        "mostEfficientRecipe": [
+            "Tank",
+            "Mine"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Hamlet": {
+        "emoticon": "🎭",
+        "mostEfficientRecipe": [
+            "Pepperoni",
+            "Bomb"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -2928,598 +3198,48 @@
     "Pumpkin": {
         "emoticon": "🎃",
         "mostEfficientRecipe": [
-            "S’more",
-            "Pump"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Dino-mite": {
-        "emoticon": "🦖",
-        "mostEfficientRecipe": [
-            "S’more",
+            "Pepperoni",
             "Dinosaur"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "S’momelette": {
-        "emoticon": "🍳",
+    "Yakiniku": {
+        "emoticon": "🍢",
         "mostEfficientRecipe": [
-            "S’more",
-            "Omelette"
+            "Venus",
+            "Crop"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Popcorn": {
-        "emoticon": "🍿",
+    "Aphrodite": {
+        "emoticon": "💘",
         "mostEfficientRecipe": [
-            "S’more",
-            "Corn"
+            "Minecraft",
+            "Fireball"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "S’morcorn": {
-        "emoticon": "🌽",
+    "TNT": {
+        "emoticon": "💣",
         "mostEfficientRecipe": [
-            "S’more",
-            "Unicorn"
+            "Minecraft",
+            "Agni"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "S’moresabis": {
-        "emoticon": "🍫",
+    "Shakespeare": {
+        "emoticon": "📜",
         "mostEfficientRecipe": [
-            "Smore",
-            "S’moresabi"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’moresaurus Rex": {
-        "emoticon": "🦖",
-        "mostEfficientRecipe": [
-            "Smore",
-            "S’moresaurus"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’mores Ice Cream": {
-        "emoticon": "🍨",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Ice Cream"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’morea": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Smorea"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’moreicane": {
-        "emoticon": "🌋",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Smoreicane"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’moreswich": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Sandwich"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Pop’n’s’more": {
-        "emoticon": "🍿",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Pop’n’S’more"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’morepillow": {
-        "emoticon": "🍫🔥🛏️",
-        "mostEfficientRecipe": [
-            "Smore",
-            "S’morepill"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Love": {
-        "emoticon": "❤️",
-        "mostEfficientRecipe": [
-            "Smore",
-            "Love Potion"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’moreover": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Smoreover"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’mermore": {
-        "emoticon": "🍌",
-        "mostEfficientRecipe": [
-            "S’more",
-            "S’mermaid"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’mars": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Mars"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Smokey": {
-        "emoticon": "💨",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Bear"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’mosa": {
-        "emoticon": "🍹",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Samosa"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’more-gasbord": {
-        "emoticon": "🍫🔥🏕️",
-        "mostEfficientRecipe": [
-            "S’more",
-            "S’morgasbord"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Pie": {
-        "emoticon": "🥧",
-        "mostEfficientRecipe": [
-            "Smore",
-            "Pumpkin"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’more-saurus": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Dino-mite"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Movie": {
-        "emoticon": "🎥",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Popcorn"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’morewich": {
-        "emoticon": "🍪",
-        "mostEfficientRecipe": [
-            "S’more",
-            "S’moreswich"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’moreovermore": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "S’more",
-            "S’moreover"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’moreovermoreovermore": {
-        "emoticon": "🍫🔥🏕️",
-        "mostEfficientRecipe": [
-            "Smore",
-            "S’moreovermore"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Selfie": {
-        "emoticon": "🤳",
-        "mostEfficientRecipe": [
-            "Smore",
-            "Camera"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Smoreshmore": {
-        "emoticon": "🔥🍫🍪",
-        "mostEfficientRecipe": [
-            "Smore",
-            "Smoresh"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Smore’s": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "Smore",
-            "Smore’"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Star": {
-        "emoticon": "⭐️",
-        "mostEfficientRecipe": [
-            "Smore",
-            "Astronomer"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Teddy": {
-        "emoticon": "🧸",
-        "mostEfficientRecipe": [
-            "Smore",
-            "Bear"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Richmore": {
-        "emoticon": "💵",
-        "mostEfficientRecipe": [
-            "Smore",
-            "Rich"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’moreorgasbord": {
-        "emoticon": "🍫🔥🏕️",
-        "mostEfficientRecipe": [
-            "Smore",
-            "S’morgasbord"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’momore": {
-        "emoticon": "🍫🔥🍪",
-        "mostEfficientRecipe": [
-            "Smore",
-            "S’momelette"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’moreovermoreovermoreovermore": {
-        "emoticon": "🍫🔥🏕️",
-        "mostEfficientRecipe": [
-            "S’more",
-            "S’moreovermoreovermore"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Selfmore": {
-        "emoticon": "🍌",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Selfie"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Richsmore": {
-        "emoticon": "🏰",
-        "mostEfficientRecipe": [
-            "Smore",
-            "Richmore"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’moreovermoreovermoreovermoreovermore": {
-        "emoticon": "🍫🔥🏕️",
-        "mostEfficientRecipe": [
-            "S’more",
-            "S’moreovermoreovermoreovermore"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Richmores’more": {
-        "emoticon": "🍫🔥🏕️",
-        "mostEfficientRecipe": [
-            "S’more",
-            "Richmore"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Richmores’mores’more": {
-        "emoticon": "🍫🔥🏕️",
-        "mostEfficientRecipe": [
-            "Smore",
-            "Richmores’more"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Hydra": {
-        "emoticon": "🐉",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Snake"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Cobra": {
-        "emoticon": "🐍",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Corn"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Snake Whale": {
-        "emoticon": "🐍",
-        "mostEfficientRecipe": [
-            "Snake",
-            "S’mwhale"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Medusa": {
-        "emoticon": "🐍",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Golem"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Anaconda": {
-        "emoticon": "🐍",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Sandwich"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Photographer": {
-        "emoticon": "📷",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Camera"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Poison": {
-        "emoticon": "☠️",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Cup"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Centipede": {
-        "emoticon": "🦟",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Ant"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Cocoa": {
-        "emoticon": "🍫",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Hot Chocolate"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Snake’s Mint": {
-        "emoticon": "🐍🌿",
-        "mostEfficientRecipe": [
-            "Snake",
-            "S’mint"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Ophiuchus": {
-        "emoticon": "⛎",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Astronomer"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "S’snake": {
-        "emoticon": "🐍",
-        "mostEfficientRecipe": [
-            "Snake",
-            "S’mermaid"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Surfboard": {
-        "emoticon": "🏄",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Surfmore"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Smoking Snake": {
-        "emoticon": "🐍",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Smoker"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Ares": {
-        "emoticon": "🌋",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Mars"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Bald Eagle": {
-        "emoticon": "🦅",
-        "mostEfficientRecipe": [
-            "Snake",
-            "America"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Riches": {
-        "emoticon": "💰",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Rich"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Potato Salad": {
-        "emoticon": "🥔",
-        "mostEfficientRecipe": [
-            "Snake",
-            "Baked Potato"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Snakebite": {
-        "emoticon": "🐍",
-        "mostEfficientRecipe": [
-            "Snake",
-            "S’moretini"
-        ],
-		get depth() {
-			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
-		}
-    },
-    "Snakebord": {
-        "emoticon": "🐍🛹",
-        "mostEfficientRecipe": [
-            "Snake",
-            "S’morgasbord"
+            "Hamlet",
+            "Human"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
@@ -3528,88 +3248,1618 @@
     "Jack-o-Lantern": {
         "emoticon": "🎃",
         "mostEfficientRecipe": [
-            "Snake",
-            "Pumpkin"
+            "Yakiniku",
+            "Pandora"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "T-Rex": {
-        "emoticon": "🦖",
+    "Pandora Box": {
+        "emoticon": "🎁",
         "mostEfficientRecipe": [
-            "Snake",
-            "Dino-mite"
+            "Aphrodite",
+            "Sea Monster"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Snake in the Grass": {
-        "emoticon": "🐍",
+    "Baklava": {
+        "emoticon": "🧿",
         "mostEfficientRecipe": [
-            "Snake",
-            "S’mores Ice Cream"
+            "TNT",
+            "Kraken"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Snakewich": {
-        "emoticon": "🐍",
+    "Pizza Bomb": {
+        "emoticon": "🍕",
         "mostEfficientRecipe": [
-            "Snake",
-            "S’moreswich"
+            "TNT",
+            "Pizza"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Hot Ice": {
-        "emoticon": "🧊",
+    "The Tempest": {
+        "emoticon": "🌊",
         "mostEfficientRecipe": [
-            "Ice",
-            "Hot Chocolate"
+            "Jack-o-Lantern",
+            "Squid"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Chimpunk": {
-        "emoticon": "🐒",
+    "Cthulhu": {
+        "emoticon": "🐙",
         "mostEfficientRecipe": [
-            "Monkey",
-            "Hot Chocolate"
+            "Pandora Box",
+            "Mermaid"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Gorgon": {
-        "emoticon": "🐍",
+    "Evil": {
+        "emoticon": "😈",
         "mostEfficientRecipe": [
-            "Monkey",
-            "Medusa"
+            "Baklava",
+            "Yeti"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Chocolate": {
-        "emoticon": "🍫",
+    "Cyclops": {
+        "emoticon": "👁️",
         "mostEfficientRecipe": [
-            "Monkey",
-            "Cocoa"
+            "Pizza Bomb",
+            "Sea"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
 		}
     },
-    "Chimpanzee": {
-        "emoticon": "🐒",
+    "Pizza Boxer": {
+        "emoticon": "🍕🥊",
         "mostEfficientRecipe": [
-            "Monkey",
-            "Chocolate"
+            "Pizza Bomb",
+            "Boxer"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Prospero": {
+        "emoticon": "🌊",
+        "mostEfficientRecipe": [
+            "Cthulhu",
+            "Dock"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Cthulhu Verde": {
+        "emoticon": "🐙🌿",
+        "mostEfficientRecipe": [
+            "Cthulhu",
+            "Salsa Verde"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Satan": {
+        "emoticon": "😈",
+        "mostEfficientRecipe": [
+            "Cyclops",
+            "Buddha"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Monk": {
+        "emoticon": "🧘‍♂️",
+        "mostEfficientRecipe": [
+            "Pizza Boxer",
+            "Nirvana"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Cactus Pizza": {
+        "emoticon": "🌵🍕",
+        "mostEfficientRecipe": [
+            "Prospero",
+            "Teapot"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Magician": {
+        "emoticon": "🎩",
+        "mostEfficientRecipe": [
+            "Cthulhu Verde",
+            "Cactus Pizza"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Taco Bell": {
+        "emoticon": "🌮",
+        "mostEfficientRecipe": [
+            "Magician",
+            "Taco"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Chihuahua": {
+        "emoticon": "🐶",
+        "mostEfficientRecipe": [
+            "Taco Bell",
+            "Cactus"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Teacup": {
+        "emoticon": "🍵",
+        "mostEfficientRecipe": [
+            "Chihuahua",
+            "Groom"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Cupid": {
+        "emoticon": "💘",
+        "mostEfficientRecipe": [
+            "Teacup",
+            "Venus"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Herobrine": {
+        "emoticon": "👻",
+        "mostEfficientRecipe": [
+            "Cupid",
+            "Minecraft"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Creeper": {
+        "emoticon": "💣",
+        "mostEfficientRecipe": [
+            "Herobrine",
+            "Cthulhu"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Griefer": {
+        "emoticon": "🔪",
+        "mostEfficientRecipe": [
+            "Creeper",
+            "Evil"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Hacker": {
+        "emoticon": "👾",
+        "mostEfficientRecipe": [
+            "Griefer",
+            "Prospero"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Ninja": {
+        "emoticon": "🥷",
+        "mostEfficientRecipe": [
+            "Hacker",
+            "Monk"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Cactus Ninja": {
+        "emoticon": "🌵",
+        "mostEfficientRecipe": [
+            "Ninja",
+            "Magician"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Taco Ninja": {
+        "emoticon": "🌮",
+        "mostEfficientRecipe": [
+            "Cactus Ninja",
+            "Teacup"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Taco Creeper": {
+        "emoticon": "🌮👻",
+        "mostEfficientRecipe": [
+            "Taco Ninja",
+            "Groom"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Tuxedo Ninja": {
+        "emoticon": "🥷",
+        "mostEfficientRecipe": [
+            "Taco Ninja",
+            "Dust Bowl"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Taco Boxer": {
+        "emoticon": "🌮🥊",
+        "mostEfficientRecipe": [
+            "Tuxedo Ninja",
+            "Satan"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Satan Ninja": {
+        "emoticon": "😈",
+        "mostEfficientRecipe": [
+            "Cactus Ninja",
+            "Ocean"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Weed": {
+        "emoticon": "🌿",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Taco Bell"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Salad": {
+        "emoticon": "🥗",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Evil"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Caliban": {
+        "emoticon": "👹",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Pizza Bomb"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Rainbow Ninja": {
+        "emoticon": "🌈",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Groom"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Sunflower Taco": {
+        "emoticon": "🌻",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Astronaut"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Jesus": {
+        "emoticon": "😇",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Lunar"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Stink": {
+        "emoticon": "💩",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Limburger"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Coca-Cola": {
+        "emoticon": "🥤",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Cup"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Coral": {
+        "emoticon": "🐠",
+        "mostEfficientRecipe": [
+            "Sunflower Taco",
+            "Bat"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Sneezeweed": {
+        "emoticon": "🌼",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Fart"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Santa Claus": {
+        "emoticon": "🎅",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Paraglider"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Wolfsbane": {
+        "emoticon": "🌿",
+        "mostEfficientRecipe": [
+            "Jesus",
+            "Fireplace"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Skunk": {
+        "emoticon": "🦨",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Werewolf"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Mountain Dew": {
+        "emoticon": "💧",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Avalanche"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Reef": {
+        "emoticon": "🐠",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Plesiosaur"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Sneezing": {
+        "emoticon": "🤧",
+        "mostEfficientRecipe": [
+            "Sneezeweed",
+            "Bottle"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Rudolph": {
+        "emoticon": "🦌",
+        "mostEfficientRecipe": [
+            "Plant",
+            "River"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Poison": {
+        "emoticon": "☠️",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Taj Mahal"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Fruit": {
+        "emoticon": "🍇",
+        "mostEfficientRecipe": [
+            "Skunk",
+            "River"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Mountain Prometheus": {
+        "emoticon": "🗻",
+        "mostEfficientRecipe": [
+            "Mountain Dew",
+            "Prometheus"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Money Tree": {
+        "emoticon": "🌳",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Spring"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Bonsai": {
+        "emoticon": "🌳",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Cave"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Boxing Day": {
+        "emoticon": "🎁",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Earthquake"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Toxic": {
+        "emoticon": "☠️",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Bottle"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pineapple": {
+        "emoticon": "🍍",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Mountain"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Fire Flower": {
+        "emoticon": "🌸",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Bird"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Rich": {
+        "emoticon": "💰",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Angel"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Haybonsai": {
+        "emoticon": "🌿",
+        "mostEfficientRecipe": [
+            "Boxing Day",
+            "Dustbin"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Boxing Bin": {
+        "emoticon": "🥊",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Microscope"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Green": {
+        "emoticon": "💚",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Puddle"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Camera": {
+        "emoticon": "📷",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Phoenix"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Firefly": {
+        "emoticon": "🦋",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Ship"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Bill Gates": {
+        "emoticon": "💸",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Oasis"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Boom": {
+        "emoticon": "💥",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Tornado"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Boxing Gloves": {
+        "emoticon": "🥊",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Lightning"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Green Taco": {
+        "emoticon": "🌮",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Ice"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Photograph": {
+        "emoticon": "📷",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Fire Breath"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Glowing": {
+        "emoticon": "💡",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Smoke"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Mario": {
+        "emoticon": "🍄",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Volcano"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Lantern": {
+        "emoticon": "🏮",
+        "mostEfficientRecipe": [
+            "Boom",
+            "Ocean"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Punch": {
+        "emoticon": "👊",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Rudolph"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Unicorn": {
+        "emoticon": "🦄",
+        "mostEfficientRecipe": [
+            "Green Taco",
+            "Lightning"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Sunburn": {
+        "emoticon": "🌞",
+        "mostEfficientRecipe": [
+            "Glowing",
+            "Dust"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Chandelier": {
+        "emoticon": "💡",
+        "mostEfficientRecipe": [
+            "Glowing",
+            "Dandelion"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Flying Mario": {
+        "emoticon": "🎮",
+        "mostEfficientRecipe": [
+            "Mario",
+            "Flying Fish"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Rose": {
+        "emoticon": "🌹",
+        "mostEfficientRecipe": [
+            "Lantern",
+            "Wine"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Knockout": {
+        "emoticon": "🥊",
+        "mostEfficientRecipe": [
+            "Punch",
+            "Cannonball"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Tragedy": {
+        "emoticon": "💔",
+        "mostEfficientRecipe": [
+            "Unicorn",
+            "Beach"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Tan": {
+        "emoticon": "🌞",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Dust Bowl"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Genie": {
+        "emoticon": "🧞‍♂️",
+        "mostEfficientRecipe": [
+            "Chandelier",
+            "Angel"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Batman": {
+        "emoticon": "🦇",
+        "mostEfficientRecipe": [
+            "Flying Mario",
+            "Hanglider"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Parrot": {
+        "emoticon": "🦜",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Boxer"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Compost": {
+        "emoticon": "💩",
+        "mostEfficientRecipe": [
+            "Rose",
+            "Bird"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Horse": {
+        "emoticon": "🐴",
+        "mostEfficientRecipe": [
+            "Tragedy",
+            "Mountain"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Tanning": {
+        "emoticon": "🌞",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Hay"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "John Deere": {
+        "emoticon": "🚜",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Mirror"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Spa": {
+        "emoticon": "💆",
+        "mostEfficientRecipe": [
+            "Genie",
+            "Tractor"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pluto": {
+        "emoticon": "🌌",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Hot Springs"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Manure": {
+        "emoticon": "💩",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Jewel"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Centaur": {
+        "emoticon": "🦄",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Pringle"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Venus Flytrap": {
+        "emoticon": "🪲",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Ghostbuster"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Paratrooper": {
+        "emoticon": "🪂",
+        "mostEfficientRecipe": [
+            "John Deere",
+            "Rock"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Massage": {
+        "emoticon": "💆",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Ghost"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Plutato": {
+        "emoticon": "🌌",
+        "mostEfficientRecipe": [
+            "Pluto",
+            "Potato"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Fertilizer": {
+        "emoticon": "💩",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Kraken"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Kelp": {
+        "emoticon": "🌿",
+        "mostEfficientRecipe": [
+            "Manure",
+            "Fluorine"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Flypaper": {
+        "emoticon": "🕸️",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Coffee"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Wall": {
+        "emoticon": "🧱",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Hot Sauce"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Cereal": {
+        "emoticon": "🥣",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Cheese"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Absinthe": {
+        "emoticon": "🍸",
+        "mostEfficientRecipe": [
+            "Plutato",
+            "Sea Monster"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Seaweed": {
+        "emoticon": "🌊",
+        "mostEfficientRecipe": [
+            "Plant",
+            "Egg"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Sea Salt": {
+        "emoticon": "🧂",
+        "mostEfficientRecipe": [
+            "Flypaper",
+            "Cup"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Flytrap": {
+        "emoticon": "🪴",
+        "mostEfficientRecipe": [
+            "Wall",
+            "Butterfly"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Cocoon": {
+        "emoticon": "🦋",
+        "mostEfficientRecipe": [
+            "Wall",
+            "Boxer"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Stinky": {
+        "emoticon": "💩",
+        "mostEfficientRecipe": [
+            "Cereal",
+            "Limburger"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Tequila": {
+        "emoticon": "🍹",
+        "mostEfficientRecipe": [
+            "Seaweed",
+            "Dock"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Seaweed Salad": {
+        "emoticon": "🍱",
+        "mostEfficientRecipe": [
+            "Seaweed",
+            "Hot Mess"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Dead Astronaut": {
+        "emoticon": "👽",
+        "mostEfficientRecipe": [
+            "Flytrap",
+            "Cactus"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Christmas": {
+        "emoticon": "🎄",
+        "mostEfficientRecipe": [
+            "Flytrap",
+            "Santa Claus"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Moth": {
+        "emoticon": "🦋",
+        "mostEfficientRecipe": [
+            "Stinky",
+            "Bill Gates"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Polly": {
+        "emoticon": "🐦",
+        "mostEfficientRecipe": [
+            "Stinky",
+            "Parrot"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Mezcal": {
+        "emoticon": "🌵",
+        "mostEfficientRecipe": [
+            "Tequila",
+            "Compost"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Margarita": {
+        "emoticon": "🍹",
+        "mostEfficientRecipe": [
+            "Mezcal",
+            "Unicorn"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Vacation": {
+        "emoticon": "🏖️",
+        "mostEfficientRecipe": [
+            "Margarita",
+            "Chandelier"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Comedy": {
+        "emoticon": "😂",
+        "mostEfficientRecipe": [
+            "Vacation",
+            "Tragedy"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Djinn": {
+        "emoticon": "🧞‍♂️",
+        "mostEfficientRecipe": [
+            "Comedy",
+            "Genie"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Iago": {
+        "emoticon": "🐦",
+        "mostEfficientRecipe": [
+            "Djinn",
+            "Parrot"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Fly": {
+        "emoticon": "🪰",
+        "mostEfficientRecipe": [
+            "Iago",
+            "Sea Salt"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Zombie": {
+        "emoticon": "🧟",
+        "mostEfficientRecipe": [
+            "Fly",
+            "Margarita"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Zombie Apocalypse": {
+        "emoticon": "🧟‍♂️",
+        "mostEfficientRecipe": [
+            "Zombie",
+            "Vacation"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun of the Dead": {
+        "emoticon": "🧟‍♂️",
+        "mostEfficientRecipe": [
+            "Zombie Apocalypse",
+            "Comedy"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Djinn": {
+        "emoticon": "🧞‍♂️",
+        "mostEfficientRecipe": [
+            "Shaun of the Dead",
+            "Djinn"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Dead": {
+        "emoticon": "🧟‍♂️",
+        "mostEfficientRecipe": [
+            "Shaun Of The Djinn",
+            "Zombie"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Rose": {
+        "emoticon": "🐑🌹",
+        "mostEfficientRecipe": [
+            "Shaun Of The Djinn",
+            "Tragedy"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Tan": {
+        "emoticon": "🐑🏖️",
+        "mostEfficientRecipe": [
+            "Shaun Of The Dead",
+            "Batman"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Cereal": {
+        "emoticon": "🥣",
+        "mostEfficientRecipe": [
+            "Shaun Of The Rose",
+            "Seaweed"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Dead Shaun": {
+        "emoticon": "💀👻",
+        "mostEfficientRecipe": [
+            "Shaun Of The Rose",
+            "Moth"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Thorns": {
+        "emoticon": "🌾🌹🗡️",
+        "mostEfficientRecipe": [
+            "Shaun Of The Djinn",
+            "Ocean"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Soup": {
+        "emoticon": "🍜",
+        "mostEfficientRecipe": [
+            "Shaun Of The Djinn",
+            "Leviathan"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Rainbow": {
+        "emoticon": "🌈",
+        "mostEfficientRecipe": [
+            "Shaun Of The Dead",
+            "Rainbow"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Dustin": {
+        "emoticon": "👦",
+        "mostEfficientRecipe": [
+            "Shaun Of The Rose",
+            "Dandelion"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Wine": {
+        "emoticon": "🍷",
+        "mostEfficientRecipe": [
+            "Shaun Of The Tan",
+            "Oasis"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Boat": {
+        "emoticon": "🚣‍♂️",
+        "mostEfficientRecipe": [
+            "Shaun Of The Cereal",
+            "Balloon"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Skeleton": {
+        "emoticon": "💀",
+        "mostEfficientRecipe": [
+            "Shaun Of The Thorns",
+            "Medicine"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Tooth": {
+        "emoticon": "🦷",
+        "mostEfficientRecipe": [
+            "Shaun Of The Thorns",
+            "Hell"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Alchemy Soup": {
+        "emoticon": "🍲🔮",
+        "mostEfficientRecipe": [
+            "Shaun Of The Soup",
+            "Hangover"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Rainbow Dash": {
+        "emoticon": "🌈",
+        "mostEfficientRecipe": [
+            "Shaun Of The Rainbow",
+            "Hanglider"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Stranger Things": {
+        "emoticon": "🎃",
+        "mostEfficientRecipe": [
+            "Dustin",
+            "Curtain"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Sea": {
+        "emoticon": "🐑🌊",
+        "mostEfficientRecipe": [
+            "Shaun Of The Wine",
+            "Bird"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Mountain": {
+        "emoticon": "🏔️",
+        "mostEfficientRecipe": [
+            "Skeleton",
+            "Island"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Rice Pudding": {
+        "emoticon": "🍚",
+        "mostEfficientRecipe": [
+            "Skeleton",
+            "Rice"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Eclipse Of The Tooth": {
+        "emoticon": "🌑🦷",
+        "mostEfficientRecipe": [
+            "Shaun Of The Tooth",
+            "Mine"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Movie": {
+        "emoticon": "🎥",
+        "mostEfficientRecipe": [
+            "Alchemy Soup",
+            "Omelette"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pinkie Pie": {
+        "emoticon": "🐰",
+        "mostEfficientRecipe": [
+            "Rainbow Dash",
+            "Ceramic"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Eleven": {
+        "emoticon": "️⃣",
+        "mostEfficientRecipe": [
+            "Stranger Things",
+            "Crop"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Shaun Of The Kraken": {
+        "emoticon": "🦑",
+        "mostEfficientRecipe": [
+            "Shaun Of The Mountain",
+            "Squid"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Chip Shaun": {
+        "emoticon": "🐿️",
+        "mostEfficientRecipe": [
+            "Shaun Of The Mountain",
+            "Pterodactyl"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pizza Rice": {
+        "emoticon": "🍕",
+        "mostEfficientRecipe": [
+            "Rice Pudding",
+            "Pizza Hut"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Ghostbuster 2": {
+        "emoticon": "👻",
+        "mostEfficientRecipe": [
+            "Eclipse Of The Tooth",
+            "Pringle"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Star Wars": {
+        "emoticon": "🌌",
+        "mostEfficientRecipe": [
+            "Movie",
+            "Astronomy"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Diamond Tiara": {
+        "emoticon": "👑",
+        "mostEfficientRecipe": [
+            "Pinkie Pie",
+            "Jewel"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Twelve": {
+        "emoticon": "🔟",
+        "mostEfficientRecipe": [
+            "Eleven",
+            "Mirror"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pigeon Of The Kraken": {
+        "emoticon": "🐦🦑",
+        "mostEfficientRecipe": [
+            "Shaun Of The Kraken",
+            "Statue"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Tank Shaun": {
+        "emoticon": "🐢🚀",
+        "mostEfficientRecipe": [
+            "Chip Shaun",
+            "Pepperoni"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Cyclops Pizza": {
+        "emoticon": "🍕",
+        "mostEfficientRecipe": [
+            "Ghostbuster 2",
+            "Rainbow Ninja"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Ghostbuster 2: Satan Ninja": {
+        "emoticon": "👻👨‍🚀",
+        "mostEfficientRecipe": [
+            "Ghostbuster 2",
+            "Coral"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Darth Vader": {
+        "emoticon": "😈",
+        "mostEfficientRecipe": [
+            "Star Wars",
+            "Skunk"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Mountain Dew Diamond": {
+        "emoticon": "💎",
+        "mostEfficientRecipe": [
+            "Diamond Tiara",
+            "Rudolph"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Olympus": {
+        "emoticon": "🏔️",
+        "mostEfficientRecipe": [
+            "Twelve",
+            "Rich"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Pigeon Of The Mario": {
+        "emoticon": "🐦🍄👨",
+        "mostEfficientRecipe": [
+            "Pigeon Of The Kraken",
+            "Genie"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Batmobile": {
+        "emoticon": "🦇",
+        "mostEfficientRecipe": [
+            "Tank Shaun",
+            "Tanning"
+        ],
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1
+		}
+    },
+    "Dustmobile": {
+        "emoticon": "🏜️",
+        "mostEfficientRecipe": [
+            "Batmobile",
+            "Dustin"
         ],
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1

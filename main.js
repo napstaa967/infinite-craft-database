@@ -1,11 +1,12 @@
 var maxElementReachedForElement = {};
-var totalElements = 307;
-var firstElement = 241;
+var totalElements = 0;
+var firstElement = 0;
 var secondElement = 0;
 var loops = 0
 
 var currentRecipes = {};
 var uniqueRecipes = {}
+var colour_flag = false
 
 var highlights = []
 var colour_highlight = "#00E0C0"
@@ -129,22 +130,17 @@ Item2: secondName`)
 			}
 			if (currentRecipes[firstName] == undefined) currentRecipes[firstName] = {}
 			if (currentRecipes[secondName] == undefined) currentRecipes[secondName] = {}
-			let result = await fetch(`https://neal.fun/api/infinite-craft/pair?first=${firstName.replaceAll(" ", "+")}&second=${secondName.replaceAll(" ", "+")}`, {
-				"credentials": "omit",
-				"headers": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0",
-					"Accept": "*/*",
-					"Accept-Language": "en-GB,en;q=0.5",
-					"Alt-Used": "neal.fun",
-					"Sec-Fetch-Dest": "empty",
-					"Sec-Fetch-Mode": "cors",
-					"Sec-Fetch-Site": "same-origin"
-				},
-				"referrer": "https://neal.fun/infinite-craft/",
-				"method": "GET",
-				"mode": "cors"
-			});
-			result = (await result.json())
+			if (waittime == "random") {
+				await sleep(300 + Math.random() * 1000)
+			} else {
+				await sleep(waittime)
+			}
+			let total = document.getElementsByClassName('mobile-item').length
+			let result = {
+				result: Array.from(document.getElementsByClassName('mobile-item')).slice(-1)[0].getElementsByClassName('item')[0].id.slice(5),
+				emoji: Array.from(document.getElementsByClassName('mobile-item')).slice(-1)[0].getElementsByClassName('item')[0].getElementsByClassName('item-emoji-mobile')[0].textContent
+				
+			}
 
 			console.log(firstName, secondName, items, result.result)
 			
@@ -157,16 +153,7 @@ Item2: secondName`)
 			currentRecipes[secondName][firstName] = result.result
 			if (!(result.result in items)) {
 				console.info("new")
-				if (highlights.length >= 10) {
-					for (const el of highlights) {
-						el.style.background = colour_normal
-					}
-					highlights = []
-					colour_highlight = getRandomColor()
-				}
-				let this_element = document.getElementsByClassName('items')[0].getElementsByClassName("item")[totalElements - 1]
-				this_element.style.background = colour_highlight
-				highlights.push(this_element)
+				colour_flag = true
 				if (uniqueRecipes[firstName] == undefined) uniqueRecipes[firstName] = {}
 				if (uniqueRecipes[secondName] == undefined) uniqueRecipes[secondName] = {}
 				uniqueRecipes[firstName][secondName] = result.result
@@ -178,7 +165,7 @@ Item2: secondName`)
 				}
 				const depthCalc = function () {
 					console.log("Depthcalc-ing for", this.mostEfficientRecipe[0], this.mostEfficientRecipe[1])
-					return Math.max(items[this.mostEfficientRecipe[0]].depth + items[this.mostEfficientRecipe[1]].depth) + 1;
+					return Math.max(items[this.mostEfficientRecipe[0]].depth, items[this.mostEfficientRecipe[1]].depth) + 1;
 				};
 
 				// Use Object.defineProperty to define the 'sum' property with the getter
@@ -192,10 +179,18 @@ Item2: secondName`)
 				console.info(items[result.result])
 			}
 			document.title = firstName + '+' + secondName + '|' + result.result + result.emoji;
-			if (waittime == "random") {
-				await sleep(300 + Math.random() * 1000)
-			} else {
-				await sleep(waittime)
+			if (colour_flag) {
+				colour_flag = false
+				if (highlights.length >= 10) {
+					for (const el of highlights) {
+						el.style.background = colour_normal
+					}
+					highlights = []
+					colour_highlight = getRandomColor()
+				}
+				let this_element = Array.from(document.getElementsByClassName('items')[0].getElementsByClassName("item")).slice(-1)[0]
+				this_element.style.background = colour_highlight
+				highlights.push(this_element)
 			}
 			
 			
@@ -203,7 +198,7 @@ Item2: secondName`)
 	loops = 0
 }
 
-looping(100, [0, 0], "random")
+looping(1000, [0, 0], "random")
 
 /*
 Param 1 is the amount of loops

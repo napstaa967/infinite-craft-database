@@ -1,322 +1,374 @@
 {
     "Water": {
-        "Water": "Lake",
-        "Fire": "Steam",
-        "Wind": "Wave",
+        "Wind": "Lake",
         "Earth": "Plant",
         "Lake": "Ocean",
-        "Steam": "Cloud",
-        "Wave": "Tsunami",
         "Plant": "Swamp",
         "Ocean": "Fish",
-        "Cloud": "Rain",
         "Swamp": "Marsh",
         "Fish": "Fishbowl",
-        "Rain": "Rainbow",
         "Smoke": "Fog",
-        "Lava": "Stone",
-        "Lightning": "Electricity",
+        "Steam": "Cloud",
         "Dragon": "Sea Serpent",
         "Boiled Fish": "Soup",
         "Fog": "Ice",
-        "Stone": "Rock",
+        "Cloud": "Rain",
         "Sea Serpent": "Leviathan",
         "Ice": "Iceberg",
+        "Rain": "Rainbow",
         "Leviathan": "Whale",
+        "Lightning": "Electricity",
         "Hot": "Tea",
-        "Dust": "Mud",
+        "Dust": "Tsunami",
         "Dandelion": "Wine",
         "Windmill": "Energy",
-        "Sand": "Beach",
-        "Sail": "Boat",
         "Sandstorm": "Oasis",
-        "Flying": "Bird",
-        "Sailboat": "Ship",
+        "Airplane": "Boat",
         "Wine": "Holy Water",
+        "Energy": "Wave",
         "Oasis": "Mirage",
-        "Bird": "Penguin",
+        "Boat": "Ship",
         "Ash": "Puddle",
         "Fireworks": "Splash",
-        "Vampire": "Blood",
-        "Lens": "Microscope",
-        "Soda": "Nothing",
-        "Pottery": "Vase",
-        "Ceramic": "Pot",
-        "Puddle": "Pond",
-        "Microscope": "Amoeba",
-        "Vase": "Flower",
-        "Flower": "Lily",
+        "Cannon": "Blood",
+        "Sand": "Beach",
+        "Puddle": "Microscope",
         "Virus": "Sick",
         "Flu": "Fluoride",
-        "Hell": "Hot Spring",
-        "Sick": "Medicine",
-        "Fluoride": "Toothpaste",
+        "Fluoride": "Medicine",
         "Medicine": "Potion",
         "Toothpaste": "Mouthwash",
+        "Hell": "Hot Spring",
         "Potion": "Elixir",
-        "Angel": "Mermaid",
-        "Window": "Aquarium",
-        "Hanglider": "Surfer",
-        "Surfer": "Surf",
-        "Cough": "Lung",
+        "Telescope": "Aquarium",
+        "Curtain": "Bird",
         "Warmth": "Hot Water",
-        "Tree": "River",
-        "Moon": "Tide",
+        "Snowman": "Lily",
         "Meteor": "Meteorite",
         "Fluorite": "Fluorine",
         "Spring": "Fountain",
         "Atlas": "Titanic",
         "Oil": "Emulsion",
         "Mine": "Well",
-        "Farmer": "Fisherman",
-        "Fuel": "Gasoline",
+        "Potato": "Vodka",
         "India": "Ganges",
         "Fluorine": "Hydrofluoric Acid",
         "Emulsion": "Milk",
-        "Well": "Pump"
-    },
-    "Fire": {
-        "S’more": "Toast",
-        "Wood": "Campfire",
-        "Water": "Steam",
-        "Fire": "Volcano",
-        "Wind": "Smoke",
-        "Earth": "Lava",
-        "Steam": "Engine",
-        "Cloud": "Lightning",
-        "Swamp": "Dragon",
-        "Fish": "Sushi",
-        "Fishbowl": "Goldfish",
-        "Lightning": "Sun",
-        "Sushi": "Wasabi",
-        "Goldfish": "Boiled Fish",
-        "Sun": "Solar",
-        "Wasabi": "Fire Breath",
-        "Soup": "Chili",
-        "Chili": "Hot",
-        "Hot": "Heat",
-        "Tea": "Chai",
-        "Dust": "Ash",
-        "Kite": "Fireworks",
-        "Sand": "Glass",
-        "Sail": "Pirate",
-        "Hot Air": "Balloon",
-        "Airplane": "Crash",
-        "Flying": "Phoenix",
-        "Mud": "Brick",
-        "Wine": "Alcohol",
-        "Energy": "Explosion",
-        "Oasis": "Desert",
-        "Ship": "Cannon",
-        "Holy Water": "Vampire",
-        "Glass": "Lens",
-        "Balloon": "Pop",
-        "Crash": "Burn",
-        "Brick": "Kiln",
-        "Cannon": "Cannonball",
-        "Lens": "Magnifying Glass",
-        "Pop": "Soda",
-        "Kiln": "Pottery",
-        "Pottery": "Ceramic",
-        "Microscope": "Virus",
-        "Pot": "Cook",
-        "Virus": "Flu",
-        "Cook": "Chef",
-        "Flu": "Fever",
-        "Fever": "Hell",
-        "Hell": "Devil",
-        "Medicine": "Cure",
-        "Elixir": "Alchemy",
-        "Cure": "Firefighter",
-        "Window": "Fireplace",
-        "Hangover": "Firewater",
-        "Sneeze": "Cough",
-        "Curtain": "Flame",
-        "Hanglider": "Firework",
-        "Mermaid": "Siren",
-        "Surfer": "Surfing",
-        "Fireplace": "Warmth",
-        "Titan": "Prometheus",
-        "Pepper": "Spicy",
-        "Chicken": "Roast",
-        "Bottle": "Bomb",
-        "Fossil": "Dinosaur",
-        "Farm": "Barbecue",
-        "Egg": "Omelette",
-        "Gold": "Midas"
+        "Well": "Pump",
+        "Ganges": "River",
+        "Prometheus": "Pandora",
+        "Spicy": "Hot Sauce",
+        "Dinosaur": "Plesiosaur",
+        "Hot Sauce": "Coffee",
+        "Plesiosaur": "Loch Ness Monster",
+        "Loch Ness Monster": "Nessie",
+        "Sea Monster": "Poseidon",
+        "Pizza": "Squid",
+        "Squid": "Ink",
+        "Tattoo": "Octopus"
     },
     "Wind": {
-        "Water": "Wave",
+        "Water": "Lake",
         "Fire": "Smoke",
         "Wind": "Tornado",
         "Earth": "Dust",
         "Lake": "Storm",
         "Plant": "Dandelion",
-        "Tsunami": "Hurricane",
         "Swamp": "Mist",
         "Fish": "Flying Fish",
-        "Volcano": "Eruption",
-        "Engine": "Windmill",
         "Goldfish": "Kite",
-        "Sun": "Sunflower",
+        "Engine": "Windmill",
         "Fire Breath": "Fire Storm",
-        "Stone": "Sand",
-        "Ice": "Snow",
+        "Rain": "Snow",
         "Whale": "Sail",
+        "Sun": "Sunflower",
         "Hot": "Hot Air",
         "Dust": "Sandstorm",
         "Dandelion": "Seed",
-        "Flying Fish": "Airplane",
-        "Kite": "Flying",
-        "Sand": "Dune",
-        "Snow": "Blizzard",
-        "Sail": "Sailboat",
-        "Sandstorm": "Dust Storm",
+        "Kite": "Airplane",
+        "Sail": "Blizzard",
+        "Sandstorm": "Hurricane",
         "Holy Water": "Angel",
+        "Desert": "Hangover",
+        "Cannon": "Bat",
+        "Sand": "Bubble",
         "Glass": "Window",
-        "Brick": "House",
-        "Alcohol": "Hangover",
-        "Vampire": "Bat",
         "Lens": "Telescope",
-        "Pop": "Bubble",
-        "Vase": "Fan",
-        "Amoeba": "Paramecium",
         "Flu": "Sneeze",
         "Cure": "Breeze",
         "Alchemy": "Air",
-        "Window": "Curtain",
+        "Angel": "Flying",
         "Hangover": "Hanglider",
-        "Paramecium": "Parasail",
-        "Mermaid": "Ariel"
+        "Window": "Curtain",
+        "Mountain": "Avalanche",
+        "Tree": "Leaf",
+        "Rice": "Fan",
+        "Titan": "Zeus",
+        "Dracula": "Werewolf",
+        "Chicken": "Paraglider",
+        "Vase": "Chip",
+        "Milk": "Butter",
+        "Dinosaur": "Pterodactyl",
+        "Cheese": "Fart",
+        "Human": "Ghost"
     },
     "Earth": {
         "Water": "Plant",
-        "Fire": "Lava",
         "Wind": "Dust",
         "Earth": "Mountain",
         "Plant": "Tree",
         "Ocean": "Island",
-        "Engine": "Tractor",
+        "Swamp": "Mud",
         "Sushi": "Rice",
-        "Solar": "Planet",
+        "Goldfish": "Pond",
+        "Lava": "Stone",
+        "Engine": "Tractor",
         "Soup": "Dirt",
-        "Leviathan": "Titan",
+        "Rainbow": "Titan",
         "Chili": "Pepper",
-        "Tea": "Teapot",
+        "Storm": "Planet",
+        "Flying Fish": "Flower",
         "Snow": "Snowman",
-        "Airplane": "Landing",
-        "Mud": "Clay",
+        "Sandstorm": "Dune",
+        "Blizzard": "Landing",
         "Wine": "Vineyard",
-        "Bird": "Chicken",
         "Ash": "Soil",
-        "Glass": "Bottle",
         "Pirate": "Treasure",
         "Balloon": "Moon",
-        "Crash": "Meteor",
+        "Alcohol": "Meteor",
         "Vampire": "Dracula",
-        "Magnifying Glass": "Fossil",
+        "Glass": "Bottle",
         "Microscope": "Bacteria",
-        "Amoeba": "Life",
-        "Fever": "Earthquake",
+        "Magnifying Glass": "Fossil",
+        "Flu": "Life",
         "Fluoride": "Fluorite",
-        "House": "Farm",
+        "Fever": "Earthquake",
         "Bat": "Cave",
+        "Window": "House",
         "Hanglider": "Parachute",
-        "Parasail": "Paratrooper",
+        "Bird": "Chicken",
         "Warmth": "Spring",
         "Tree": "Forest",
         "Island": "Continent",
-        "Rice": "Paddy",
+        "Mud": "Clay",
+        "Pond": "Paddy",
+        "Stone": "Rock",
+        "Tractor": "Farm",
         "Titan": "Atlas",
         "Pepper": "Spice",
-        "Chicken": "Egg",
         "Treasure": "Gold",
         "Moon": "Eclipse",
-        "Fossil": "Oil",
-        "Life": "Human",
-        "Farm": "Field",
+        "Life": "Oil",
         "Cave": "Mine",
         "Parachute": "Basket",
-        "Paratrooper": "Farmer",
+        "Chicken": "Egg",
         "Continent": "Land",
+        "Clay": "Pottery",
+        "Farm": "Field",
         "Atlas": "Globe",
         "Spice": "Curry",
         "Gold": "Money",
         "Oil": "Fuel",
         "Basket": "Potato",
+        "Pottery": "Vase",
         "Globe": "World",
         "Curry": "India",
-        "Potato": "Vodka",
+        "Vase": "Pot",
         "India": "Taj Mahal"
     },
     "Lake": {
         "Water": "Ocean",
         "Wind": "Storm",
-        "Bonfire": "S’more"
-    },
-    "Steam": {
-        "Water": "Cloud",
-        "Fire": "Engine",
-        "S’more": "Marshmallow"
-    },
-    "Wave": {
-        "Water": "Tsunami"
+        "Ink": "Mermaid",
+        "River": "Yeti",
+        "Vodka": "Martini",
+        "Vase": "Urn",
+        "Egg": "Potato Chip",
+        "Basket": "Fishing",
+        "Eclipse": "Diamond",
+        "Moon": "Jewel",
+        "Planet": "Golem",
+        "Pepper": "Salt",
+        "Tractor": "Plow",
+        "Stone": "Lighthouse",
+        "Hot Water": "Hot Springs",
+        "Elixir": "Sodium Auoride",
+        "Vampire": "Firebird",
+        "Butter": "Butterfly",
+        "Zeus": "Dustbin",
+        "Box": "Boxer",
+        "Toast": "Bread",
+        "Cheese": "Limburger",
+        "Spicy": "Salsa",
+        "Fountain": "Seasick",
+        "Lily": "Lotus",
+        "Soil": "Lunar",
+        "Landing": "Dock",
+        "Blizzard": "Hot Mess",
+        "Fish": "Pier",
+        "Boxer": "Nirvana",
+        "Butterfly": "Dragonfly"
     },
     "Plant": {
         "Water": "Swamp",
         "Wind": "Dandelion",
-        "Earth": "Tree"
+        "Earth": "Tree",
+        "Hot Mess": "Cactus",
+        "Hacker": "Weed",
+        "Cactus Pizza": "Salad",
+        "The Tempest": "Caliban",
+        "Pandora Box": "Rainbow Ninja",
+        "Fart": "Sneezeweed",
+        "Paraglider": "Santa Claus",
+        "Werewolf": "Skunk",
+        "Zeus": "Mountain Dew",
+        "Pandora": "Sneezing",
+        "Burnt Toast": "Rudolph",
+        "Well": "Poison",
+        "Bottle": "Toxic",
+        "Dracula": "Pineapple",
+        "Firework": "Fire Flower",
+        "Hangover": "Rich",
+        "Taco Boxer": "Flying Mario",
+        "Chihuahua": "Rose",
+        "Pumpkin": "Knockout",
+        "Drama": "Tragedy",
+        "Statue": "Tan",
+        "Boxer": "Parrot",
+        "Hay": "Tanning",
+        "Mirror": "John Deere",
+        "Hot Springs": "Pluto",
+        "Jewel": "Manure",
+        "Pringle": "Centaur",
+        "Kraken": "Fertilizer",
+        "Hot Sauce": "Wall",
+        "Vodka": "Seaweed"
     },
     "Ocean": {
         "Water": "Fish",
-        "Earth": "Island"
-    },
-    "Cloud": {
-        "Water": "Rain",
-        "Fire": "Lightning"
+        "Fire": "Steam",
+        "Earth": "Island",
+        "Boom": "Lantern"
     },
     "Swamp": {
         "Water": "Marsh",
         "Fire": "Dragon",
-        "Wind": "Mist"
+        "Wind": "Mist",
+        "Earth": "Mud"
     },
     "Fish": {
         "Water": "Fishbowl",
         "Fire": "Sushi",
-        "Wind": "Flying Fish"
+        "Wind": "Flying Fish",
+        "Lake": "Pier"
     },
-    "Rain": {
-        "Water": "Rainbow"
+    "Fire": {
+        "Fire": "Volcano",
+        "Wind": "Smoke",
+        "Ocean": "Steam",
+        "Swamp": "Dragon",
+        "Fish": "Sushi",
+        "Fishbowl": "Goldfish",
+        "Volcano": "Lava",
+        "Steam": "Engine",
+        "Sushi": "Wasabi",
+        "Goldfish": "Boiled Fish",
+        "Wasabi": "Fire Breath",
+        "Cloud": "Lightning",
+        "Soup": "Chili",
+        "Lightning": "Sun",
+        "Chili": "Hot",
+        "Sun": "Solar",
+        "Hot": "Heat",
+        "Tea": "Chai",
+        "Dust": "Ash",
+        "Kite": "Fireworks",
+        "Sail": "Pirate",
+        "Hot Air": "Balloon",
+        "Airplane": "Crash",
+        "Wine": "Alcohol",
+        "Energy": "Explosion",
+        "Oasis": "Desert",
+        "Holy Water": "Vampire",
+        "Ship": "Cannon",
+        "Ash": "Phoenix",
+        "Balloon": "Pop",
+        "Crash": "Burn",
+        "Desert": "Sand",
+        "Cannon": "Cannonball",
+        "Pop": "Soda",
+        "Sand": "Glass",
+        "Glass": "Lens",
+        "Lens": "Magnifying Glass",
+        "Microscope": "Virus",
+        "Virus": "Flu",
+        "Flu": "Fever",
+        "Fluoride": "Toothpaste",
+        "Medicine": "Cure",
+        "Fever": "Hell",
+        "Cure": "Firefighter",
+        "Hell": "Devil",
+        "Elixir": "Alchemy",
+        "Bat": "Firewater",
+        "Window": "Fireplace",
+        "Hanglider": "Firework",
+        "Curtain": "Flame",
+        "Fireplace": "Warmth",
+        "Mud": "Brick",
+        "Titan": "Prometheus",
+        "Pepper": "Spicy",
+        "Bottle": "Bomb",
+        "Fossil": "Dinosaur",
+        "Farm": "Barbecue",
+        "Gold": "Midas",
+        "Basket": "Popcorn",
+        "Egg": "Omelette",
+        "Pottery": "Ceramic",
+        "Field": "Crop",
+        "Pot": "Cook",
+        "Vodka": "Fireball",
+        "Ganges": "Agni",
+        "Pump": "Cheese",
+        "Brick": "Kiln",
+        "Prometheus": "Human",
+        "Midas": "Grill",
+        "Crop": "Toast",
+        "Cook": "Chef",
+        "Toast": "Burnt Toast",
+        "Pandora": "Box",
+        "Loch Ness Monster": "Sea Monster",
+        "Box": "Oven",
+        "Sea Monster": "Kraken",
+        "Oven": "Pizza",
+        "Squid": "Calamari",
+        "Ink": "Tattoo"
     },
     "Fishbowl": {
         "Fire": "Goldfish"
     },
-    "Lightning": {
-        "Fire": "Sun",
-        "Water": "Electricity"
+    "Volcano": {
+        "Fire": "Lava"
+    },
+    "Steam": {
+        "Fire": "Engine",
+        "Water": "Cloud"
     },
     "Sushi": {
         "Fire": "Wasabi",
-        "Earth": "Rice",
-        "S’more": "S’mushi"
+        "Earth": "Rice"
     },
     "Goldfish": {
         "Fire": "Boiled Fish",
-        "Wind": "Kite"
-    },
-    "Sun": {
-        "Fire": "Solar",
-        "Wind": "Sunflower"
+        "Wind": "Kite",
+        "Earth": "Pond"
     },
     "Wasabi": {
         "Fire": "Fire Breath",
-        "S’more": "S’moresabi"
+        "Butter": "Pizza Hut",
+        "Astronaut": "Tux"
     },
     "Smoke": {
         "Water": "Fog"
-    },
-    "Lava": {
-        "Water": "Stone"
     },
     "Dragon": {
         "Water": "Sea Serpent"
@@ -325,417 +377,385 @@
         "Water": "Soup"
     },
     "Fog": {
-        "Water": "Ice"
+        "Water": "Ice",
+        "Boxing Gloves": "Punch"
     },
-    "Stone": {
-        "Water": "Rock",
-        "Wind": "Sand"
+    "Cloud": {
+        "Water": "Rain",
+        "Fire": "Lightning",
+        "Pterodactyl": "Monster"
     },
     "Sea Serpent": {
-        "Water": "Leviathan",
-        "S’more": "S’moresaurus"
+        "Water": "Leviathan"
     },
     "Ice": {
-        "Water": "Iceberg",
+        "Water": "Iceberg"
+    },
+    "Rain": {
+        "Water": "Rainbow",
         "Wind": "Snow",
-        "Hot Chocolate": "Hot Ice"
+        "Sodium Auoride": "Loch Ness",
+        "Taco": "Hay Fever"
     },
     "Leviathan": {
         "Water": "Whale",
-        "Earth": "Titan",
-        "S’more": "S’morgoth"
+        "Shaun Of The Djinn": "Shaun Of The Soup"
     },
     "Soup": {
         "Fire": "Chili",
-        "Earth": "Dirt"
+        "Earth": "Dirt",
+        "Fart": "Flatulence"
+    },
+    "Lightning": {
+        "Fire": "Sun",
+        "Water": "Electricity",
+        "Cactus": "Saguaro",
+        "Green Taco": "Unicorn"
     },
     "Chili": {
         "Fire": "Hot",
-        "Earth": "Pepper"
+        "Earth": "Pepper",
+        "Pizza Hut": "Chili Pizza"
+    },
+    "Sun": {
+        "Fire": "Solar",
+        "Wind": "Sunflower",
+        "Photograph": "Sunburn"
     },
     "Hot": {
-        "Water": "Tea",
         "Fire": "Heat",
+        "Water": "Tea",
         "Wind": "Hot Air"
     },
     "Tea": {
         "Fire": "Chai",
-        "Earth": "Teapot",
-        "S’more": "Smorea"
-    },
-    "Tsunami": {
-        "Wind": "Hurricane"
-    },
-    "Volcano": {
-        "Wind": "Eruption",
-        "S’more": "Lava Cake"
+        "Dragonfly": "Teapot"
     },
     "Engine": {
         "Wind": "Windmill",
-        "Earth": "Tractor",
-        "S’more": "Rocket"
+        "Earth": "Tractor"
     },
     "Fire Breath": {
         "Wind": "Fire Storm"
     },
     "Whale": {
         "Wind": "Sail",
-        "S’more": "S’mwhale"
+        "Mermaid": "Ariel"
     },
     "Dust": {
         "Wind": "Sandstorm",
-        "Water": "Mud",
-        "Fire": "Ash"
+        "Water": "Tsunami",
+        "Fire": "Ash",
+        "Tux": "Groom"
     },
     "Dandelion": {
         "Wind": "Seed",
-        "Water": "Wine"
-    },
-    "Flying Fish": {
-        "Wind": "Airplane"
+        "Water": "Wine",
+        "Glowing": "Chandelier",
+        "Shaun Of The Rose": "Dustin"
     },
     "Kite": {
-        "Wind": "Flying",
+        "Wind": "Airplane",
         "Fire": "Fireworks"
     },
-    "Sand": {
-        "Wind": "Dune",
-        "Water": "Beach",
-        "Fire": "Glass"
-    },
-    "Snow": {
-        "Wind": "Blizzard",
-        "Earth": "Snowman"
-    },
     "Sail": {
-        "Wind": "Sailboat",
-        "Water": "Boat",
+        "Wind": "Blizzard",
         "Fire": "Pirate"
     },
     "Sandstorm": {
-        "Wind": "Dust Storm",
-        "Water": "Oasis"
+        "Wind": "Hurricane",
+        "Water": "Oasis",
+        "Earth": "Dune",
+        "Hay Fever": "Dust Bowl"
     },
     "Windmill": {
         "Water": "Energy"
     },
-    "Flying": {
-        "Water": "Bird",
-        "Fire": "Phoenix"
-    },
-    "Sailboat": {
-        "Water": "Ship"
+    "Airplane": {
+        "Water": "Boat",
+        "Fire": "Crash"
     },
     "Wine": {
         "Water": "Holy Water",
         "Fire": "Alcohol",
         "Earth": "Vineyard"
     },
+    "Energy": {
+        "Water": "Wave",
+        "Fire": "Explosion"
+    },
     "Oasis": {
         "Water": "Mirage",
-        "Fire": "Desert"
+        "Fire": "Desert",
+        "Shaun Of The Tan": "Shaun Of The Wine"
     },
-    "Bird": {
-        "Water": "Penguin",
-        "Earth": "Chicken"
+    "Boat": {
+        "Water": "Ship"
     },
     "Hot Air": {
         "Fire": "Balloon"
     },
-    "Airplane": {
-        "Fire": "Crash",
-        "Earth": "Landing"
-    },
-    "Mud": {
-        "Fire": "Brick",
-        "Earth": "Clay",
-        "S’more": "Mud Pie"
-    },
-    "Energy": {
-        "Fire": "Explosion"
-    },
-    "Ship": {
-        "Fire": "Cannon"
-    },
     "Holy Water": {
         "Fire": "Vampire",
         "Wind": "Angel"
+    },
+    "Ship": {
+        "Fire": "Cannon",
+        "Poltergeist": "Ghost Ship",
+        "Satan Ninja": "Jesus"
+    },
+    "Ash": {
+        "Fire": "Phoenix",
+        "Water": "Puddle",
+        "Earth": "Soil"
+    },
+    "Balloon": {
+        "Fire": "Pop",
+        "Earth": "Moon",
+        "Shaun Of The Cereal": "Shaun Of The Boat"
+    },
+    "Crash": {
+        "Fire": "Burn"
+    },
+    "Desert": {
+        "Fire": "Sand",
+        "Wind": "Hangover"
+    },
+    "Cannon": {
+        "Fire": "Cannonball",
+        "Water": "Blood",
+        "Wind": "Bat"
+    },
+    "Pop": {
+        "Fire": "Soda"
+    },
+    "Sand": {
+        "Fire": "Glass",
+        "Water": "Beach",
+        "Wind": "Bubble"
     },
     "Glass": {
         "Fire": "Lens",
         "Wind": "Window",
         "Earth": "Bottle"
     },
-    "Balloon": {
-        "Fire": "Pop",
-        "Earth": "Moon"
+    "Fireworks": {
+        "Water": "Splash",
+        "Weed": "420"
     },
-    "Crash": {
-        "Fire": "Burn",
-        "Earth": "Meteor"
-    },
-    "Brick": {
-        "Fire": "Kiln",
-        "Wind": "House"
-    },
-    "Cannon": {
-        "Fire": "Cannonball"
+    "Puddle": {
+        "Water": "Microscope"
     },
     "Lens": {
         "Fire": "Magnifying Glass",
-        "Water": "Microscope",
-        "Wind": "Telescope",
-        "S’more": "Camera"
-    },
-    "Pop": {
-        "Fire": "Soda",
-        "Wind": "Bubble",
-        "S’more": "Pop’n’S’more"
-    },
-    "Kiln": {
-        "Fire": "Pottery"
-    },
-    "Pottery": {
-        "Fire": "Ceramic",
-        "Water": "Vase"
-    },
-    "Ash": {
-        "Water": "Puddle",
-        "Earth": "Soil"
-    },
-    "Fireworks": {
-        "Water": "Splash"
-    },
-    "Vampire": {
-        "Water": "Blood",
-        "Wind": "Bat",
-        "Earth": "Dracula"
-    },
-    "Soda": {
-        "Water": "Nothing"
-    },
-    "Ceramic": {
-        "Water": "Pot",
-        "S’more": "Cup"
-    },
-    "Puddle": {
-        "Water": "Pond",
-        "S’more": "S’mud"
+        "Wind": "Telescope"
     },
     "Microscope": {
-        "Water": "Amoeba",
         "Fire": "Virus",
-        "Earth": "Bacteria",
-        "S’more": "Ant"
-    },
-    "Vase": {
-        "Water": "Flower",
-        "Wind": "Fan"
-    },
-    "Flower": {
-        "Water": "Lily"
-    },
-    "Pot": {
-        "Fire": "Cook"
+        "Earth": "Bacteria"
     },
     "Virus": {
         "Fire": "Flu",
         "Water": "Sick"
     },
-    "Cook": {
-        "Fire": "Chef"
-    },
     "Flu": {
-        "Fire": "Fever",
         "Water": "Fluoride",
-        "Wind": "Sneeze"
+        "Fire": "Fever",
+        "Wind": "Sneeze",
+        "Earth": "Life"
+    },
+    "Fluoride": {
+        "Water": "Medicine",
+        "Fire": "Toothpaste",
+        "Earth": "Fluorite",
+        "Dead Shaun": "Skeleton"
+    },
+    "Medicine": {
+        "Fire": "Cure",
+        "Water": "Potion"
     },
     "Fever": {
         "Fire": "Hell",
         "Earth": "Earthquake"
     },
-    "Hell": {
-        "Water": "Hot Spring",
-        "Fire": "Devil"
-    },
-    "Sick": {
-        "Water": "Medicine"
-    },
-    "Fluoride": {
-        "Water": "Toothpaste",
-        "Earth": "Fluorite"
-    },
-    "Medicine": {
-        "Water": "Potion",
-        "Fire": "Cure",
-        "S’more": "S’morepill"
-    },
-    "Toothpaste": {
-        "Water": "Mouthwash",
-        "S’more": "S’mint"
-    },
-    "Potion": {
-        "Water": "Elixir",
-        "S’more": "Love Potion"
-    },
-    "Elixir": {
-        "Fire": "Alchemy"
-    },
     "Cure": {
         "Fire": "Firefighter",
         "Wind": "Breeze"
     },
-    "Alcohol": {
-        "Wind": "Hangover"
+    "Hell": {
+        "Fire": "Devil",
+        "Water": "Hot Spring",
+        "Shaun Of The Thorns": "Shaun Of The Tooth"
     },
-    "Amoeba": {
-        "Wind": "Paramecium",
-        "Earth": "Life",
-        "S’more": "S’mamoeba"
+    "Toothpaste": {
+        "Water": "Mouthwash"
+    },
+    "Potion": {
+        "Water": "Elixir"
+    },
+    "Elixir": {
+        "Fire": "Alchemy",
+        "Lake": "Sodium Auoride"
     },
     "Alchemy": {
-        "Wind": "Air"
+        "Wind": "Air",
+        "Urn": "Philosopher’s Stone"
     },
-    "Window": {
-        "Wind": "Curtain",
-        "Water": "Aquarium",
-        "Fire": "Fireplace"
+    "Angel": {
+        "Wind": "Flying",
+        "Rainbow Ninja": "Coral",
+        "Chandelier": "Genie"
     },
     "Hangover": {
         "Wind": "Hanglider",
-        "Fire": "Firewater",
-        "S’more": "Smoreover"
+        "Plant": "Rich",
+        "Shaun Of The Soup": "Alchemy Soup"
     },
-    "Paramecium": {
-        "Wind": "Parasail",
-        "S’more": "Paras’more"
+    "Window": {
+        "Wind": "Curtain",
+        "Fire": "Fireplace",
+        "Earth": "House"
     },
-    "Angel": {
-        "Water": "Mermaid",
-        "S’more": "Smore’"
-    },
-    "Hanglider": {
-        "Water": "Surfer",
-        "Fire": "Firework",
-        "Earth": "Parachute"
-    },
-    "Surfer": {
-        "Water": "Surf",
-        "Fire": "Surfing"
-    },
-    "Sneeze": {
-        "Fire": "Cough",
-        "S’more": "S’neeze"
+    "Telescope": {
+        "Water": "Aquarium",
+        "Fishing": "Astronomy"
     },
     "Curtain": {
-        "Fire": "Flame"
+        "Water": "Bird",
+        "Fire": "Flame",
+        "Saguaro": "Stage",
+        "Dustin": "Stranger Things"
     },
-    "Mermaid": {
-        "Fire": "Siren",
-        "Wind": "Ariel",
-        "S’more": "S’mermaid"
+    "Bat": {
+        "Fire": "Firewater",
+        "Earth": "Cave"
+    },
+    "Hanglider": {
+        "Fire": "Firework",
+        "Earth": "Parachute",
+        "Flying Mario": "Batman",
+        "Shaun Of The Rainbow": "Rainbow Dash"
     },
     "Fireplace": {
-        "Fire": "Warmth"
-    },
-    "Cough": {
-        "Water": "Lung"
+        "Fire": "Warmth",
+        "Jesus": "Wolfsbane"
     },
     "Warmth": {
         "Water": "Hot Water",
         "Earth": "Spring"
     },
-    "Solar": {
+    "Lava": {
+        "Earth": "Stone"
+    },
+    "Rainbow": {
+        "Earth": "Titan",
+        "Shaun Of The Dead": "Shaun Of The Rainbow"
+    },
+    "Storm": {
         "Earth": "Planet"
+    },
+    "Flying Fish": {
+        "Earth": "Flower"
+    },
+    "Snow": {
+        "Earth": "Snowman"
+    },
+    "Blizzard": {
+        "Earth": "Landing",
+        "Lake": "Hot Mess"
     },
     "Pirate": {
         "Earth": "Treasure"
     },
+    "Alcohol": {
+        "Earth": "Meteor",
+        "Salad": "Stink"
+    },
+    "Vampire": {
+        "Earth": "Dracula",
+        "Lake": "Firebird"
+    },
     "Magnifying Glass": {
         "Earth": "Fossil"
     },
-    "House": {
-        "Earth": "Farm"
-    },
-    "Bat": {
-        "Earth": "Cave"
-    },
-    "Parasail": {
-        "Earth": "Paratrooper"
-    },
-    "Forest": {
-        "Forest": "Jungle",
-        "Tree": "Wood"
+    "Bird": {
+        "Earth": "Chicken",
+        "Rose": "Compost",
+        "Shaun Of The Wine": "Shaun Of The Sea"
     },
     "Tree": {
         "Earth": "Forest",
-        "Water": "River",
-        "Forest": "Wood"
-    },
-    "Wood": {
-        "Fire": "Campfire"
+        "Wind": "Leaf",
+        "Shaun Of The Boat": "Shaun Of The Mountain"
     },
     "Island": {
         "Earth": "Continent"
     },
-    "Rice": {
-        "Earth": "Paddy"
+    "Mud": {
+        "Earth": "Clay",
+        "Fire": "Brick"
+    },
+    "Pond": {
+        "Earth": "Paddy",
+        "Teapot": "Sake"
+    },
+    "Stone": {
+        "Earth": "Rock",
+        "Lake": "Lighthouse",
+        "Groom": "Statue"
+    },
+    "Tractor": {
+        "Earth": "Farm",
+        "Lake": "Plow",
+        "Dust Bowl": "Tank",
+        "Genie": "Spa"
     },
     "Titan": {
         "Earth": "Atlas",
-        "Fire": "Prometheus"
+        "Fire": "Prometheus",
+        "Wind": "Zeus"
     },
     "Pepper": {
         "Earth": "Spice",
-        "Fire": "Spicy"
-    },
-    "Chicken": {
-        "Earth": "Egg",
-        "Fire": "Roast"
+        "Fire": "Spicy",
+        "Lake": "Salt"
     },
     "Treasure": {
         "Earth": "Gold"
     },
     "Moon": {
         "Earth": "Eclipse",
-        "Water": "Tide"
-    },
-    "Fossil": {
-        "Earth": "Oil",
-        "Fire": "Dinosaur"
+        "Lake": "Jewel"
     },
     "Life": {
-        "Earth": "Human",
-        "Jungle": "Monkey"
-    },
-    "Jungle": {
-        "Life": "Monkey",
-        "S’more": "Snake",
-        "Farm": "Corn"
-    },
-    "Farm": {
-        "Earth": "Field",
-        "Fire": "Barbecue",
-        "S’more": "Smores",
-        "Jungle": "Corn"
+        "Earth": "Oil",
+        "Pigeon": "Pepperoni"
     },
     "Cave": {
-        "Earth": "Mine",
-        "S’more": "Bear"
+        "Earth": "Mine"
     },
     "Parachute": {
         "Earth": "Basket"
     },
-    "Paratrooper": {
-        "Earth": "Farmer"
+    "Chicken": {
+        "Earth": "Egg",
+        "Wind": "Paraglider"
     },
     "Continent": {
-        "Earth": "Land",
-        "S’more": "America"
+        "Earth": "Land"
+    },
+    "Clay": {
+        "Earth": "Pottery"
+    },
+    "Farm": {
+        "Earth": "Field",
+        "Fire": "Barbecue"
     },
     "Atlas": {
         "Earth": "Globe",
-        "Water": "Titanic"
+        "Water": "Titanic",
+        "Golem": "Allergy",
+        "Spa": "Massage"
     },
     "Spice": {
         "Earth": "Curry"
@@ -743,14 +763,21 @@
     "Gold": {
         "Earth": "Money",
         "Fire": "Midas",
-        "S’more": "Rich"
+        "Sake": "Japan"
     },
     "Oil": {
         "Earth": "Fuel",
-        "Water": "Emulsion"
+        "Water": "Emulsion",
+        "Statue": "Venus"
     },
     "Basket": {
-        "Earth": "Potato"
+        "Earth": "Potato",
+        "Fire": "Popcorn",
+        "Lake": "Fishing"
+    },
+    "Pottery": {
+        "Earth": "Vase",
+        "Fire": "Ceramic"
     },
     "Globe": {
         "Earth": "World"
@@ -758,14 +785,18 @@
     "Curry": {
         "Earth": "India"
     },
-    "Potato": {
-        "Earth": "Vodka",
-        "S’more": "Baked Potato"
+    "Vase": {
+        "Earth": "Pot",
+        "Wind": "Chip",
+        "Lake": "Urn",
+        "Salsa": "Salsa Verde"
     },
     "India": {
         "Earth": "Taj Mahal",
-        "Water": "Ganges",
-        "S’more": "Samosa"
+        "Water": "Ganges"
+    },
+    "Snowman": {
+        "Water": "Lily"
     },
     "Meteor": {
         "Water": "Meteorite"
@@ -777,379 +808,942 @@
         "Water": "Fountain"
     },
     "Mine": {
-        "Water": "Well"
+        "Water": "Well",
+        "Tank": "Minecraft",
+        "Shaun Of The Tooth": "Eclipse Of The Tooth"
     },
-    "Farmer": {
-        "Water": "Fisherman"
-    },
-    "Fuel": {
-        "Water": "Gasoline"
+    "Potato": {
+        "Water": "Vodka",
+        "Pluto": "Plutato"
     },
     "Fluorine": {
         "Water": "Hydrofluoric Acid",
-        "S’more": "Flamingo"
+        "Manure": "Kelp"
     },
     "Emulsion": {
-        "Water": "Milk"
+        "Water": "Milk",
+        "Venus Flytrap": "Flypaper"
     },
     "Well": {
-        "Water": "Pump"
+        "Water": "Pump",
+        "Plant": "Poison"
+    },
+    "Ganges": {
+        "Water": "River",
+        "Fire": "Agni"
     },
     "Bottle": {
-        "Fire": "Bomb"
+        "Fire": "Bomb",
+        "Plant": "Toxic",
+        "Horse": "Venus Flytrap"
+    },
+    "Fossil": {
+        "Fire": "Dinosaur"
     },
     "Egg": {
-        "Fire": "Omelette"
+        "Fire": "Omelette",
+        "Lake": "Potato Chip"
     },
-    "Campfire": {
-        "Campfire": "Bonfire",
-        "S’more": "Smore"
+    "Field": {
+        "Fire": "Crop"
     },
-    "S’more": {
-        "Campfire": "Smore",
-        "Jungle": "Snake",
-        "Farm": "Smores",
-        "Milk": "S’mores",
-        "Fire": "Toast",
-        "Steam": "Marshmallow",
-        "Rainbow": "Unicorn",
-        "Volcano": "Lava Cake",
-        "Engine": "Rocket",
-        "Sushi": "S’mushi",
-        "Wasabi": "S’moresabi",
-        "Sea Serpent": "S’moresaurus",
-        "Leviathan": "S’morgoth",
-        "Iceberg": "Ice Cream",
-        "Whale": "S’mwhale",
-        "Tea": "Smorea",
-        "Hurricane": "Smoreicane",
-        "Dune": "Sandwich",
-        "Mud": "Mud Pie",
-        "Lens": "Camera",
-        "Pop": "Pop’n’S’more",
-        "Ceramic": "Cup",
-        "Puddle": "S’mud",
-        "Microscope": "Ant",
-        "Amoeba": "S’mamoeba",
-        "Hot Spring": "Hot Chocolate",
-        "Medicine": "S’morepill",
-        "Toothpaste": "S’mint",
-        "Potion": "Love Potion",
-        "Mouthwash": "Smoresh",
-        "Angel": "Smore’",
-        "Hangover": "Smoreover",
-        "Telescope": "Astronomer",
-        "Paramecium": "Paras’more",
-        "Sneeze": "S’neeze",
-        "Mermaid": "S’mermaid",
-        "Siren": "Smore’n",
-        "Surfing": "Surfmore",
-        "Lung": "Smoker",
-        "Planet": "Mars",
-        "Clay": "Golem",
-        "Cave": "Bear",
-        "Continent": "America",
-        "Gold": "Rich",
-        "Potato": "Baked Potato",
-        "India": "Samosa",
-        "Vodka": "S’moretini",
-        "Tide": "S’moreganic",
-        "Fluorine": "Flamingo",
-        "Hydrofluoric Acid": "S’morgasbord",
-        "Pump": "Pumpkin",
-        "Dinosaur": "Dino-mite",
-        "Omelette": "S’momelette",
-        "Corn": "Popcorn",
-        "Unicorn": "S’morcorn",
-        "S’moresabi": "S’moresabis",
-        "S’moresaurus": "S’moresaurus Rex",
-        "Ice Cream": "S’mores Ice Cream",
-        "Smorea": "S’morea",
-        "Smoreicane": "S’moreicane",
-        "Sandwich": "S’moreswich",
-        "Pop’n’S’more": "Pop’n’s’more",
-        "S’morepill": "S’morepillow",
-        "Love Potion": "Love",
-        "Smoreover": "S’moreover",
-        "S’mermaid": "S’mermore",
-        "Mars": "S’mars",
-        "Bear": "Smokey",
-        "Samosa": "S’mosa",
-        "S’morgasbord": "S’more-gasbord",
-        "Pumpkin": "Pie",
-        "Dino-mite": "S’more-saurus",
-        "Popcorn": "Movie",
-        "S’moreswich": "S’morewich",
-        "S’moreover": "S’moreovermore",
-        "S’moreovermore": "S’moreovermoreovermore",
-        "Richmore": "Richmores’more"
-    },
-    "Bonfire": {
-        "Lake": "S’more"
-    },
-    "Milk": {
-        "S’more": "S’mores"
-    },
-    "Rainbow": {
-        "S’more": "Unicorn"
-    },
-    "Iceberg": {
-        "S’more": "Ice Cream"
-    },
-    "Hurricane": {
-        "S’more": "Smoreicane"
-    },
-    "Dune": {
-        "S’more": "Sandwich"
-    },
-    "Hot Spring": {
-        "S’more": "Hot Chocolate"
-    },
-    "Mouthwash": {
-        "S’more": "Smoresh"
-    },
-    "Telescope": {
-        "S’more": "Astronomer"
-    },
-    "Siren": {
-        "S’more": "Smore’n"
-    },
-    "Surfing": {
-        "S’more": "Surfmore"
-    },
-    "Lung": {
-        "S’more": "Smoker"
-    },
-    "Planet": {
-        "S’more": "Mars"
-    },
-    "Clay": {
-        "S’more": "Golem"
+    "Pot": {
+        "Fire": "Cook"
     },
     "Vodka": {
-        "S’more": "S’moretini"
-    },
-    "Tide": {
-        "S’more": "S’moreganic"
-    },
-    "Hydrofluoric Acid": {
-        "S’more": "S’morgasbord"
+        "Fire": "Fireball",
+        "Lake": "Martini",
+        "Plant": "Seaweed"
     },
     "Pump": {
-        "S’more": "Pumpkin"
+        "Fire": "Cheese"
+    },
+    "Brick": {
+        "Fire": "Kiln",
+        "Paratrooper": "Cereal"
+    },
+    "Prometheus": {
+        "Fire": "Human",
+        "Water": "Pandora",
+        "Mountain Dew": "Mountain Prometheus"
+    },
+    "Midas": {
+        "Fire": "Grill"
+    },
+    "Crop": {
+        "Fire": "Toast",
+        "Stranger Things": "Eleven"
+    },
+    "Cook": {
+        "Fire": "Chef",
+        "Venus": "Aphrodite"
+    },
+    "Toast": {
+        "Fire": "Burnt Toast",
+        "Lake": "Bread"
+    },
+    "Spicy": {
+        "Water": "Hot Sauce",
+        "Lake": "Salsa"
     },
     "Dinosaur": {
-        "S’more": "Dino-mite"
+        "Water": "Plesiosaur",
+        "Wind": "Pterodactyl",
+        "Pepperoni": "Pumpkin"
     },
-    "Omelette": {
-        "S’more": "S’momelette"
+    "Hot Sauce": {
+        "Water": "Coffee",
+        "Yakiniku": "Pandora Box",
+        "Plant": "Wall"
     },
-    "Corn": {
-        "S’more": "Popcorn",
-        "Snake": "Cobra"
+    "Plesiosaur": {
+        "Water": "Loch Ness Monster"
     },
-    "Unicorn": {
-        "S’more": "S’morcorn"
+    "Loch Ness Monster": {
+        "Water": "Nessie",
+        "Fire": "Sea Monster"
     },
-    "S’moresabi": {
-        "S’more": "S’moresabis"
+    "Pandora": {
+        "Fire": "Box",
+        "Plant": "Sneezing",
+        "Rudolph": "Boxing Day"
     },
-    "S’moresaurus": {
-        "S’more": "S’moresaurus Rex"
+    "Box": {
+        "Fire": "Oven",
+        "Allergy": "Hay",
+        "Lake": "Boxer"
     },
-    "Ice Cream": {
-        "S’more": "S’mores Ice Cream"
+    "Sea Monster": {
+        "Fire": "Kraken",
+        "Water": "Poseidon",
+        "Plutato": "Absinthe"
     },
-    "Smorea": {
-        "S’more": "S’morea",
-        "Snake": "Medusa"
+    "Oven": {
+        "Fire": "Pizza",
+        "Aphrodite": "Baklava"
     },
-    "Smoreicane": {
-        "S’more": "S’moreicane"
+    "Pizza": {
+        "Water": "Squid",
+        "TNT": "Pizza Bomb"
     },
-    "Sandwich": {
-        "S’more": "S’moreswich",
-        "Snake": "Anaconda"
+    "Squid": {
+        "Water": "Ink",
+        "Fire": "Calamari"
     },
-    "Pop’n’S’more": {
-        "S’more": "Pop’n’s’more"
+    "Ink": {
+        "Fire": "Tattoo",
+        "Lake": "Mermaid",
+        "Jack-o-Lantern": "Cthulhu"
     },
-    "S’morepill": {
-        "S’more": "S’morepillow"
+    "Tattoo": {
+        "Water": "Octopus"
     },
-    "Love Potion": {
-        "S’more": "Love"
+    "Mountain": {
+        "Wind": "Avalanche",
+        "Tragedy": "Horse"
     },
-    "Smoreover": {
-        "S’more": "S’moreover"
+    "Rice": {
+        "Wind": "Fan",
+        "Skeleton": "Rice Pudding"
     },
-    "S’mermaid": {
-        "S’more": "S’mermore",
-        "Snake": "S’snake"
+    "Dracula": {
+        "Wind": "Werewolf",
+        "Plant": "Pineapple"
     },
-    "Mars": {
-        "S’more": "S’mars",
-        "Snake": "Ares"
+    "Milk": {
+        "Wind": "Butter"
     },
-    "Bear": {
-        "S’more": "Smokey",
-        "Smore": "Teddy"
+    "Cheese": {
+        "Wind": "Fart",
+        "Lake": "Limburger"
     },
-    "Samosa": {
-        "S’more": "S’mosa"
+    "Human": {
+        "Wind": "Ghost",
+        "Hamlet": "Shakespeare"
     },
-    "S’morgasbord": {
-        "S’more": "S’more-gasbord",
-        "Smore": "S’moreorgasbord",
-        "Snake": "Snakebord"
+    "Butter": {
+        "Wasabi": "Pizza Hut",
+        "Lake": "Butterfly"
+    },
+    "Pterodactyl": {
+        "Cloud": "Monster",
+        "Shaun Of The Mountain": "Chip Shaun"
+    },
+    "Fart": {
+        "Soup": "Flatulence",
+        "Plant": "Sneezeweed"
+    },
+    "Ghost": {
+        "Iceberg": "Poltergeist"
+    },
+    "Iceberg": {
+        "Ghost": "Poltergeist",
+        "Mirror": "Penguin"
+    },
+    "Mermaid": {
+        "Whale": "Ariel"
+    },
+    "Pizza Hut": {
+        "Chili": "Chili Pizza",
+        "Pandora Box": "Evil",
+        "Rice Pudding": "Pizza Rice"
+    },
+    "River": {
+        "Lake": "Yeti",
+        "Skunk": "Fruit"
+    },
+    "Poltergeist": {
+        "Ship": "Ghost Ship"
+    },
+    "Eclipse": {
+        "Lake": "Diamond"
+    },
+    "Ghost Ship": {
+        "Firefighter": "Ghostbuster"
+    },
+    "Firefighter": {
+        "Ghost Ship": "Ghostbuster"
+    },
+    "Urn": {
+        "Alchemy": "Philosopher’s Stone"
+    },
+    "Potato Chip": {
+        "Bubble": "Pringle"
+    },
+    "Bubble": {
+        "Potato Chip": "Pringle"
+    },
+    "Fishing": {
+        "Telescope": "Astronomy"
+    },
+    "Ghostbuster": {
+        "Flame": "Fireman"
+    },
+    "Flame": {
+        "Ghostbuster": "Fireman"
+    },
+    "Planet": {
+        "Lake": "Golem"
+    },
+    "Hot Water": {
+        "Lake": "Hot Springs"
+    },
+    "Golem": {
+        "Atlas": "Allergy"
+    },
+    "Plow": {
+        "Titanic": "Mirror"
+    },
+    "Titanic": {
+        "Plow": "Mirror"
+    },
+    "Hot Springs": {
+        "Ceramic": "Cup",
+        "Plant": "Pluto"
+    },
+    "Ceramic": {
+        "Hot Springs": "Cup",
+        "Rainbow Dash": "Pinkie Pie"
+    },
+    "Allergy": {
+        "Box": "Hay"
+    },
+    "Sodium Auoride": {
+        "Rain": "Loch Ness"
+    },
+    "Mirror": {
+        "Iceberg": "Penguin",
+        "Plant": "John Deere",
+        "Eleven": "Twelve"
+    },
+    "Zeus": {
+        "Lake": "Dustbin",
+        "Plant": "Mountain Dew"
+    },
+    "Hay": {
+        "Fire Storm": "Sea",
+        "Bonsai": "Haybonsai",
+        "Plant": "Tanning"
+    },
+    "Fire Storm": {
+        "Hay": "Sea"
+    },
+    "Fountain": {
+        "Lake": "Seasick"
+    },
+    "Lily": {
+        "Lake": "Lotus"
+    },
+    "Soil": {
+        "Lake": "Lunar"
+    },
+    "Landing": {
+        "Lake": "Dock"
+    },
+    "Salsa": {
+        "Vase": "Salsa Verde",
+        "The Tempest": "Prospero"
+    },
+    "Lotus": {
+        "Chip": "Buddha"
+    },
+    "Chip": {
+        "Lotus": "Buddha"
+    },
+    "Lunar": {
+        "Fireman": "Astronaut",
+        "Absinthe": "Tequila"
+    },
+    "Fireman": {
+        "Lunar": "Astronaut"
+    },
+    "Salsa Verde": {
+        "Hot Mess": "Taco",
+        "Cthulhu": "Cthulhu Verde"
+    },
+    "Hot Mess": {
+        "Salsa Verde": "Taco",
+        "Plant": "Cactus",
+        "Evil": "Satan",
+        "Seaweed": "Seaweed Salad"
+    },
+    "Boxer": {
+        "Lake": "Nirvana",
+        "Pizza Bomb": "Pizza Boxer",
+        "Plant": "Parrot",
+        "Wall": "Cocoon"
+    },
+    "Butterfly": {
+        "Lake": "Dragonfly"
+    },
+    "Astronaut": {
+        "Wasabi": "Tux",
+        "Cyclops": "Monk"
+    },
+    "Taco": {
+        "Rain": "Hay Fever",
+        "Magician": "Taco Bell",
+        "Sea Salt": "Dead Astronaut"
+    },
+    "Cactus": {
+        "Lightning": "Saguaro",
+        "Taco Bell": "Chihuahua",
+        "Pineapple": "Camera"
+    },
+    "Nirvana": {
+        "Heat": "Hot Dog"
+    },
+    "Heat": {
+        "Nirvana": "Hot Dog"
+    },
+    "Dragonfly": {
+        "Tea": "Teapot",
+        "Pizza Boxer": "Cactus Pizza"
+    },
+    "Tux": {
+        "Dust": "Groom"
+    },
+    "Hay Fever": {
+        "Sandstorm": "Dust Bowl"
+    },
+    "Saguaro": {
+        "Curtain": "Stage"
+    },
+    "Hot Dog": {
+        "Firewater": "Pigeon"
+    },
+    "Firewater": {
+        "Hot Dog": "Pigeon"
+    },
+    "Teapot": {
+        "Pond": "Sake"
+    },
+    "Groom": {
+        "Stone": "Statue",
+        "Prospero": "Magician",
+        "Chihuahua": "Teacup"
+    },
+    "Dust Bowl": {
+        "Tractor": "Tank",
+        "Taco Ninja": "Tuxedo Ninja"
+    },
+    "Stage": {
+        "Dirt": "Drama"
+    },
+    "Dirt": {
+        "Stage": "Drama",
+        "Coral": "Reef"
+    },
+    "Pigeon": {
+        "Life": "Pepperoni"
+    },
+    "Sake": {
+        "Gold": "Japan"
+    },
+    "Statue": {
+        "Oil": "Venus",
+        "Plant": "Tan",
+        "Shaun Of The Kraken": "Pigeon Of The Kraken"
+    },
+    "Tank": {
+        "Mine": "Minecraft",
+        "Fire Flower": "Firefly"
+    },
+    "Drama": {
+        "Money": "Hamlet",
+        "Plant": "Tragedy"
+    },
+    "Money": {
+        "Drama": "Hamlet"
+    },
+    "Pepperoni": {
+        "Dinosaur": "Pumpkin",
+        "Chip Shaun": "Tank Shaun"
+    },
+    "Japan": {
+        "Barbecue": "Yakiniku"
+    },
+    "Barbecue": {
+        "Japan": "Yakiniku",
+        "Reef": "Money Tree"
+    },
+    "Venus": {
+        "Cook": "Aphrodite",
+        "Teacup": "Cupid"
+    },
+    "Minecraft": {
+        "Agni": "TNT",
+        "Cupid": "Herobrine"
+    },
+    "Agni": {
+        "Minecraft": "TNT"
+    },
+    "Hamlet": {
+        "Human": "Shakespeare"
     },
     "Pumpkin": {
-        "S’more": "Pie",
-        "Snake": "Jack-o-Lantern"
+        "Grill": "Jack-o-Lantern",
+        "Plant": "Knockout"
     },
-    "Dino-mite": {
-        "S’more": "S’more-saurus",
-        "Snake": "T-Rex"
+    "Grill": {
+        "Pumpkin": "Jack-o-Lantern"
     },
-    "Popcorn": {
-        "S’more": "Movie"
+    "Yakiniku": {
+        "Hot Sauce": "Pandora Box",
+        "Rich": "Bill Gates"
     },
-    "S’moreswich": {
-        "S’more": "S’morewich",
-        "Snake": "Snakewich"
+    "Aphrodite": {
+        "Oven": "Baklava"
     },
-    "S’moreover": {
-        "S’more": "S’moreovermore"
+    "TNT": {
+        "Pizza": "Pizza Bomb"
     },
-    "S’moreovermore": {
-        "S’more": "S’moreovermoreovermore"
+    "Shakespeare": {
+        "Poseidon": "The Tempest"
     },
-    "Smore": {
-        "Camera": "Selfie",
-        "Smoresh": "Smoreshmore",
-        "Smore’": "Smore’s",
-        "Astronomer": "Star",
-        "Bear": "Teddy",
-        "Rich": "Richmore",
-        "S’morgasbord": "S’moreorgasbord",
-        "S’momelette": "S’momore",
-        "S’moreovermoreovermore": "S’moreovermoreovermoreovermore",
-        "Selfie": "Selfmore",
-        "Richmore": "Richsmore",
-        "S’moreovermoreovermoreovermore": "S’moreovermoreovermoreovermoreovermore",
-        "Richmores’more": "Richmores’mores’more"
+    "Poseidon": {
+        "Shakespeare": "The Tempest",
+        "Shaun Of The Sea": "Shaun Of The Kraken"
     },
-    "Camera": {
-        "Smore": "Selfie",
-        "Snake": "Photographer"
+    "Jack-o-Lantern": {
+        "Ink": "Cthulhu"
     },
-    "Smoresh": {
-        "Smore": "Smoreshmore"
+    "Pandora Box": {
+        "Pizza Hut": "Evil",
+        "Plant": "Rainbow Ninja"
     },
-    "Smore’": {
-        "Smore": "Smore’s"
+    "Baklava": {
+        "Martini": "Cyclops",
+        "Haybonsai": "Boom"
     },
-    "Astronomer": {
-        "Smore": "Star",
-        "Snake": "Ophiuchus"
+    "Martini": {
+        "Baklava": "Cyclops"
+    },
+    "Pizza Bomb": {
+        "Boxer": "Pizza Boxer"
+    },
+    "The Tempest": {
+        "Salsa": "Prospero",
+        "Plant": "Caliban"
+    },
+    "Cthulhu": {
+        "Salsa Verde": "Cthulhu Verde",
+        "Herobrine": "Creeper"
+    },
+    "Evil": {
+        "Hot Mess": "Satan",
+        "Creeper": "Griefer"
+    },
+    "Cyclops": {
+        "Astronaut": "Monk"
+    },
+    "Pizza Boxer": {
+        "Dragonfly": "Cactus Pizza"
+    },
+    "Prospero": {
+        "Groom": "Magician",
+        "Griefer": "Hacker",
+        "Pizza Rice": "Cyclops Pizza"
+    },
+    "Magician": {
+        "Taco": "Taco Bell",
+        "Ninja": "Cactus Ninja"
+    },
+    "Taco Bell": {
+        "Cactus": "Chihuahua"
+    },
+    "Chihuahua": {
+        "Groom": "Teacup",
+        "Plant": "Rose"
+    },
+    "Teacup": {
+        "Venus": "Cupid",
+        "Cactus Ninja": "Taco Ninja"
+    },
+    "Cupid": {
+        "Minecraft": "Herobrine"
+    },
+    "Herobrine": {
+        "Cthulhu": "Creeper"
+    },
+    "Creeper": {
+        "Evil": "Griefer"
+    },
+    "Griefer": {
+        "Prospero": "Hacker"
+    },
+    "Hacker": {
+        "Monk": "Ninja",
+        "Plant": "Weed"
+    },
+    "Monk": {
+        "Hacker": "Ninja",
+        "Tuxedo Ninja": "Satan Ninja"
+    },
+    "Ninja": {
+        "Magician": "Cactus Ninja",
+        "Taco Ninja": "Taco Creeper"
+    },
+    "Cactus Ninja": {
+        "Teacup": "Taco Ninja"
+    },
+    "Taco Ninja": {
+        "Ninja": "Taco Creeper",
+        "Dust Bowl": "Tuxedo Ninja"
+    },
+    "Taco Creeper": {
+        "Cthulhu Verde": "Taco Boxer"
+    },
+    "Cthulhu Verde": {
+        "Taco Creeper": "Taco Boxer"
+    },
+    "Tuxedo Ninja": {
+        "Monk": "Satan Ninja"
+    },
+    "Cactus Pizza": {
+        "Plant": "Salad"
+    },
+    "Taco Boxer": {
+        "Hurricane": "Sunflower Taco",
+        "Boxing Bin": "Boxing Gloves",
+        "Plant": "Flying Mario"
+    },
+    "Hurricane": {
+        "Taco Boxer": "Sunflower Taco"
+    },
+    "Satan Ninja": {
+        "Ship": "Jesus"
+    },
+    "Weed": {
+        "Fireworks": "420"
+    },
+    "Salad": {
+        "Alcohol": "Stink"
+    },
+    "Caliban": {
+        "Soda": "Coca-Cola"
+    },
+    "Soda": {
+        "Caliban": "Coca-Cola"
+    },
+    "Rainbow Ninja": {
+        "Angel": "Coral"
+    },
+    "Paraglider": {
+        "Plant": "Santa Claus"
+    },
+    "Jesus": {
+        "Fireplace": "Wolfsbane"
+    },
+    "Werewolf": {
+        "Plant": "Skunk"
+    },
+    "Coral": {
+        "Dirt": "Reef",
+        "Ghostbuster 2": "Ghostbuster 2: Satan Ninja"
+    },
+    "Burnt Toast": {
+        "Plant": "Rudolph"
+    },
+    "Skunk": {
+        "River": "Fruit",
+        "Star Wars": "Darth Vader"
+    },
+    "Mountain Dew": {
+        "Prometheus": "Mountain Prometheus",
+        "Camera": "Photograph"
+    },
+    "Reef": {
+        "Barbecue": "Money Tree"
+    },
+    "Sneezing": {
+        "Chef": "Bonsai"
+    },
+    "Chef": {
+        "Sneezing": "Bonsai"
+    },
+    "Rudolph": {
+        "Pandora": "Boxing Day",
+        "Diamond Tiara": "Mountain Dew Diamond"
+    },
+    "Firework": {
+        "Plant": "Fire Flower"
+    },
+    "Bonsai": {
+        "Hay": "Haybonsai"
+    },
+    "Boxing Day": {
+        "Limburger": "Boxing Bin"
+    },
+    "Limburger": {
+        "Boxing Day": "Boxing Bin",
+        "Cereal": "Stinky"
+    },
+    "Toxic": {
+        "Pier": "Green",
+        "Firefly": "Glowing"
+    },
+    "Pier": {
+        "Toxic": "Green"
+    },
+    "Pineapple": {
+        "Cactus": "Camera"
+    },
+    "Fire Flower": {
+        "Tank": "Firefly",
+        "Bill Gates": "Mario"
     },
     "Rich": {
-        "Smore": "Richmore",
-        "Snake": "Riches"
+        "Yakiniku": "Bill Gates",
+        "Twelve": "Olympus"
     },
-    "S’momelette": {
-        "Smore": "S’momore"
+    "Haybonsai": {
+        "Baklava": "Boom"
     },
-    "S’moreovermoreovermore": {
-        "Smore": "S’moreovermoreovermoreovermore"
+    "Boxing Bin": {
+        "Taco Boxer": "Boxing Gloves"
     },
-    "Selfie": {
-        "Smore": "Selfmore"
+    "Green": {
+        "Coca-Cola": "Green Taco"
     },
-    "Richmore": {
-        "Smore": "Richsmore",
-        "S’more": "Richmores’more"
+    "Coca-Cola": {
+        "Green": "Green Taco"
     },
-    "S’moreovermoreovermoreovermore": {
-        "Smore": "S’moreovermoreovermoreovermoreovermore"
+    "Camera": {
+        "Mountain Dew": "Photograph"
     },
-    "Richmores’more": {
-        "Smore": "Richmores’mores’more"
+    "Firefly": {
+        "Toxic": "Glowing",
+        "Cocoon": "Moth"
     },
-    "Snake": {
-        "Snake": "Hydra",
-        "Corn": "Cobra",
-        "S’mwhale": "Snake Whale",
-        "Smorea": "Medusa",
-        "Sandwich": "Anaconda",
-        "Camera": "Photographer",
-        "Cup": "Poison",
-        "Ant": "Centipede",
-        "Hot Chocolate": "Cocoa",
-        "S’mint": "Snake’s Mint",
-        "Astronomer": "Ophiuchus",
-        "S’mermaid": "S’snake",
-        "Surfmore": "Surfboard",
-        "Smoker": "Smoking Snake",
-        "Mars": "Ares",
-        "America": "Bald Eagle",
-        "Rich": "Riches",
-        "Baked Potato": "Potato Salad",
-        "S’moretini": "Snakebite",
-        "S’morgasbord": "Snakebord",
-        "Pumpkin": "Jack-o-Lantern",
-        "Dino-mite": "T-Rex",
-        "S’mores Ice Cream": "Snake in the Grass",
-        "S’moreswich": "Snakewich"
+    "Bill Gates": {
+        "Fire Flower": "Mario"
     },
-    "S’mwhale": {
-        "Snake": "Snake Whale"
+    "Boom": {
+        "Ocean": "Lantern"
     },
-    "Cup": {
-        "Snake": "Poison"
+    "Boxing Gloves": {
+        "Fog": "Punch"
     },
-    "Ant": {
-        "Snake": "Centipede"
+    "Green Taco": {
+        "Lightning": "Unicorn"
     },
-    "Hot Chocolate": {
-        "Snake": "Cocoa",
-        "Ice": "Hot Ice",
-        "Monkey": "Chimpunk"
+    "Photograph": {
+        "Sun": "Sunburn"
     },
-    "S’mint": {
-        "Snake": "Snake’s Mint"
+    "Glowing": {
+        "Dandelion": "Chandelier"
     },
-    "Surfmore": {
-        "Snake": "Surfboard"
+    "Chandelier": {
+        "Angel": "Genie",
+        "Margarita": "Vacation"
     },
-    "Smoker": {
-        "Snake": "Smoking Snake"
+    "Flying Mario": {
+        "Hanglider": "Batman"
     },
-    "America": {
-        "Snake": "Bald Eagle"
+    "Rose": {
+        "Bird": "Compost"
     },
-    "Baked Potato": {
-        "Snake": "Potato Salad"
+    "Tragedy": {
+        "Mountain": "Horse",
+        "Vacation": "Comedy",
+        "Shaun Of The Djinn": "Shaun Of The Rose"
     },
-    "S’moretini": {
-        "Snake": "Snakebite"
+    "Genie": {
+        "Tractor": "Spa",
+        "Comedy": "Djinn",
+        "Pigeon Of The Kraken": "Pigeon Of The Mario"
     },
-    "S’mores Ice Cream": {
-        "Snake": "Snake in the Grass"
+    "Jewel": {
+        "Plant": "Manure",
+        "Pinkie Pie": "Diamond Tiara"
     },
-    "Monkey": {
-        "Hot Chocolate": "Chimpunk",
-        "Medusa": "Gorgon",
-        "Cocoa": "Chocolate",
-        "Chocolate": "Chimpanzee"
+    "Pringle": {
+        "Plant": "Centaur",
+        "Eclipse Of The Tooth": "Ghostbuster 2"
     },
-    "Medusa": {
-        "Monkey": "Gorgon"
+    "Horse": {
+        "Bottle": "Venus Flytrap"
     },
-    "Cocoa": {
-        "Monkey": "Chocolate"
+    "John Deere": {
+        "Rock": "Paratrooper"
     },
-    "Chocolate": {
-        "Monkey": "Chimpanzee"
+    "Rock": {
+        "John Deere": "Paratrooper"
+    },
+    "Spa": {
+        "Atlas": "Massage"
+    },
+    "Pluto": {
+        "Potato": "Plutato"
+    },
+    "Kraken": {
+        "Plant": "Fertilizer"
+    },
+    "Manure": {
+        "Fluorine": "Kelp"
+    },
+    "Venus Flytrap": {
+        "Emulsion": "Flypaper"
+    },
+    "Paratrooper": {
+        "Brick": "Cereal"
+    },
+    "Plutato": {
+        "Sea Monster": "Absinthe"
+    },
+    "Kelp": {
+        "Firebird": "Sea Salt"
+    },
+    "Firebird": {
+        "Kelp": "Sea Salt"
+    },
+    "Flypaper": {
+        "Loch Ness": "Flytrap"
+    },
+    "Loch Ness": {
+        "Flypaper": "Flytrap"
+    },
+    "Wall": {
+        "Boxer": "Cocoon"
+    },
+    "Cereal": {
+        "Limburger": "Stinky"
+    },
+    "Absinthe": {
+        "Lunar": "Tequila"
+    },
+    "Seaweed": {
+        "Hot Mess": "Seaweed Salad",
+        "Shaun Of The Rose": "Shaun Of The Cereal"
+    },
+    "Sea Salt": {
+        "Taco": "Dead Astronaut",
+        "Iago": "Fly"
+    },
+    "Flytrap": {
+        "Santa Claus": "Christmas"
+    },
+    "Santa Claus": {
+        "Flytrap": "Christmas"
+    },
+    "Cocoon": {
+        "Firefly": "Moth"
+    },
+    "Stinky": {
+        "Parrot": "Polly"
+    },
+    "Parrot": {
+        "Stinky": "Polly",
+        "Djinn": "Iago"
+    },
+    "Tequila": {
+        "Compost": "Mezcal"
+    },
+    "Compost": {
+        "Tequila": "Mezcal"
+    },
+    "Mezcal": {
+        "Unicorn": "Margarita"
+    },
+    "Unicorn": {
+        "Mezcal": "Margarita"
+    },
+    "Margarita": {
+        "Chandelier": "Vacation",
+        "Fly": "Zombie"
+    },
+    "Vacation": {
+        "Tragedy": "Comedy",
+        "Zombie": "Zombie Apocalypse"
+    },
+    "Comedy": {
+        "Genie": "Djinn",
+        "Zombie Apocalypse": "Shaun of the Dead"
+    },
+    "Djinn": {
+        "Parrot": "Iago",
+        "Shaun of the Dead": "Shaun Of The Djinn"
+    },
+    "Iago": {
+        "Sea Salt": "Fly"
+    },
+    "Fly": {
+        "Margarita": "Zombie"
+    },
+    "Zombie": {
+        "Vacation": "Zombie Apocalypse",
+        "Shaun Of The Djinn": "Shaun Of The Dead"
+    },
+    "Zombie Apocalypse": {
+        "Comedy": "Shaun of the Dead"
+    },
+    "Shaun of the Dead": {
+        "Djinn": "Shaun Of The Djinn"
+    },
+    "Shaun Of The Djinn": {
+        "Zombie": "Shaun Of The Dead",
+        "Tragedy": "Shaun Of The Rose",
+        "Leviathan": "Shaun Of The Soup"
+    },
+    "Shaun Of The Dead": {
+        "Batman": "Shaun Of The Tan",
+        "Shaun Of The Rose": "Shaun Of The Thorns",
+        "Rainbow": "Shaun Of The Rainbow"
+    },
+    "Batman": {
+        "Shaun Of The Dead": "Shaun Of The Tan"
+    },
+    "Shaun Of The Rose": {
+        "Seaweed": "Shaun Of The Cereal",
+        "Moth": "Dead Shaun",
+        "Shaun Of The Dead": "Shaun Of The Thorns",
+        "Dandelion": "Dustin"
+    },
+    "Moth": {
+        "Shaun Of The Rose": "Dead Shaun"
+    },
+    "Shaun Of The Tan": {
+        "Oasis": "Shaun Of The Wine"
+    },
+    "Shaun Of The Cereal": {
+        "Balloon": "Shaun Of The Boat"
+    },
+    "Dead Shaun": {
+        "Fluoride": "Skeleton"
+    },
+    "Shaun Of The Thorns": {
+        "Hell": "Shaun Of The Tooth"
+    },
+    "Shaun Of The Soup": {
+        "Hangover": "Alchemy Soup"
+    },
+    "Shaun Of The Rainbow": {
+        "Hanglider": "Rainbow Dash"
+    },
+    "Dustin": {
+        "Curtain": "Stranger Things",
+        "Batmobile": "Dustmobile"
+    },
+    "Shaun Of The Wine": {
+        "Bird": "Shaun Of The Sea"
+    },
+    "Shaun Of The Boat": {
+        "Tree": "Shaun Of The Mountain"
+    },
+    "Skeleton": {
+        "Rice": "Rice Pudding"
+    },
+    "Shaun Of The Tooth": {
+        "Mine": "Eclipse Of The Tooth"
+    },
+    "Alchemy Soup": {
+        "Omelette": "Movie"
+    },
+    "Omelette": {
+        "Alchemy Soup": "Movie"
+    },
+    "Rainbow Dash": {
+        "Ceramic": "Pinkie Pie"
+    },
+    "Stranger Things": {
+        "Crop": "Eleven"
+    },
+    "Shaun Of The Sea": {
+        "Poseidon": "Shaun Of The Kraken"
+    },
+    "Shaun Of The Mountain": {
+        "Pterodactyl": "Chip Shaun"
+    },
+    "Rice Pudding": {
+        "Pizza Hut": "Pizza Rice"
+    },
+    "Eclipse Of The Tooth": {
+        "Pringle": "Ghostbuster 2"
+    },
+    "Movie": {
+        "Astronomy": "Star Wars"
+    },
+    "Astronomy": {
+        "Movie": "Star Wars"
+    },
+    "Pinkie Pie": {
+        "Jewel": "Diamond Tiara"
+    },
+    "Eleven": {
+        "Mirror": "Twelve"
+    },
+    "Shaun Of The Kraken": {
+        "Statue": "Pigeon Of The Kraken"
+    },
+    "Chip Shaun": {
+        "Pepperoni": "Tank Shaun"
+    },
+    "Pizza Rice": {
+        "Prospero": "Cyclops Pizza"
+    },
+    "Ghostbuster 2": {
+        "Coral": "Ghostbuster 2: Satan Ninja"
+    },
+    "Star Wars": {
+        "Skunk": "Darth Vader"
+    },
+    "Diamond Tiara": {
+        "Rudolph": "Mountain Dew Diamond"
+    },
+    "Twelve": {
+        "Rich": "Olympus"
+    },
+    "Pigeon Of The Kraken": {
+        "Genie": "Pigeon Of The Mario"
+    },
+    "Tank Shaun": {
+        "Tanning": "Batmobile"
+    },
+    "Tanning": {
+        "Tank Shaun": "Batmobile"
+    },
+    "Batmobile": {
+        "Dustin": "Dustmobile"
     }
 }
