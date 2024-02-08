@@ -4562,6 +4562,1140 @@
             {
                 "item_1": "Fire",
                 "item_2": "Meteor"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Dracula"
+            }
+        ]
+    },
+    "Dinosaur": {
+        "emoticon": "🦖",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Fossil"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Fossil"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Bacteria"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Life"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Earthquake"
+            }
+        ]
+    },
+    "Fluorine": {
+        "emoticon": "⚛️",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Spring"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Fluorite"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Teapot"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Moon"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Cave"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Spring"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Forest"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Continent"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Paddy"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Atlas"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Oil"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Human"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Eclipse"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Mine"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Land"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Globe"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Fuel"
+            }
+        ]
+    },
+    "Barbecue": {
+        "emoticon": "🍖",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Farmer"
+        },
+        "depth": 7,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Farmer"
+            }
+        ]
+    },
+    "Midas": {
+        "emoticon": "👑",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Money"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Gold"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "World"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Money"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Meteorite"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Tide"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Fountain"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Titanic"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Emulsion"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Well"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Gasoline"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Vodka"
+            }
+        ]
+    },
+    "Fireball": {
+        "emoticon": "🔥",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Pump"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Pump"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Prometheus"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Bomb"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Dinosaur"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Fluorine"
+            }
+        ]
+    },
+    "Grill": {
+        "emoticon": "🍖",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Midas"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Barbecue"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Midas"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Fireball"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Grill"
+            }
+        ]
+    },
+    "Pandora": {
+        "emoticon": "🌌",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Prometheus"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Prometheus"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Bomb"
+            }
+        ]
+    },
+    "Plesiosaur": {
+        "emoticon": "🦕",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Fluorine"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Dinosaur"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Fluorine"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Barbecue"
+            }
+        ]
+    },
+    "Hydrofluoric Acid": {
+        "emoticon": "💧",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Midas"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Midas"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Fireball"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Grill"
+            }
+        ]
+    },
+    "Box": {
+        "emoticon": "📦",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Pandora"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Pandora"
+            }
+        ]
+    },
+    "Loch Ness Monster": {
+        "emoticon": "🐊",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Plesiosaur"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Plesiosaur"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Hydrofluoric Acid"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Box"
+            }
+        ]
+    },
+    "Nessie": {
+        "emoticon": "🐙",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Pandora"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Loch Ness Monster"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Pandora"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Plesiosaur"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Hydrofluoric Acid"
+            }
+        ]
+    },
+    "Oven": {
+        "emoticon": "🍳",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Box"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Box"
+            }
+        ]
+    },
+    "Sea Monster": {
+        "emoticon": "🐙",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Loch Ness Monster"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Loch Ness Monster"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Nessie"
+            }
+        ]
+    },
+    "Pizza": {
+        "emoticon": "🍕",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Oven"
+        },
+        "depth": 7,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Oven"
+            }
+        ]
+    },
+    "Kraken": {
+        "emoticon": "🐙",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Nessie"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Sea Monster"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Pizza"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Kraken"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Nessie"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Oven"
+            }
+        ]
+    },
+    "Poseidon": {
+        "emoticon": "🌊",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Sea Monster"
+        },
+        "depth": 7,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Sea Monster"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Pizza"
+            }
+        ]
+    },
+    "Squid": {
+        "emoticon": "🦑",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Kraken"
+        },
+        "depth": 7,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Kraken"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Poseidon"
+            }
+        ]
+    },
+    "Ink": {
+        "emoticon": "🖋️",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Squid"
+        },
+        "depth": 8,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Squid"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Poseidon"
+            }
+        ]
+    },
+    "Calamari": {
+        "emoticon": "🦑",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Squid"
+        },
+        "depth": 8,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Squid"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Ink"
+            }
+        ]
+    },
+    "Tattoo": {
+        "emoticon": "💉",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Calamari"
+        },
+        "depth": 9,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Calamari"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Ink"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Calamari"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Tattoo"
+            }
+        ]
+    },
+    "Octopus": {
+        "emoticon": "🐙",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Tattoo"
+        },
+        "depth": 10,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Tattoo"
+            }
+        ]
+    },
+    "Avalanche": {
+        "emoticon": "🌨️",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Mountain"
+        },
+        "depth": 2,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Mountain"
+            }
+        ]
+    },
+    "Leaf": {
+        "emoticon": "🍃",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Tree"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Tree"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Island"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Tractor"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Rice"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Planet"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Dirt"
+            }
+        ]
+    },
+    "Zeus": {
+        "emoticon": "⚡️",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Titan"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Titan"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Snowman"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Landing"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Vineyard"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Clay"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Soil"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Bottle"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Treasure"
+            }
+        ]
+    },
+    "Comet": {
+        "emoticon": "🌌",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Meteor"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Meteor"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Dracula"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Fossil"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Bacteria"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Life"
+            }
+        ]
+    },
+    "Breeze": {
+        "emoticon": "💨",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Earthquake"
+        },
+        "depth": 8,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Earthquake"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Fluorite"
+            }
+        ]
+    },
+    "Kettle": {
+        "emoticon": "🍵",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Teapot"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Teapot"
+            }
+        ]
+    },
+    "Werewolf": {
+        "emoticon": "🐺",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Spring"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Moon"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Cave"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Spring"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Forest"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Continent"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Paddy"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Atlas"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Oil"
+            }
+        ]
+    },
+    "Ghost": {
+        "emoticon": "👻",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Money"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Human"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Eclipse"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Mine"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Land"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Globe"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Fuel"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Farmer"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Gold"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "World"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Money"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Meteorite"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Tide"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Fountain"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Titanic"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Emulsion"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Well"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Gasoline"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Vodka"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Pump"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Prometheus"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Bomb"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Dinosaur"
+            }
+        ]
+    },
+    "Pterodactyl": {
+        "emoticon": "🦖",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Fluorine"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Fluorine"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Barbecue"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Midas"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Fireball"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Grill"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Pandora"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Plesiosaur"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Hydrofluoric Acid"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Box"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Loch Ness Monster"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Nessie"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Oven"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Sea Monster"
+            }
+        ]
+    },
+    "Flying Pizza": {
+        "emoticon": "🍕",
+        "mostEfficientRecipe": {
+            "item_1": "Wind",
+            "item_2": "Avalanche"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Pizza"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Kraken"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Poseidon"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Squid"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Ink"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Calamari"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Tattoo"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Octopus"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Avalanche"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Leaf"
+            }
+        ]
+    },
+    "Thunder": {
+        "emoticon": "⛈️",
+        "mostEfficientRecipe": {
+            "item_1": "Water",
+            "item_2": "Avalanche"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Wind",
+                "item_2": "Zeus"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Comet"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Breeze"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Kettle"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Werewolf"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Ghost"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Pterodactyl"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Flying Pizza"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Thunder"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Octopus"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Avalanche"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Leaf"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Zeus"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Comet"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Breeze"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Kettle"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Werewolf"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Ghost"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Pterodactyl"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Flying Pizza"
+            }
+        ]
+    },
+    "Soggy Pizza": {
+        "emoticon": "🍕",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Avalanche"
+        },
+        "depth": 3,
+        "recipes": [
+            {
+                "item_1": "Water",
+                "item_2": "Thunder"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Octopus"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Avalanche"
+            }
+        ]
+    },
+    "Tobacco": {
+        "emoticon": "🚬",
+        "mostEfficientRecipe": {
+            "item_1": "Fire",
+            "item_2": "Leaf"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Fire",
+                "item_2": "Leaf"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Zeus"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Comet"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Breeze"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Kettle"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Werewolf"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Ghost"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Pterodactyl"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Flying Pizza"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Thunder"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Soggy Pizza"
+            },
+            {
+                "item_1": "Fire",
+                "item_2": "Tobacco"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Soggy Pizza"
+            },
+            {
+                "item_1": "Water",
+                "item_2": "Tobacco"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Soggy Pizza"
+            },
+            {
+                "item_1": "Wind",
+                "item_2": "Tobacco"
+            },
+            {
+                "item_1": "Earth",
+                "item_2": "Meteorite"
             }
         ]
     }
