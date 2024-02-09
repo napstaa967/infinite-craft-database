@@ -33,6 +33,36 @@ var intervalid = null
 
 var embeds = []
 
+var lastRequestData = {}
+
+// Save the original fetch function
+const originalFetch = window.fetch;
+
+async function skipOver(response) {
+	lastRequestData = await response.json()
+	return
+}
+
+// Override the fetch function
+window.fetch = function (url, options) {
+  // Log the request
+  console.log(`Intercepted request: ${url}`, options);
+
+  // Call the original fetch function
+  return originalFetch.apply(this, arguments)
+    .then(response => {
+      // Log the response
+      
+      // You can also access the response body as text or JSON
+	  skipOver(response.clone())
+      return response; // or response.json();
+    })
+    .catch(error => {
+      console.error(`Error for request: ${url}`, error);
+      throw error;
+    });
+};
+
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 function getRandomColor() {
@@ -46,6 +76,7 @@ function getRandomColor() {
 
 async function looping(ceiling, methods, waittime) {
 	while (loops < ceiling) {
+			lastRequestData = {}
 			console.info(loops, "loop" + (loops == 1 ? "" : "s"))
 			if (loops == ceiling) {
 				break
@@ -111,6 +142,11 @@ Item2: secondName`)
 			
 			element_1.click();
 			element_2.click();
+			if (waittime == "random") {
+				await sleep(300 + Math.random() * 1000)
+			} else {
+				await sleep(waittime)
+			}
 			totalElements = document.getElementsByClassName('mobile-item').length;
 			let element_3 = document.getElementsByClassName('mobile-item')[totalElements - 1].getElementsByClassName('item')[0]
 
@@ -129,25 +165,22 @@ Item2: secondName`)
 			}
 			if (currentRecipes[firstName] == undefined) currentRecipes[firstName] = {}
 			if (currentRecipes[secondName] == undefined) currentRecipes[secondName] = {}
-			if (waittime == "random") {
-				await sleep(300 + Math.random() * 1000)
-			} else {
-				await sleep(waittime)
-			}
 			let total = document.getElementsByClassName('mobile-item').length
 			let result = {
-				result: Array.from(document.getElementsByClassName('mobile-item')).slice(-1)[0].getElementsByClassName('item')[0].id.slice(5),
-				emoji: Array.from(document.getElementsByClassName('mobile-item')).slice(-1)[0].getElementsByClassName('item')[0].getElementsByClassName('item-emoji-mobile')[0].textContent
+				result: lastRequestData.result,
+				emoji: lastRequestData.emoji
 				
 			}
 
 			console.log(firstName, secondName, items, result.result)
 			
 			if (result.result in items) {
-				if (items[result.result].depth > Math.max(items[firstName].depth, items[secondName].depth) + 1) {
-					items[result.result].mostEfficientRecipe = {item_1: firstName, item_2: secondName}
+				if (items[result.result].recipes) {
+					if (items[result.result].depth > Math.max(items[firstName].depth, items[secondName].depth) + 1) {
+						items[result.result].mostEfficientRecipe = {item_1: firstName, item_2: secondName}
+					}
+					items[result.result].recipes.push({item_1: firstName, item_2: secondName})					
 				}
-				items[result.result].recipes.push({item_1: firstName, item_2: secondName})
 			}
 			currentRecipes[firstName][secondName] = result.result
 			currentRecipes[secondName][firstName] = result.result
@@ -169,8 +202,8 @@ Item2: secondName`)
 					get: depthCalc,
 				});
 				
-				preset_values.mostEfficientRecipe = {item_1: firstName, item_2:secondName}
-				preset_values.recipes = [preset_values.mostEfficientRecipe]
+				preset_values.mostEfficientRecipe = {item_1: firstName, item_2: secondName}
+				preset_values.recipes = [{item_1: firstName, item_2: secondName}]
 				items[result.result] = preset_values
 			}
 			document.title = firstName + '+' + secondName + '|' + result.result + result.emoji;
