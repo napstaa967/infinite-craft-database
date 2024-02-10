@@ -6604,6 +6604,10 @@
             {
                 "item_1": "Wind",
                 "item_2": "Eel"
+            },
+            {
+                "item_1": "Lightning",
+                "item_2": "Tesla"
             }
         ]
     },
@@ -7124,6 +7128,10 @@
             {
                 "item_1": "Water",
                 "item_2": "Tea Bag"
+            },
+            {
+                "item_1": "Tea",
+                "item_2": "Tea"
             }
         ]
     },
@@ -10216,6 +10224,10 @@
             {
                 "item_1": "Earth",
                 "item_2": "Holy Spirit"
+            },
+            {
+                "item_1": "Flying",
+                "item_2": "Human"
             }
         ]
     },
@@ -13932,6 +13944,26 @@
             {
                 "item_1": "Wind",
                 "item_2": "Mummy"
+            },
+            {
+                "item_1": "Mario",
+                "item_2": "Tea"
+            },
+            {
+                "item_1": "Super Mario Divorce Party",
+                "item_2": "Yaoi Yuri"
+            },
+            {
+                "item_1": "Super Mario Divorce Party",
+                "item_2": "Yaoi"
+            },
+            {
+                "item_1": "Super Mario Divorce Party",
+                "item_2": "Yaoi Yuri Manga"
+            },
+            {
+                "item_1": "Mario Party 9",
+                "item_2": "Super Gay Yaoi Yuri Mario Party"
             }
         ]
     },
@@ -16038,8 +16070,8 @@
     "Robot": {
         "emoticon": "🤖",
         "mostEfficientRecipe": {
-            "item_1": "Steampunk",
-            "item_2": "Earth"
+            "item_1": "Electricity",
+            "item_2": "Mechanic"
         },
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
@@ -16048,6 +16080,22 @@
             {
                 "item_1": "Steampunk",
                 "item_2": "Earth"
+            },
+            {
+                "item_1": "Electricity",
+                "item_2": "Mechanic"
+            },
+            {
+                "item_1": "Human",
+                "item_2": "Tesla"
+            },
+            {
+                "item_1": "Cyborg",
+                "item_2": "Human"
+            },
+            {
+                "item_1": "Human",
+                "item_2": "Mechanic"
             }
         ]
     },
@@ -16692,6 +16740,10 @@
             {
                 "item_1": "Lake",
                 "item_2": "Enlightenment"
+            },
+            {
+                "item_1": "Enlightenment",
+                "item_2": "Human"
             }
         ]
     },
@@ -16886,8 +16938,8 @@
     "Frankenstein": {
         "emoticon": "🧟",
         "mostEfficientRecipe": {
-            "item_1": "Ghost",
-            "item_2": "Lightning"
+            "item_1": "Electricity",
+            "item_2": "Human"
         },
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
@@ -16896,6 +16948,10 @@
             {
                 "item_1": "Ghost",
                 "item_2": "Lightning"
+            },
+            {
+                "item_1": "Electricity",
+                "item_2": "Human"
             }
         ]
     },
@@ -20594,8 +20650,8 @@
     "Zeus": {
         "emoticon": "⚡️",
         "mostEfficientRecipe": {
-            "item_1": "Minotaur",
-            "item_2": "Cloud"
+            "item_1": "Angel",
+            "item_2": "Lightning"
         },
 		get depth() {
 			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
@@ -20607,6 +20663,14 @@
             },
             {
                 "item_1": "Dada",
+                "item_2": "Lightning"
+            },
+            {
+                "item_1": "Angel",
+                "item_2": "Lightning"
+            },
+            {
+                "item_1": "Human",
                 "item_2": "Lightning"
             }
         ]
@@ -21279,6 +21343,10 @@
             },
             {
                 "item_1": "Lake",
+                "item_2": "Mushroom"
+            },
+            {
+                "item_1": "Frog",
                 "item_2": "Mushroom"
             }
         ]
@@ -25620,6 +25688,842 @@
             {
                 "item_1": "Water",
                 "item_2": "Traffic"
+            }
+        ]
+    },
+    "Toad": {
+        "emoticon": "🐸",
+        "mostEfficientRecipe": {
+            "item_1": "Human",
+            "item_2": "Mushroom"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Human",
+                "item_2": "Mushroom"
+            }
+        ]
+    },
+    "Mario": {
+        "emoticon": "🍄",
+        "mostEfficientRecipe": {
+            "item_1": "Mushroom",
+            "item_2": "Toad"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Mushroom",
+                "item_2": "Toad"
+            }
+        ]
+    },
+    "Tea Party": {
+        "emoticon": "🍵",
+        "mostEfficientRecipe": {
+            "item_1": "Tea",
+            "item_2": "Teapot"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Tea",
+                "item_2": "Teapot"
+            }
+        ]
+    },
+    "Mario Party": {
+        "emoticon": "🎲",
+        "mostEfficientRecipe": {
+            "item_1": "Mario",
+            "item_2": "Tea Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Mario",
+                "item_2": "Tea Party"
+            },
+            {
+                "item_1": "Mario Party",
+                "item_2": "Super Gay Party"
+            }
+        ]
+    },
+    "Castle": {
+        "emoticon": "🏰",
+        "mostEfficientRecipe": {
+            "item_1": "King",
+            "item_2": "Kingdom"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "King",
+                "item_2": "Kingdom"
+            }
+        ]
+    },
+    "Queen": {
+        "emoticon": "👑",
+        "mostEfficientRecipe": {
+            "item_1": "Castle",
+            "item_2": "King"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Castle",
+                "item_2": "King"
+            }
+        ]
+    },
+    "Marriage": {
+        "emoticon": "💍",
+        "mostEfficientRecipe": {
+            "item_1": "Love",
+            "item_2": "Queen"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Love",
+                "item_2": "Queen"
+            }
+        ]
+    },
+    "Divorce": {
+        "emoticon": "💔",
+        "mostEfficientRecipe": {
+            "item_1": "Marriage",
+            "item_2": "Queen"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Marriage",
+                "item_2": "Queen"
+            }
+        ]
+    },
+    "Pegasus": {
+        "emoticon": "🦄",
+        "mostEfficientRecipe": {
+            "item_1": "Flying",
+            "item_2": "Knight"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Flying",
+                "item_2": "Knight"
+            }
+        ]
+    },
+    "Tesla": {
+        "emoticon": "🚗",
+        "mostEfficientRecipe": {
+            "item_1": "Lightning",
+            "item_2": "Robot"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Lightning",
+                "item_2": "Robot"
+            },
+            {
+                "item_1": "Robot",
+                "item_2": "Tesla"
+            }
+        ]
+    },
+    "Mechanic": {
+        "emoticon": "🔧",
+        "mostEfficientRecipe": {
+            "item_1": "Engine",
+            "item_2": "Human"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Engine",
+                "item_2": "Human"
+            }
+        ]
+    },
+    "Cyborg": {
+        "emoticon": "🤖",
+        "mostEfficientRecipe": {
+            "item_1": "Human",
+            "item_2": "Robot"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Human",
+                "item_2": "Robot"
+            }
+        ]
+    },
+    "Driver": {
+        "emoticon": "🚗",
+        "mostEfficientRecipe": {
+            "item_1": "Car",
+            "item_2": "Human"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Car",
+                "item_2": "Human"
+            }
+        ]
+    },
+    "Superhero": {
+        "emoticon": "🦸",
+        "mostEfficientRecipe": {
+            "item_1": "Human",
+            "item_2": "Power"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Human",
+                "item_2": "Power"
+            }
+        ]
+    },
+    "Mario Party 9": {
+        "emoticon": "🎲",
+        "mostEfficientRecipe": {
+            "item_1": "Mario Party",
+            "item_2": "Superhero"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Mario Party",
+                "item_2": "Superhero"
+            },
+            {
+                "item_1": "Mario Party 9",
+                "item_2": "Super Gay Yaoi Yuri Party"
+            }
+        ]
+    },
+    "Superman": {
+        "emoticon": "🦸",
+        "mostEfficientRecipe": {
+            "item_1": "Human",
+            "item_2": "Superhero"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Human",
+                "item_2": "Superhero"
+            }
+        ]
+    },
+    "Super Mario Party": {
+        "emoticon": "🎮",
+        "mostEfficientRecipe": {
+            "item_1": "Mario Party",
+            "item_2": "Superman"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Mario Party",
+                "item_2": "Superman"
+            },
+            {
+                "item_1": "Mario Party 9",
+                "item_2": "Superman"
+            },
+            {
+                "item_1": "Mario Party 10",
+                "item_2": "Superman"
+            }
+        ]
+    },
+    "Mario Party 10": {
+        "emoticon": "🎲",
+        "mostEfficientRecipe": {
+            "item_1": "Mario Party 9",
+            "item_2": "Super Mario Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Mario Party 9",
+                "item_2": "Super Mario Party"
+            },
+            {
+                "item_1": "Mario Party 9",
+                "item_2": "Super Mario Party"
+            }
+        ]
+    },
+    "Super Mario Divorce Party": {
+        "emoticon": "🎉🍄👨",
+        "mostEfficientRecipe": {
+            "item_1": "Divorce",
+            "item_2": "Super Mario Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Divorce",
+                "item_2": "Super Mario Party"
+            }
+        ]
+    },
+    "Wood": {
+        "emoticon": "🌲",
+        "mostEfficientRecipe": {
+            "item_1": "Forest",
+            "item_2": "Tree"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Forest",
+                "item_2": "Tree"
+            }
+        ]
+    },
+    "Paper": {
+        "emoticon": "📃",
+        "mostEfficientRecipe": {
+            "item_1": "Tree",
+            "item_2": "Wood"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Tree",
+                "item_2": "Wood"
+            }
+        ]
+    },
+    "Book": {
+        "emoticon": "📚",
+        "mostEfficientRecipe": {
+            "item_1": "Paper",
+            "item_2": "Wood"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Paper",
+                "item_2": "Wood"
+            }
+        ]
+    },
+    "Town": {
+        "emoticon": "🏡",
+        "mostEfficientRecipe": {
+            "item_1": "House",
+            "item_2": "House"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "House",
+                "item_2": "House"
+            }
+        ]
+    },
+    "City": {
+        "emoticon": "🏙️",
+        "mostEfficientRecipe": {
+            "item_1": "Town",
+            "item_2": "Town"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Town",
+                "item_2": "Town"
+            }
+        ]
+    },
+    "Japan": {
+        "emoticon": "🗾",
+        "mostEfficientRecipe": {
+            "item_1": "Island",
+            "item_2": "Sushi"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Island",
+                "item_2": "Sushi"
+            }
+        ]
+    },
+    "Manga": {
+        "emoticon": "📚",
+        "mostEfficientRecipe": {
+            "item_1": "Book",
+            "item_2": "Japan"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Book",
+                "item_2": "Japan"
+            }
+        ]
+    },
+    "Gay": {
+        "emoticon": "🏳️‍🌈",
+        "mostEfficientRecipe": {
+            "item_1": "Church",
+            "item_2": "Rainbow"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Church",
+                "item_2": "Rainbow"
+            }
+        ]
+    },
+    "Yaoi": {
+        "emoticon": "💏",
+        "mostEfficientRecipe": {
+            "item_1": "Gay",
+            "item_2": "Manga"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Gay",
+                "item_2": "Manga"
+            },
+            {
+                "item_1": "Queen",
+                "item_2": "Yaoi Yuri"
+            }
+        ]
+    },
+    "Yaoi Manga": {
+        "emoticon": "💋",
+        "mostEfficientRecipe": {
+            "item_1": "Book",
+            "item_2": "Yaoi"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Book",
+                "item_2": "Yaoi"
+            }
+        ]
+    },
+    "Yuri Manga": {
+        "emoticon": "💋",
+        "mostEfficientRecipe": {
+            "item_1": "Queen",
+            "item_2": "Yaoi Manga"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Queen",
+                "item_2": "Yaoi Manga"
+            }
+        ]
+    },
+    "Yaoi Yuri": {
+        "emoticon": "💏",
+        "mostEfficientRecipe": {
+            "item_1": "Yaoi",
+            "item_2": "Yuri Manga"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Yaoi",
+                "item_2": "Yuri Manga"
+            }
+        ]
+    },
+    "Yaoi Yuri Manga": {
+        "emoticon": "💋",
+        "mostEfficientRecipe": {
+            "item_1": "Yaoi Manga",
+            "item_2": "Yaoi Yuri"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Yaoi Manga",
+                "item_2": "Yaoi Yuri"
+            }
+        ]
+    },
+    "Gaymer": {
+        "emoticon": "🎮",
+        "mostEfficientRecipe": {
+            "item_1": "Gay",
+            "item_2": "Super Mario Divorce Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Gay",
+                "item_2": "Super Mario Divorce Party"
+            }
+        ]
+    },
+    "Super Gay Party": {
+        "emoticon": "🌈🎉🎊",
+        "mostEfficientRecipe": {
+            "item_1": "Gay",
+            "item_2": "Super Mario Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Gay",
+                "item_2": "Super Mario Party"
+            }
+        ]
+    },
+    "Super Gay Mario Party": {
+        "emoticon": "🌈🎉🎮",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gay Party",
+            "item_2": "Super Mario Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Super Gay Party",
+                "item_2": "Super Mario Party"
+            }
+        ]
+    },
+    "Super Gay Yaoi Mario Party": {
+        "emoticon": "🌈👬🎉",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gay Mario Party",
+            "item_2": "Yaoi"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Super Gay Mario Party",
+                "item_2": "Yaoi"
+            },
+            {
+                "item_1": "Super Gay Yaoi Mario Party",
+                "item_2": "Yuri"
+            },
+            {
+                "item_1": "Super Gay Yaoi Mario Party",
+                "item_2": "Super Gay Yaoi Yuri Party"
+            }
+        ]
+    },
+    "Yuri": {
+        "emoticon": "💞",
+        "mostEfficientRecipe": {
+            "item_1": "Queen",
+            "item_2": "Yaoi"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Queen",
+                "item_2": "Yaoi"
+            }
+        ]
+    },
+    "Super Gay Yuri Party": {
+        "emoticon": "🌈👭🎉",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gay Mario Party",
+            "item_2": "Yuri"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Super Gay Mario Party",
+                "item_2": "Yuri"
+            }
+        ]
+    },
+    "Super Gay Yaoi Yuri Party": {
+        "emoticon": "🌈👬👭",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gay Yaoi Mario Party",
+            "item_2": "Super Gay Yuri Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Super Gay Yaoi Mario Party",
+                "item_2": "Super Gay Yuri Party"
+            }
+        ]
+    },
+    "Super Gay Yuri Mario Party": {
+        "emoticon": "🌈👭🎮",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gay Yuri Party",
+            "item_2": "Super Mario Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Super Gay Yuri Party",
+                "item_2": "Super Mario Party"
+            }
+        ]
+    },
+    "Super Gay Yaoi Yuri Mario Party": {
+        "emoticon": "🌈👬👭",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gay Yaoi Mario Party",
+            "item_2": "Super Gay Yuri Mario Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Super Gay Yaoi Mario Party",
+                "item_2": "Super Gay Yuri Mario Party"
+            }
+        ]
+    },
+    "Mario Party: The Top 100": {
+        "emoticon": "🎮",
+        "mostEfficientRecipe": {
+            "item_1": "Mario Party 10",
+            "item_2": "Super Mario Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Mario Party 10",
+                "item_2": "Super Mario Party"
+            }
+        ]
+    },
+    "Gayio Party": {
+        "emoticon": "🏳️‍🌈",
+        "mostEfficientRecipe": {
+            "item_1": "Gay",
+            "item_2": "Mario Party: The Top 100"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Gay",
+                "item_2": "Mario Party: The Top 100"
+            }
+        ]
+    },
+    "Super Gayio Party": {
+        "emoticon": "🏳️‍🌈",
+        "mostEfficientRecipe": {
+            "item_1": "Gayio Party",
+            "item_2": "Super Gay Mario Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Gayio Party",
+                "item_2": "Super Gay Mario Party"
+            }
+        ]
+    },
+    "Yuri Party": {
+        "emoticon": "🍑",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gayio Party",
+            "item_2": "Yuri"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Super Gayio Party",
+                "item_2": "Yuri"
+            }
+        ]
+    },
+    "Super Gayio Yuri Party": {
+        "emoticon": "🌈👭🎉",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gayio Party",
+            "item_2": "Yuri Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Super Gayio Party",
+                "item_2": "Yuri Party"
+            }
+        ]
+    },
+    "Yuri Yaoi": {
+        "emoticon": "💋",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gayio Yuri Party",
+            "item_2": "Yaoi Yuri"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Super Gayio Yuri Party",
+                "item_2": "Yaoi Yuri"
+            }
+        ]
+    },
+    "Yaoi Yuri Party": {
+        "emoticon": "👬",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gayio Party",
+            "item_2": "Yuri Yaoi"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Super Gayio Party",
+                "item_2": "Yuri Yaoi"
+            }
+        ]
+    },
+    "Super Yaoi Yuri Party": {
+        "emoticon": "🎉🌈👬",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gayio Party",
+            "item_2": "Yaoi Yuri Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Super Gayio Party",
+                "item_2": "Yaoi Yuri Party"
+            }
+        ]
+    },
+    "Super Gayio Yuri Yaoi Party": {
+        "emoticon": "🏳️‍🌈",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gayio Party",
+            "item_2": "Super Yaoi Yuri Party"
+        },
+		get depth() {
+			return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1
+		},
+        "recipes": [
+            {
+                "item_1": "Super Gayio Party",
+                "item_2": "Super Yaoi Yuri Party"
             }
         ]
     }

@@ -6548,6 +6548,10 @@
             {
                 "item_1": "Wind",
                 "item_2": "Eel"
+            },
+            {
+                "item_1": "Lightning",
+                "item_2": "Tesla"
             }
         ]
     },
@@ -7050,6 +7054,10 @@
             {
                 "item_1": "Water",
                 "item_2": "Tea Bag"
+            },
+            {
+                "item_1": "Tea",
+                "item_2": "Tea"
             }
         ]
     },
@@ -9998,6 +10006,10 @@
             {
                 "item_1": "Earth",
                 "item_2": "Holy Spirit"
+            },
+            {
+                "item_1": "Flying",
+                "item_2": "Human"
             }
         ]
     },
@@ -13450,6 +13462,26 @@
             {
                 "item_1": "Wind",
                 "item_2": "Mummy"
+            },
+            {
+                "item_1": "Mario",
+                "item_2": "Tea"
+            },
+            {
+                "item_1": "Super Mario Divorce Party",
+                "item_2": "Yaoi Yuri"
+            },
+            {
+                "item_1": "Super Mario Divorce Party",
+                "item_2": "Yaoi"
+            },
+            {
+                "item_1": "Super Mario Divorce Party",
+                "item_2": "Yaoi Yuri Manga"
+            },
+            {
+                "item_1": "Mario Party 9",
+                "item_2": "Super Gay Yaoi Yuri Mario Party"
             }
         ]
     },
@@ -13653,7 +13685,7 @@
             "item_1": "Lake",
             "item_2": "Zeus"
         },
-        "depth": 13,
+        "depth": 7,
         "recipes": [
             {
                 "item_1": "Rainbow Fish",
@@ -13755,7 +13787,7 @@
             "item_1": "Poseidon",
             "item_2": "Earth"
         },
-        "depth": 14,
+        "depth": 8,
         "recipes": [
             {
                 "item_1": "Poseidon",
@@ -13807,7 +13839,7 @@
             "item_1": "Poseidon",
             "item_2": "Swamp Thing"
         },
-        "depth": 14,
+        "depth": 12,
         "recipes": [
             {
                 "item_1": "Poseidon",
@@ -13877,7 +13909,7 @@
             "item_1": "Atlantis",
             "item_2": "Coffee"
         },
-        "depth": 15,
+        "depth": 11,
         "recipes": [
             {
                 "item_1": "Atlantis",
@@ -13905,7 +13937,7 @@
             "item_1": "Aquaman",
             "item_2": "Hot Sauce"
         },
-        "depth": 15,
+        "depth": 13,
         "recipes": [
             {
                 "item_1": "Aquaman",
@@ -13947,7 +13979,7 @@
             "item_1": "Starbucks",
             "item_2": "Burnt Cookie"
         },
-        "depth": 16,
+        "depth": 12,
         "recipes": [
             {
                 "item_1": "Starbucks",
@@ -13979,7 +14011,7 @@
             "item_1": "Spicy Aquaman",
             "item_2": "Toast"
         },
-        "depth": 16,
+        "depth": 14,
         "recipes": [
             {
                 "item_1": "Spicy Aquaman",
@@ -14025,7 +14057,7 @@
             "item_1": "Spicy Latte",
             "item_2": "Fountain"
         },
-        "depth": 17,
+        "depth": 13,
         "recipes": [
             {
                 "item_1": "Spicy Latte",
@@ -14111,7 +14143,7 @@
             "item_1": "Cappuccino",
             "item_2": "Human"
         },
-        "depth": 18,
+        "depth": 14,
         "recipes": [
             {
                 "item_1": "Cappuccino",
@@ -14253,7 +14285,7 @@
             "item_1": "Barista",
             "item_2": "Snowman"
         },
-        "depth": 19,
+        "depth": 15,
         "recipes": [
             {
                 "item_1": "Barista",
@@ -14335,7 +14367,7 @@
             "item_1": "Snowflake",
             "item_2": "Surfing"
         },
-        "depth": 20,
+        "depth": 16,
         "recipes": [
             {
                 "item_1": "Snowflake",
@@ -14461,7 +14493,7 @@
             "item_1": "Snowboarding",
             "item_2": "Curtain"
         },
-        "depth": 21,
+        "depth": 17,
         "recipes": [
             {
                 "item_1": "Snowboarding",
@@ -14531,7 +14563,7 @@
             "item_1": "Skiing",
             "item_2": "Flower"
         },
-        "depth": 22,
+        "depth": 18,
         "recipes": [
             {
                 "item_1": "Skiing",
@@ -14629,7 +14661,7 @@
             "item_1": "Skier",
             "item_2": "Holy Water"
         },
-        "depth": 23,
+        "depth": 19,
         "recipes": [
             {
                 "item_1": "Skier",
@@ -14763,7 +14795,7 @@
             "item_1": "Jesus",
             "item_2": "Energy"
         },
-        "depth": 24,
+        "depth": 20,
         "recipes": [
             {
                 "item_1": "Jesus",
@@ -14837,7 +14869,7 @@
             "item_1": "Resurrection",
             "item_2": "Eruption"
         },
-        "depth": 25,
+        "depth": 21,
         "recipes": [
             {
                 "item_1": "Resurrection",
@@ -14907,7 +14939,7 @@
             "item_1": "Don Quixote",
             "item_2": "Fish"
         },
-        "depth": 26,
+        "depth": 22,
         "recipes": [
             {
                 "item_1": "Don Quixote",
@@ -15364,14 +15396,30 @@
     "Robot": {
         "emoticon": "🤖",
         "mostEfficientRecipe": {
-            "item_1": "Steampunk",
-            "item_2": "Earth"
+            "item_1": "Electricity",
+            "item_2": "Mechanic"
         },
-        "depth": 30,
+        "depth": 11,
         "recipes": [
             {
                 "item_1": "Steampunk",
                 "item_2": "Earth"
+            },
+            {
+                "item_1": "Electricity",
+                "item_2": "Mechanic"
+            },
+            {
+                "item_1": "Human",
+                "item_2": "Tesla"
+            },
+            {
+                "item_1": "Cyborg",
+                "item_2": "Human"
+            },
+            {
+                "item_1": "Human",
+                "item_2": "Mechanic"
             }
         ]
     },
@@ -15970,6 +16018,10 @@
             {
                 "item_1": "Lake",
                 "item_2": "Enlightenment"
+            },
+            {
+                "item_1": "Enlightenment",
+                "item_2": "Human"
             }
         ]
     },
@@ -16146,14 +16198,18 @@
     "Frankenstein": {
         "emoticon": "🧟",
         "mostEfficientRecipe": {
-            "item_1": "Ghost",
-            "item_2": "Lightning"
+            "item_1": "Electricity",
+            "item_2": "Human"
         },
-        "depth": 13,
+        "depth": 10,
         "recipes": [
             {
                 "item_1": "Ghost",
                 "item_2": "Lightning"
+            },
+            {
+                "item_1": "Electricity",
+                "item_2": "Human"
             }
         ]
     },
@@ -16195,7 +16251,7 @@
             "item_1": "Frankenstein",
             "item_2": "Cloud"
         },
-        "depth": 14,
+        "depth": 11,
         "recipes": [
             {
                 "item_1": "Frankenstein",
@@ -19550,10 +19606,10 @@
     "Zeus": {
         "emoticon": "⚡️",
         "mostEfficientRecipe": {
-            "item_1": "Minotaur",
-            "item_2": "Cloud"
+            "item_1": "Angel",
+            "item_2": "Lightning"
         },
-        "depth": 12,
+        "depth": 6,
         "recipes": [
             {
                 "item_1": "Minotaur",
@@ -19561,6 +19617,14 @@
             },
             {
                 "item_1": "Dada",
+                "item_2": "Lightning"
+            },
+            {
+                "item_1": "Angel",
+                "item_2": "Lightning"
+            },
+            {
+                "item_1": "Human",
                 "item_2": "Lightning"
             }
         ]
@@ -20165,6 +20229,10 @@
             },
             {
                 "item_1": "Lake",
+                "item_2": "Mushroom"
+            },
+            {
+                "item_1": "Frog",
                 "item_2": "Mushroom"
             }
         ]
@@ -21805,7 +21873,7 @@
             "item_1": "Lake",
             "item_2": "Snowflake"
         },
-        "depth": 20,
+        "depth": 16,
         "recipes": [
             {
                 "item_1": "Lake",
@@ -24056,6 +24124,742 @@
             {
                 "item_1": "Water",
                 "item_2": "Traffic"
+            }
+        ]
+    },
+    "Toad": {
+        "emoticon": "🐸",
+        "mostEfficientRecipe": {
+            "item_1": "Human",
+            "item_2": "Mushroom"
+        },
+        "depth": 10,
+        "recipes": [
+            {
+                "item_1": "Human",
+                "item_2": "Mushroom"
+            }
+        ]
+    },
+    "Mario": {
+        "emoticon": "🍄",
+        "mostEfficientRecipe": {
+            "item_1": "Mushroom",
+            "item_2": "Toad"
+        },
+        "depth": 11,
+        "recipes": [
+            {
+                "item_1": "Mushroom",
+                "item_2": "Toad"
+            }
+        ]
+    },
+    "Tea Party": {
+        "emoticon": "🍵",
+        "mostEfficientRecipe": {
+            "item_1": "Tea",
+            "item_2": "Teapot"
+        },
+        "depth": 10,
+        "recipes": [
+            {
+                "item_1": "Tea",
+                "item_2": "Teapot"
+            }
+        ]
+    },
+    "Mario Party": {
+        "emoticon": "🎲",
+        "mostEfficientRecipe": {
+            "item_1": "Mario",
+            "item_2": "Tea Party"
+        },
+        "depth": 12,
+        "recipes": [
+            {
+                "item_1": "Mario",
+                "item_2": "Tea Party"
+            },
+            {
+                "item_1": "Mario Party",
+                "item_2": "Super Gay Party"
+            }
+        ]
+    },
+    "Castle": {
+        "emoticon": "🏰",
+        "mostEfficientRecipe": {
+            "item_1": "King",
+            "item_2": "Kingdom"
+        },
+        "depth": 10,
+        "recipes": [
+            {
+                "item_1": "King",
+                "item_2": "Kingdom"
+            }
+        ]
+    },
+    "Queen": {
+        "emoticon": "👑",
+        "mostEfficientRecipe": {
+            "item_1": "Castle",
+            "item_2": "King"
+        },
+        "depth": 11,
+        "recipes": [
+            {
+                "item_1": "Castle",
+                "item_2": "King"
+            }
+        ]
+    },
+    "Marriage": {
+        "emoticon": "💍",
+        "mostEfficientRecipe": {
+            "item_1": "Love",
+            "item_2": "Queen"
+        },
+        "depth": 15,
+        "recipes": [
+            {
+                "item_1": "Love",
+                "item_2": "Queen"
+            }
+        ]
+    },
+    "Divorce": {
+        "emoticon": "💔",
+        "mostEfficientRecipe": {
+            "item_1": "Marriage",
+            "item_2": "Queen"
+        },
+        "depth": 16,
+        "recipes": [
+            {
+                "item_1": "Marriage",
+                "item_2": "Queen"
+            }
+        ]
+    },
+    "Pegasus": {
+        "emoticon": "🦄",
+        "mostEfficientRecipe": {
+            "item_1": "Flying",
+            "item_2": "Knight"
+        },
+        "depth": 17,
+        "recipes": [
+            {
+                "item_1": "Flying",
+                "item_2": "Knight"
+            }
+        ]
+    },
+    "Tesla": {
+        "emoticon": "🚗",
+        "mostEfficientRecipe": {
+            "item_1": "Lightning",
+            "item_2": "Robot"
+        },
+        "depth": 12,
+        "recipes": [
+            {
+                "item_1": "Lightning",
+                "item_2": "Robot"
+            },
+            {
+                "item_1": "Robot",
+                "item_2": "Tesla"
+            }
+        ]
+    },
+    "Mechanic": {
+        "emoticon": "🔧",
+        "mostEfficientRecipe": {
+            "item_1": "Engine",
+            "item_2": "Human"
+        },
+        "depth": 10,
+        "recipes": [
+            {
+                "item_1": "Engine",
+                "item_2": "Human"
+            }
+        ]
+    },
+    "Cyborg": {
+        "emoticon": "🤖",
+        "mostEfficientRecipe": {
+            "item_1": "Human",
+            "item_2": "Robot"
+        },
+        "depth": 12,
+        "recipes": [
+            {
+                "item_1": "Human",
+                "item_2": "Robot"
+            }
+        ]
+    },
+    "Driver": {
+        "emoticon": "🚗",
+        "mostEfficientRecipe": {
+            "item_1": "Car",
+            "item_2": "Human"
+        },
+        "depth": 10,
+        "recipes": [
+            {
+                "item_1": "Car",
+                "item_2": "Human"
+            }
+        ]
+    },
+    "Superhero": {
+        "emoticon": "🦸",
+        "mostEfficientRecipe": {
+            "item_1": "Human",
+            "item_2": "Power"
+        },
+        "depth": 19,
+        "recipes": [
+            {
+                "item_1": "Human",
+                "item_2": "Power"
+            }
+        ]
+    },
+    "Mario Party 9": {
+        "emoticon": "🎲",
+        "mostEfficientRecipe": {
+            "item_1": "Mario Party",
+            "item_2": "Superhero"
+        },
+        "depth": 20,
+        "recipes": [
+            {
+                "item_1": "Mario Party",
+                "item_2": "Superhero"
+            },
+            {
+                "item_1": "Mario Party 9",
+                "item_2": "Super Gay Yaoi Yuri Party"
+            }
+        ]
+    },
+    "Superman": {
+        "emoticon": "🦸",
+        "mostEfficientRecipe": {
+            "item_1": "Human",
+            "item_2": "Superhero"
+        },
+        "depth": 20,
+        "recipes": [
+            {
+                "item_1": "Human",
+                "item_2": "Superhero"
+            }
+        ]
+    },
+    "Super Mario Party": {
+        "emoticon": "🎮",
+        "mostEfficientRecipe": {
+            "item_1": "Mario Party",
+            "item_2": "Superman"
+        },
+        "depth": 21,
+        "recipes": [
+            {
+                "item_1": "Mario Party",
+                "item_2": "Superman"
+            },
+            {
+                "item_1": "Mario Party 9",
+                "item_2": "Superman"
+            },
+            {
+                "item_1": "Mario Party 10",
+                "item_2": "Superman"
+            }
+        ]
+    },
+    "Mario Party 10": {
+        "emoticon": "🎲",
+        "mostEfficientRecipe": {
+            "item_1": "Mario Party 9",
+            "item_2": "Super Mario Party"
+        },
+        "depth": 22,
+        "recipes": [
+            {
+                "item_1": "Mario Party 9",
+                "item_2": "Super Mario Party"
+            },
+            {
+                "item_1": "Mario Party 9",
+                "item_2": "Super Mario Party"
+            }
+        ]
+    },
+    "Super Mario Divorce Party": {
+        "emoticon": "🎉🍄👨",
+        "mostEfficientRecipe": {
+            "item_1": "Divorce",
+            "item_2": "Super Mario Party"
+        },
+        "depth": 22,
+        "recipes": [
+            {
+                "item_1": "Divorce",
+                "item_2": "Super Mario Party"
+            }
+        ]
+    },
+    "Wood": {
+        "emoticon": "🌲",
+        "mostEfficientRecipe": {
+            "item_1": "Forest",
+            "item_2": "Tree"
+        },
+        "depth": 4,
+        "recipes": [
+            {
+                "item_1": "Forest",
+                "item_2": "Tree"
+            }
+        ]
+    },
+    "Paper": {
+        "emoticon": "📃",
+        "mostEfficientRecipe": {
+            "item_1": "Tree",
+            "item_2": "Wood"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Tree",
+                "item_2": "Wood"
+            }
+        ]
+    },
+    "Book": {
+        "emoticon": "📚",
+        "mostEfficientRecipe": {
+            "item_1": "Paper",
+            "item_2": "Wood"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Paper",
+                "item_2": "Wood"
+            }
+        ]
+    },
+    "Town": {
+        "emoticon": "🏡",
+        "mostEfficientRecipe": {
+            "item_1": "House",
+            "item_2": "House"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "House",
+                "item_2": "House"
+            }
+        ]
+    },
+    "City": {
+        "emoticon": "🏙️",
+        "mostEfficientRecipe": {
+            "item_1": "Town",
+            "item_2": "Town"
+        },
+        "depth": 6,
+        "recipes": [
+            {
+                "item_1": "Town",
+                "item_2": "Town"
+            }
+        ]
+    },
+    "Japan": {
+        "emoticon": "🗾",
+        "mostEfficientRecipe": {
+            "item_1": "Island",
+            "item_2": "Sushi"
+        },
+        "depth": 5,
+        "recipes": [
+            {
+                "item_1": "Island",
+                "item_2": "Sushi"
+            }
+        ]
+    },
+    "Manga": {
+        "emoticon": "📚",
+        "mostEfficientRecipe": {
+            "item_1": "Book",
+            "item_2": "Japan"
+        },
+        "depth": 7,
+        "recipes": [
+            {
+                "item_1": "Book",
+                "item_2": "Japan"
+            }
+        ]
+    },
+    "Gay": {
+        "emoticon": "🏳️‍🌈",
+        "mostEfficientRecipe": {
+            "item_1": "Church",
+            "item_2": "Rainbow"
+        },
+        "depth": 9,
+        "recipes": [
+            {
+                "item_1": "Church",
+                "item_2": "Rainbow"
+            }
+        ]
+    },
+    "Yaoi": {
+        "emoticon": "💏",
+        "mostEfficientRecipe": {
+            "item_1": "Gay",
+            "item_2": "Manga"
+        },
+        "depth": 10,
+        "recipes": [
+            {
+                "item_1": "Gay",
+                "item_2": "Manga"
+            },
+            {
+                "item_1": "Queen",
+                "item_2": "Yaoi Yuri"
+            }
+        ]
+    },
+    "Yaoi Manga": {
+        "emoticon": "💋",
+        "mostEfficientRecipe": {
+            "item_1": "Book",
+            "item_2": "Yaoi"
+        },
+        "depth": 11,
+        "recipes": [
+            {
+                "item_1": "Book",
+                "item_2": "Yaoi"
+            }
+        ]
+    },
+    "Yuri Manga": {
+        "emoticon": "💋",
+        "mostEfficientRecipe": {
+            "item_1": "Queen",
+            "item_2": "Yaoi Manga"
+        },
+        "depth": 12,
+        "recipes": [
+            {
+                "item_1": "Queen",
+                "item_2": "Yaoi Manga"
+            }
+        ]
+    },
+    "Yaoi Yuri": {
+        "emoticon": "💏",
+        "mostEfficientRecipe": {
+            "item_1": "Yaoi",
+            "item_2": "Yuri Manga"
+        },
+        "depth": 13,
+        "recipes": [
+            {
+                "item_1": "Yaoi",
+                "item_2": "Yuri Manga"
+            }
+        ]
+    },
+    "Yaoi Yuri Manga": {
+        "emoticon": "💋",
+        "mostEfficientRecipe": {
+            "item_1": "Yaoi Manga",
+            "item_2": "Yaoi Yuri"
+        },
+        "depth": 14,
+        "recipes": [
+            {
+                "item_1": "Yaoi Manga",
+                "item_2": "Yaoi Yuri"
+            }
+        ]
+    },
+    "Gaymer": {
+        "emoticon": "🎮",
+        "mostEfficientRecipe": {
+            "item_1": "Gay",
+            "item_2": "Super Mario Divorce Party"
+        },
+        "depth": 23,
+        "recipes": [
+            {
+                "item_1": "Gay",
+                "item_2": "Super Mario Divorce Party"
+            }
+        ]
+    },
+    "Super Gay Party": {
+        "emoticon": "🌈🎉🎊",
+        "mostEfficientRecipe": {
+            "item_1": "Gay",
+            "item_2": "Super Mario Party"
+        },
+        "depth": 22,
+        "recipes": [
+            {
+                "item_1": "Gay",
+                "item_2": "Super Mario Party"
+            }
+        ]
+    },
+    "Super Gay Mario Party": {
+        "emoticon": "🌈🎉🎮",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gay Party",
+            "item_2": "Super Mario Party"
+        },
+        "depth": 23,
+        "recipes": [
+            {
+                "item_1": "Super Gay Party",
+                "item_2": "Super Mario Party"
+            }
+        ]
+    },
+    "Super Gay Yaoi Mario Party": {
+        "emoticon": "🌈👬🎉",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gay Mario Party",
+            "item_2": "Yaoi"
+        },
+        "depth": 24,
+        "recipes": [
+            {
+                "item_1": "Super Gay Mario Party",
+                "item_2": "Yaoi"
+            },
+            {
+                "item_1": "Super Gay Yaoi Mario Party",
+                "item_2": "Yuri"
+            },
+            {
+                "item_1": "Super Gay Yaoi Mario Party",
+                "item_2": "Super Gay Yaoi Yuri Party"
+            }
+        ]
+    },
+    "Yuri": {
+        "emoticon": "💞",
+        "mostEfficientRecipe": {
+            "item_1": "Queen",
+            "item_2": "Yaoi"
+        },
+        "depth": 12,
+        "recipes": [
+            {
+                "item_1": "Queen",
+                "item_2": "Yaoi"
+            }
+        ]
+    },
+    "Super Gay Yuri Party": {
+        "emoticon": "🌈👭🎉",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gay Mario Party",
+            "item_2": "Yuri"
+        },
+        "depth": 24,
+        "recipes": [
+            {
+                "item_1": "Super Gay Mario Party",
+                "item_2": "Yuri"
+            }
+        ]
+    },
+    "Super Gay Yaoi Yuri Party": {
+        "emoticon": "🌈👬👭",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gay Yaoi Mario Party",
+            "item_2": "Super Gay Yuri Party"
+        },
+        "depth": 25,
+        "recipes": [
+            {
+                "item_1": "Super Gay Yaoi Mario Party",
+                "item_2": "Super Gay Yuri Party"
+            }
+        ]
+    },
+    "Super Gay Yuri Mario Party": {
+        "emoticon": "🌈👭🎮",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gay Yuri Party",
+            "item_2": "Super Mario Party"
+        },
+        "depth": 25,
+        "recipes": [
+            {
+                "item_1": "Super Gay Yuri Party",
+                "item_2": "Super Mario Party"
+            }
+        ]
+    },
+    "Super Gay Yaoi Yuri Mario Party": {
+        "emoticon": "🌈👬👭",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gay Yaoi Mario Party",
+            "item_2": "Super Gay Yuri Mario Party"
+        },
+        "depth": 26,
+        "recipes": [
+            {
+                "item_1": "Super Gay Yaoi Mario Party",
+                "item_2": "Super Gay Yuri Mario Party"
+            }
+        ]
+    },
+    "Mario Party: The Top 100": {
+        "emoticon": "🎮",
+        "mostEfficientRecipe": {
+            "item_1": "Mario Party 10",
+            "item_2": "Super Mario Party"
+        },
+        "depth": 23,
+        "recipes": [
+            {
+                "item_1": "Mario Party 10",
+                "item_2": "Super Mario Party"
+            }
+        ]
+    },
+    "Gayio Party": {
+        "emoticon": "🏳️‍🌈",
+        "mostEfficientRecipe": {
+            "item_1": "Gay",
+            "item_2": "Mario Party: The Top 100"
+        },
+        "depth": 24,
+        "recipes": [
+            {
+                "item_1": "Gay",
+                "item_2": "Mario Party: The Top 100"
+            }
+        ]
+    },
+    "Super Gayio Party": {
+        "emoticon": "🏳️‍🌈",
+        "mostEfficientRecipe": {
+            "item_1": "Gayio Party",
+            "item_2": "Super Gay Mario Party"
+        },
+        "depth": 25,
+        "recipes": [
+            {
+                "item_1": "Gayio Party",
+                "item_2": "Super Gay Mario Party"
+            }
+        ]
+    },
+    "Yuri Party": {
+        "emoticon": "🍑",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gayio Party",
+            "item_2": "Yuri"
+        },
+        "depth": 26,
+        "recipes": [
+            {
+                "item_1": "Super Gayio Party",
+                "item_2": "Yuri"
+            }
+        ]
+    },
+    "Super Gayio Yuri Party": {
+        "emoticon": "🌈👭🎉",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gayio Party",
+            "item_2": "Yuri Party"
+        },
+        "depth": 27,
+        "recipes": [
+            {
+                "item_1": "Super Gayio Party",
+                "item_2": "Yuri Party"
+            }
+        ]
+    },
+    "Yuri Yaoi": {
+        "emoticon": "💋",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gayio Yuri Party",
+            "item_2": "Yaoi Yuri"
+        },
+        "depth": 28,
+        "recipes": [
+            {
+                "item_1": "Super Gayio Yuri Party",
+                "item_2": "Yaoi Yuri"
+            }
+        ]
+    },
+    "Yaoi Yuri Party": {
+        "emoticon": "👬",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gayio Party",
+            "item_2": "Yuri Yaoi"
+        },
+        "depth": 29,
+        "recipes": [
+            {
+                "item_1": "Super Gayio Party",
+                "item_2": "Yuri Yaoi"
+            }
+        ]
+    },
+    "Super Yaoi Yuri Party": {
+        "emoticon": "🎉🌈👬",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gayio Party",
+            "item_2": "Yaoi Yuri Party"
+        },
+        "depth": 30,
+        "recipes": [
+            {
+                "item_1": "Super Gayio Party",
+                "item_2": "Yaoi Yuri Party"
+            }
+        ]
+    },
+    "Super Gayio Yuri Yaoi Party": {
+        "emoticon": "🏳️‍🌈",
+        "mostEfficientRecipe": {
+            "item_1": "Super Gayio Party",
+            "item_2": "Super Yaoi Yuri Party"
+        },
+        "depth": 31,
+        "recipes": [
+            {
+                "item_1": "Super Gayio Party",
+                "item_2": "Super Yaoi Yuri Party"
             }
         ]
     }

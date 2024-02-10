@@ -2380,7 +2380,8 @@
         "Flamenco": "Spain",
         "Tire": "Mud",
         "Slim Serpent": "Nothing",
-        "Lake": "Jabba The Hut"
+        "Lake": "Jabba The Hut",
+        "Church": "Gay"
     },
     "Volcano": {
         "Fire": "Lava",
@@ -2465,7 +2466,8 @@
         "Thunder": "Lightning",
         "Alligator": "Train",
         "Jewel": "Car",
-        "Sapphire": "Rocket"
+        "Sapphire": "Rocket",
+        "Human": "Mechanic"
     },
     "Lightning": {
         "Fire": "Sun",
@@ -2485,7 +2487,11 @@
         "Dada": "Zeus",
         "Ramen": "Noodle",
         "Skeleton": "Tornado",
-        "Lake": "Fish"
+        "Lake": "Fish",
+        "Angel": "Zeus",
+        "Human": "Zeus",
+        "Robot": "Tesla",
+        "Tesla": "Electricity"
     },
     "Dragon": {
         "Fire": "Dragon",
@@ -2522,7 +2528,8 @@
         "Heart": "Love",
         "Crystal": "Taurus",
         "Naboo": "Jabba",
-        "Dada": "Nothing"
+        "Dada": "Nothing",
+        "Island": "Japan"
     },
     "Goldfish": {
         "Fire": "Boiled Fish",
@@ -2641,7 +2648,9 @@
         "Coca-Cola": "Lightning",
         "Geode": "Crocodile",
         "Acid": "Battery",
-        "Flying Spaghetti Dragon": "Flying Spaghetti Monster"
+        "Flying Spaghetti Dragon": "Flying Spaghetti Monster",
+        "Human": "Frankenstein",
+        "Mechanic": "Robot"
     },
     "Sea Serpent": {
         "Water": "Lightning",
@@ -2763,7 +2772,10 @@
         "Water Lily": "Crocodile",
         "Flying Pig": "Flying Tea",
         "Heart": "Love",
-        "Sauna": "Sweat"
+        "Sauna": "Sweat",
+        "Mario": "Nothing",
+        "Tea": "Tea",
+        "Teapot": "Tea Party"
     },
     "Chai": {
         "Fire": "Tea",
@@ -2975,7 +2987,9 @@
         "Rainbow Train": "Rainbow",
         "Swamp Wine": "Sandstorm",
         "Steamship": "Airship",
-        "Drunk": "Sandstorm"
+        "Drunk": "Sandstorm",
+        "Human": "Angel",
+        "Knight": "Pegasus"
     },
     "Dust Storm": {
         "Wind": "Tornado",
@@ -3509,7 +3523,8 @@
         "Fire": "Phoenix",
         "Earth": "Dust",
         "Fireball": "Phoenix",
-        "Nile": "Pyramid"
+        "Nile": "Pyramid",
+        "Lightning": "Zeus"
     },
     "House": {
         "Wind": "Tornado",
@@ -3517,7 +3532,8 @@
         "Fire": "Fireplace",
         "Earth": "Farm",
         "Fireball": "Fireplace",
-        "Religion": "Christianity"
+        "Religion": "Christianity",
+        "House": "Town"
     },
     "Hangover": {
         "Wind": "Hanglider",
@@ -3743,7 +3759,9 @@
         "Water": "River",
         "Fire": "Ash",
         "Wind": "Leaf",
-        "Abominable Snowman": "Yeti"
+        "Abominable Snowman": "Yeti",
+        "Forest": "Wood",
+        "Wood": "Paper"
     },
     "Island": {
         "Earth": "Continent",
@@ -3751,7 +3769,8 @@
         "Fire": "Volcano",
         "Wind": "Tornado",
         "Abominable Snowman": "Yeti",
-        "Lake": "Parachristianity"
+        "Lake": "Parachristianity",
+        "Sushi": "Japan"
     },
     "Whale": {
         "Earth": "Island",
@@ -3809,7 +3828,8 @@
         "Water": "Tea",
         "Fire": "Tea",
         "Wind": "Kettle",
-        "Yeti": "Abominable Snowman"
+        "Yeti": "Abominable Snowman",
+        "Tea": "Tea Party"
     },
     "Vineyard": {
         "Earth": "Wine",
@@ -3921,7 +3941,8 @@
         "Earth": "Tree",
         "Water": "Swamp",
         "Fire": "Smoke",
-        "Snow Golem": "Yeti"
+        "Snow Golem": "Yeti",
+        "Tree": "Wood"
     },
     "Continent": {
         "Earth": "Land",
@@ -3973,7 +3994,20 @@
         "Fire": "Phoenix",
         "Wind": "Windmill",
         "Cappuccino": "Barista",
-        "Mashed Potato": "Mashed Potato"
+        "Mashed Potato": "Mashed Potato",
+        "Mushroom": "Toad",
+        "Flying": "Angel",
+        "Enlightenment": "Buddha",
+        "Lightning": "Zeus",
+        "Electricity": "Frankenstein",
+        "Engine": "Mechanic",
+        "Tesla": "Robot",
+        "Robot": "Cyborg",
+        "Cyborg": "Robot",
+        "Mechanic": "Robot",
+        "Car": "Driver",
+        "Power": "Superhero",
+        "Superhero": "Superman"
     },
     "Field": {
         "Earth": "Farm",
@@ -4989,7 +5023,8 @@
     },
     "Frog": {
         "Steam": "Prince",
-        "Lake": "Porkimus Prime"
+        "Lake": "Porkimus Prime",
+        "Mushroom": "Toadstool"
     },
     "Steampunk": {
         "Steam": "Steampunk",
@@ -5001,10 +5036,15 @@
     },
     "Robot": {
         "Earth": "Golem",
-        "Lake": "Submarine"
+        "Lake": "Submarine",
+        "Lightning": "Tesla",
+        "Tesla": "Tesla",
+        "Human": "Cyborg"
     },
     "King": {
-        "Earth": "Kingdom"
+        "Earth": "Kingdom",
+        "Kingdom": "Castle",
+        "Castle": "Queen"
     },
     "Golem": {
         "Earth": "Mountain",
@@ -5015,7 +5055,8 @@
     },
     "Kingdom": {
         "Smoke": "Incense",
-        "Sharknado": "Rose Shark"
+        "Sharknado": "Rose Shark",
+        "King": "Castle"
     },
     "Incense": {
         "Smoke": "Prayer",
@@ -5186,7 +5227,8 @@
         "Rock": "Buddha",
         "Ice": "Snow",
         "Soup": "Miso",
-        "Lake": "Buddha"
+        "Lake": "Buddha",
+        "Human": "Buddha"
     },
     "Shipwreck": {
         "Soup": "Sailor",
@@ -5704,7 +5746,8 @@
         "Lake": "Mermaid",
         "Water": "Wave",
         "Fire": "Firefox",
-        "Wind": "Heart"
+        "Wind": "Heart",
+        "Queen": "Marriage"
     },
     "Steve Jobs": {
         "Lake": "Apple",
@@ -5834,7 +5877,8 @@
         "Smoke": "Exhaust",
         "Fire": "Crash",
         "Wind": "Sail",
-        "Earth": "Tire"
+        "Earth": "Tire",
+        "Human": "Driver"
     },
     "Google Fire": {
         "Volcano": "Iphone 7",
@@ -6409,7 +6453,10 @@
     "Mushroom": {
         "Flying Fish": "Flying Mushroom",
         "Lake": "Toadstool",
-        "Water": "Soup"
+        "Water": "Soup",
+        "Frog": "Toadstool",
+        "Human": "Toad",
+        "Toad": "Mario"
     },
     "Art": {
         "Mist": "Fog",
@@ -7440,7 +7487,8 @@
         "Fire": "Energy",
         "Water": "Shark",
         "Wind": "Storm",
-        "Earth": "Volcano"
+        "Earth": "Volcano",
+        "Human": "Superhero"
     },
     "Steel": {
         "Fire": "Rust",
@@ -7465,7 +7513,8 @@
     "Church": {
         "Water": "Baptism",
         "Fire": "Hell",
-        "Earth": "Grave"
+        "Earth": "Grave",
+        "Rainbow": "Gay"
     },
     "Google Wind": {
         "Wind": "Prayer",
@@ -7656,7 +7705,8 @@
     "Knight": {
         "Earth": "Cave",
         "Water": "Fish",
-        "Fire": "Dragon"
+        "Fire": "Dragon",
+        "Flying": "Pegasus"
     },
     "Plow": {
         "Earth": "Field",
@@ -7758,5 +7808,192 @@
     "Skywalker": {
         "Fire": "Darth Vader"
     },
-    "Rabbit": {}
+    "Rabbit": {},
+    "Toad": {
+        "Mushroom": "Mario"
+    },
+    "Mario": {
+        "Tea": "Nothing",
+        "Tea Party": "Mario Party"
+    },
+    "Tea Party": {
+        "Mario": "Mario Party"
+    },
+    "Castle": {
+        "King": "Queen"
+    },
+    "Queen": {
+        "Love": "Marriage",
+        "Marriage": "Divorce",
+        "Yaoi Manga": "Yuri Manga",
+        "Yaoi Yuri": "Yaoi",
+        "Yaoi": "Yuri"
+    },
+    "Marriage": {
+        "Queen": "Divorce"
+    },
+    "Tesla": {
+        "Lightning": "Electricity",
+        "Human": "Robot",
+        "Robot": "Tesla"
+    },
+    "Mechanic": {
+        "Electricity": "Robot",
+        "Human": "Robot"
+    },
+    "Cyborg": {
+        "Human": "Robot"
+    },
+    "Mario Party": {
+        "Superhero": "Mario Party 9",
+        "Superman": "Super Mario Party",
+        "Super Gay Party": "Mario Party"
+    },
+    "Superhero": {
+        "Mario Party": "Mario Party 9",
+        "Human": "Superman"
+    },
+    "Superman": {
+        "Mario Party": "Super Mario Party",
+        "Mario Party 9": "Super Mario Party",
+        "Mario Party 10": "Super Mario Party"
+    },
+    "Mario Party 9": {
+        "Superman": "Super Mario Party",
+        "Super Mario Party": "Mario Party 10",
+        "Super Gay Yaoi Yuri Party": "Mario Party 9",
+        "Super Gay Yaoi Yuri Mario Party": "Nothing"
+    },
+    "Super Mario Party": {
+        "Mario Party 9": "Mario Party 10",
+        "Divorce": "Super Mario Divorce Party",
+        "Gay": "Super Gay Party",
+        "Super Gay Party": "Super Gay Mario Party",
+        "Super Gay Yuri Party": "Super Gay Yuri Mario Party",
+        "Mario Party 10": "Mario Party: The Top 100"
+    },
+    "Mario Party 10": {
+        "Superman": "Super Mario Party",
+        "Super Mario Party": "Mario Party: The Top 100"
+    },
+    "Divorce": {
+        "Super Mario Party": "Super Mario Divorce Party"
+    },
+    "Wood": {
+        "Tree": "Paper",
+        "Paper": "Book"
+    },
+    "Paper": {
+        "Wood": "Book"
+    },
+    "Town": {
+        "Town": "City"
+    },
+    "Book": {
+        "Japan": "Manga",
+        "Yaoi": "Yaoi Manga"
+    },
+    "Japan": {
+        "Book": "Manga"
+    },
+    "Gay": {
+        "Manga": "Yaoi",
+        "Super Mario Divorce Party": "Gaymer",
+        "Super Mario Party": "Super Gay Party",
+        "Mario Party: The Top 100": "Gayio Party"
+    },
+    "Manga": {
+        "Gay": "Yaoi"
+    },
+    "Yaoi": {
+        "Book": "Yaoi Manga",
+        "Yuri Manga": "Yaoi Yuri",
+        "Super Mario Divorce Party": "Nothing",
+        "Super Gay Mario Party": "Super Gay Yaoi Mario Party",
+        "Queen": "Yuri"
+    },
+    "Yaoi Manga": {
+        "Queen": "Yuri Manga",
+        "Yaoi Yuri": "Yaoi Yuri Manga"
+    },
+    "Yuri Manga": {
+        "Yaoi": "Yaoi Yuri"
+    },
+    "Super Mario Divorce Party": {
+        "Yaoi Yuri": "Nothing",
+        "Yaoi": "Nothing",
+        "Yaoi Yuri Manga": "Nothing",
+        "Gay": "Gaymer"
+    },
+    "Yaoi Yuri": {
+        "Super Mario Divorce Party": "Nothing",
+        "Yaoi Manga": "Yaoi Yuri Manga",
+        "Queen": "Yaoi",
+        "Super Gayio Yuri Party": "Yuri Yaoi"
+    },
+    "Yaoi Yuri Manga": {
+        "Super Mario Divorce Party": "Nothing"
+    },
+    "Super Gay Party": {
+        "Mario Party": "Mario Party",
+        "Super Mario Party": "Super Gay Mario Party"
+    },
+    "Super Gay Mario Party": {
+        "Yaoi": "Super Gay Yaoi Mario Party",
+        "Yuri": "Super Gay Yuri Party",
+        "Gayio Party": "Super Gayio Party"
+    },
+    "Super Gay Yaoi Mario Party": {
+        "Yuri": "Super Gay Yaoi Mario Party",
+        "Super Gay Yuri Party": "Super Gay Yaoi Yuri Party",
+        "Super Gay Yaoi Yuri Party": "Super Gay Yaoi Mario Party",
+        "Super Gay Yuri Mario Party": "Super Gay Yaoi Yuri Mario Party"
+    },
+    "Yuri": {
+        "Super Gay Yaoi Mario Party": "Super Gay Yaoi Mario Party",
+        "Super Gay Mario Party": "Super Gay Yuri Party",
+        "Super Gayio Party": "Yuri Party"
+    },
+    "Super Gay Yuri Party": {
+        "Super Gay Yaoi Mario Party": "Super Gay Yaoi Yuri Party",
+        "Super Mario Party": "Super Gay Yuri Mario Party"
+    },
+    "Super Gay Yaoi Yuri Party": {
+        "Mario Party 9": "Mario Party 9",
+        "Super Gay Yaoi Mario Party": "Super Gay Yaoi Mario Party"
+    },
+    "Super Gay Yuri Mario Party": {
+        "Super Gay Yaoi Mario Party": "Super Gay Yaoi Yuri Mario Party"
+    },
+    "Super Gay Yaoi Yuri Mario Party": {
+        "Mario Party 9": "Nothing"
+    },
+    "Mario Party: The Top 100": {
+        "Gay": "Gayio Party"
+    },
+    "Gayio Party": {
+        "Super Gay Mario Party": "Super Gayio Party"
+    },
+    "Super Gayio Party": {
+        "Yuri": "Yuri Party",
+        "Yuri Party": "Super Gayio Yuri Party",
+        "Yuri Yaoi": "Yaoi Yuri Party",
+        "Yaoi Yuri Party": "Super Yaoi Yuri Party",
+        "Super Yaoi Yuri Party": "Super Gayio Yuri Yaoi Party"
+    },
+    "Yuri Party": {
+        "Super Gayio Party": "Super Gayio Yuri Party"
+    },
+    "Super Gayio Yuri Party": {
+        "Yaoi Yuri": "Yuri Yaoi"
+    },
+    "Yuri Yaoi": {
+        "Super Gayio Party": "Yaoi Yuri Party"
+    },
+    "Yaoi Yuri Party": {
+        "Super Gayio Party": "Super Yaoi Yuri Party"
+    },
+    "Super Yaoi Yuri Party": {
+        "Super Gayio Party": "Super Gayio Yuri Yaoi Party"
+    }
 }
