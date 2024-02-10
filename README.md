@@ -8,9 +8,28 @@ This is a small li'l repo I'm making to store all of the items I've found while 
 So far I have **784** items    
 go play the game https://neal.fun/infinite-craft  
    
-## Running the scraper
+## Using the script
   
 run this inside your browser with the console, make sure to not be too spammy with time as you'll get rate limited  
+
+### Running the automated script
+
+use the `looping()` function, which takes 3 parametres   
+first parametre is the amount of loops to run for  
+second parametre is an array of options from 0-5  
+- 0 uses items in ascending order
+- 1 uses items in descending order
+- 2 alternates between both
+- 3 switches randomly between each
+- 4 selects a random item
+- 5 randomizes all possible options
+third parametre is how long to wait between each loop, you can type "random" to wait from 300 to 1300 seconds
+
+### Manually adding items
+
+if you want to manually add items by doing the recipes ingame:  
+set the `interceptNext` variable to true  
+to disable, set it to false
 
 ### Loading data from previous runs  
   
