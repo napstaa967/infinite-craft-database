@@ -7,6 +7,9 @@ var loops = 0
 var currentRecipes = {};
 var colour_flag = false
 
+var interceptNext = false
+
+var flag = false
 var highlights = []
 var colour_highlight = "#00E0C0"
 var colour_normal = "#FFFFFF"
@@ -38,15 +41,126 @@ var lastRequestData = {}
 // Save the original fetch function
 const originalFetch = window.fetch;
 
-async function skipOver(response) {
+async function skipOver(response, url="") {
+	flag = true
 	lastRequestData = await response.json()
+	console.log(lastRequestData)
+	if (interceptNext) {
+			let regex_code = /((first)|(second))=/
+
+			let names = url.replace("https://neal.fun/api/infinite-craft/pair?", "").split("&").map(value => {return value.replace(regex_code, "")})
+			let firstName = names[0]
+			let secondName = names[1]
+			await sleep(500)
+			totalElements = document.getElementsByClassName('mobile-item').length;
+			let element_3 = document.getElementsByClassName('mobile-item')[totalElements - 1].getElementsByClassName('item')[0]
+			if (currentRecipes[firstName] == undefined) currentRecipes[firstName] = {}
+			if (currentRecipes[secondName] == undefined) currentRecipes[secondName] = {}
+			let total = document.getElementsByClassName('mobile-item').length
+			let result = {
+				result: lastRequestData.result,
+				emoji: lastRequestData.emoji
+				
+			}
+			console.log(firstName, secondName, items, result.result)
+			
+			if (result.result in items) {
+				if (items[result.result].recipes) {
+					if (items[result.result].depth > Math.max(items[firstName].depth, items[secondName].depth) + 1) {
+						items[result.result].mostEfficientRecipe = {item_1: firstName, item_2: secondName}
+					}
+					items[result.result].recipes.push({item_1: firstName, item_2: secondName})					
+				}
+			}
+			currentRecipes[firstName][secondName] = result.result
+			currentRecipes[secondName][firstName] = result.result
+			if (!(result.result in items)) {
+				console.info("new")
+				colour_flag = true
+				
+				var preset_values = {
+					emoticon: result.emoji || "⬜",
+					mostEfficientRecipe: null,
+					recipes: null
+				}
+				const depthCalc = function () {
+					return Math.max(items[this.mostEfficientRecipe.item_1].depth, items[this.mostEfficientRecipe.item_2].depth) + 1;
+				};
+
+				// Use Object.defineProperty to define the 'sum' property with the getter
+				Object.defineProperty(preset_values, 'depth', {
+					get: depthCalc,
+				});
+				
+				preset_values.mostEfficientRecipe = {item_1: firstName, item_2: secondName}
+				preset_values.recipes = [{item_1: firstName, item_2: secondName}]
+				items[result.result] = preset_values
+				embeds.push({
+								color: parseInt(colour_highlight.slice(1), 16),
+								title: "New Recipe",
+								description: `New recipe found while looping
+**Iteration**: ${loops}
+**Item 1**:
+- Name: \`${firstName}\`
+- Emoticon: ${items[firstName].emoticon}
+- Depth: ${items[firstName].depth}
+**Item 2**:
+- Name: \`${secondName}\`
+- Emoticon: ${items[secondName].emoticon}
+- Depth: ${items[secondName].depth}
+**Result**:
+- Name: \`${result.result}\`
+- Emoticon: ${items[result.result].emoticon}
+- Depth: ${items[result.result].depth}${result.isNew == true ? "\n\n## **This item is new!**" : ""}`,
+								fields: [
+								{
+									name: "Items",
+									value: String(Object.keys(items).length)
+								}
+								]
+							})
+				if (embeds.length == 10) {
+					fetch("https://discord.com/api/webhooks/1204305907987783700/UDRvpeyfsK8YFNXOQjDyDTzJNCBF32RU4F8iTkybM55FwD6uN6yATPQgMHS31mUMNfRW", {
+						method: "POST",
+						headers: {
+							"Content-Type": "application/json"
+						},
+						body: JSON.stringify({
+							username: "Patchouli",
+							avatar_url: "https://i.ibb.co/s1wLTrS/6ugx17.jpg",
+							embeds: embeds
+						}
+						)
+					}
+					)
+					embeds = []
+				}
+			}
+			document.title = firstName + '+' + secondName + '|' + result.result + result.emoji;
+			if (colour_flag) {
+				colour_flag = false
+				if (highlights.length >= 10) {
+					for (const el of highlights) {
+						el.style.background = colour_normal
+					}
+					highlights = []
+					colour_highlight = getRandomColor()
+				}
+				let this_element = Array.from(document.getElementsByClassName('items')[0].getElementsByClassName("item")).slice(-1)[0]
+				this_element.style.background = colour_highlight
+				highlights.push(this_element)
+			}
+	}
 	return
 }
 
+
+const requesthijack = /https:\/\/neal\.fun\/api\/infinite-craft\/pair\?first=.*?&second=.*/
 // Override the fetch function
 window.fetch = function (url, options) {
   // Log the request
   console.log(`Intercepted request: ${url}`, options);
+  
 
   // Call the original fetch function
   return originalFetch.apply(this, arguments)
@@ -54,7 +168,9 @@ window.fetch = function (url, options) {
       // Log the response
       
       // You can also access the response body as text or JSON
-	  skipOver(response.clone())
+	  if (requesthijack.test(url)) {
+		skipOver(response.clone(), url)		  
+	  }
       return response; // or response.json();
     })
     .catch(error => {
@@ -62,6 +178,7 @@ window.fetch = function (url, options) {
       throw error;
     });
 };
+
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
@@ -147,6 +264,14 @@ Item2: secondName`)
 			} else {
 				await sleep(waittime)
 			}
+			function checkFlag() {
+				if(flag === false) {
+				   window.setTimeout(checkFlag, 100); /* this checks the flag every 100 milliseconds*/
+				} else {
+				  flag = false
+				}
+			}
+			checkFlag();
 			totalElements = document.getElementsByClassName('mobile-item').length;
 			let element_3 = document.getElementsByClassName('mobile-item')[totalElements - 1].getElementsByClassName('item')[0]
 
@@ -226,7 +351,7 @@ Item2: secondName`)
 	loops = 0
 }
 
-looping(1000, [0, 0], "random")
+// looping(1000, [0, 0], "random")
 
 /*
 Param 1 is the amount of loops
