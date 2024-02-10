@@ -5,7 +5,7 @@ There's a site now to look up recipes
 https://napstaa967.github.io/infinite-craft-database/
 
 This is a small li'l repo I'm making to store all of the items I've found while spamming infinite craft  
-So far I have **626** items    
+So far I have **784** items    
 go play the game https://neal.fun/infinite-craft  
    
 ## Running the scraper
