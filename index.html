@@ -118,7 +118,7 @@ async function myFunction() {
 				for (const f_ of Object.entries(f[1].recipes)) {
 					if (filterForRecipe) {
 						if (exact) {
-							if (!f_[1].item_1.toUpperCase() == filterForRecipe.toUpperCase() && !f_[1].item_2.toUpperCase() == filterForRecipe.toUpperCase()) {
+							if (f_[1].item_1.toUpperCase() != filterForRecipe.toUpperCase() && f_[1].item_2.toUpperCase() != filterForRecipe.toUpperCase()) {
 								continue
 							}
 						} else {
