@@ -53,6 +53,8 @@
 <p style="font-family: roboto;">The depth is equal to the max depth of it's combining items plus one</p>
 
 <input type="text" id="myInput" oninput="myFunction()" placeholder="Search for names.." title="Type in a name" font-family="Roboto">
+<input type="checkbox" id="exact" name="exact" />
+<label for="exact" style="font-family: roboto;">Exact match</label>
 
 <h3 style="font-family: roboto;">Items</h3>
 <p id="items_total" style="font-family: roboto;">?</p>
@@ -64,7 +66,8 @@
 
 <script>
 async function myFunction() {
-    var input, filter, pre, ul, p1, p2
+    var input, filter, pre, ul, p1, p2, exact
+	exact = document.getElementById("exact").checked
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     pre = document.getElementById("items");
@@ -73,12 +76,18 @@ async function myFunction() {
 	p2 = document.getElementById("recipes_total")
 	ul.innerHTML = ""
 	let file = await (await fetch("items.json")).json()
-	let filtered = Object.entries(file).filter(value => {return value[0].toUpperCase().includes(filter)})
+	let filtered = Object.entries(file).filter(value => {
+		if (exact) {
+			return value[0].toUpperCase() == filter
+		} else {
+			return value[0].toUpperCase().includes(filter)
+		}
+	})
 	function runloop(filterForRecipe = false) {
 		for (const f of filtered) {
 			if (f[0] == undefined || f[0] == "undefined" || f[0] == "Nothing") {
 				continue
-			} 
+			}
 			console.log(f[0])
 			let newsub = document.createElement("li")
 			let groupdiv = document.createElement("span")
@@ -108,8 +117,14 @@ async function myFunction() {
 			if (f[1].recipes) {
 				for (const f_ of Object.entries(f[1].recipes)) {
 					if (filterForRecipe) {
-						if (! f_[1].item_1.toUpperCase().includes(filterForRecipe.toUpperCase()) && !f_[1].item_2.toUpperCase().includes(filterForRecipe.toUpperCase())) {
-							continue
+						if (exact) {
+							if (!f_[1].item_1.toUpperCase() == filterForRecipe.toUpperCase() && !f_[1].item_2.toUpperCase() == filterForRecipe.toUpperCase()) {
+								continue
+							}
+						} else {
+							if (! f_[1].item_1.toUpperCase().includes(filterForRecipe.toUpperCase()) && !f_[1].item_2.toUpperCase().includes(filterForRecipe.toUpperCase())) {
+								continue
+							}
 						}
 					}
 					console.log(f_)
@@ -162,7 +177,11 @@ async function myFunction() {
 	filtered = Object.entries(file).filter(value => {
 		if (value[1].recipes == undefined) return false
 		return value[1].recipes.filter(value2 => {
-			return value2.item_1.toUpperCase().includes(filter) || value2.item_2.toUpperCase().includes(filter)
+			if (exact) {
+				return value2.item_1.toUpperCase() == filter || value2.item_2.toUpperCase() == filter
+			} else {
+				return value2.item_1.toUpperCase().includes(filter) || value2.item_2.toUpperCase().includes(filter)
+			}
 		}).length >= 1
 	})
 	console.log(filtered)
