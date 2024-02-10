@@ -49,8 +49,8 @@ async function skipOver(response, url="") {
 			let regex_code = /((first)|(second))=/
 
 			let names = url.replace("https://neal.fun/api/infinite-craft/pair?", "").split("&").map(value => {return value.replace(regex_code, "")})
-			let firstName = names[0]
-			let secondName = names[1]
+			let firstName = decodeURI(names[0])
+			let secondName = decodeURI(names[1])
 			await sleep(500)
 			totalElements = document.getElementsByClassName('mobile-item').length;
 			let element_3 = document.getElementsByClassName('mobile-item')[totalElements - 1].getElementsByClassName('item')[0]
