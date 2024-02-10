@@ -76,7 +76,7 @@ async function myFunction() {
 	let filtered = Object.entries(file).filter(value => {return value[0].toUpperCase().includes(filter)})
 	function runloop(filterForRecipe = false) {
 		for (const f of filtered) {
-			if (f[0] == undefined || f[0] == "undefined") {
+			if (f[0] == undefined || f[0] == "undefined" || f[0] == "Nothing") {
 				continue
 			} 
 			console.log(f[0])
